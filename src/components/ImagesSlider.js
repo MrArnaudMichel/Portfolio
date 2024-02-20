@@ -1,26 +1,33 @@
-import React, {useState} from "react";
-import './css/ImagesSlider.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./css/ImagesSlider.css"; // Create this file for custom styles
 
-function ImagesSlider({images}){
-	const [currentImage, setCurrentImage] = useState(0);
-
-	const nextImage = () => {
-		setCurrentImage(prevImage => (prevImage + 1) % images.length);
-	};
-
-	const prevImage = () => {
-		setCurrentImage(prevImage => (prevImage - 1 + images.length) % images.length);
+const ImageSlider = ({ images }) => {
+	const settings = {
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		prevArrow: <div className="slick slick-prev custom-button">Previous</div>,
+		nextArrow: <div className="slick slick-next custom-button">Next</div>,
 	};
 
 	return (
 		<div className="image-slider">
-			<div className="image-container">
-				<img src={images[currentImage]} alt="" style={{width: '30vw', height: '30vh', objectFit: 'cover'}}/>
-				<button onClick={prevImage} className={"slider-button prev"}>{"<"}</button>
-				<button onClick={nextImage} className={"slider-button next"}>{">"}</button>
-			</div>
+			<Slider {...settings}>
+				{images.map((image, index) => (
+					<div key={index}>
+						<img src={image} alt={`Slide ${index}`} />
+					</div>
+				))}
+			</Slider>
 		</div>
 	);
-}
+};
 
-export {ImagesSlider};
+export default ImageSlider;

@@ -3,15 +3,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 42px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 10px 15px 10px 15px;
+  border-radius: 15px;
+  margin: 10px 15px 1px 15px;
   width: 45%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   text-align: center;
   transition: all 0.3s ease-in-out;
   transform: scale(0.75);
+  padding-bottom: 1rem;
 }
 
 .project-item img {
@@ -23,14 +23,49 @@
 }
 
 .project-item h3 {
-  margin: 2.5rem 1rem 1rem 1rem;
+  margin: 2.5rem 1rem 0rem 1rem;
 }
 
 .project-item p {
-  margin: 1rem 0;
+  padding: 0 1.5rem 1rem 1.5rem;
   text-align: justify;
 }
 
 .large {
   transform: scale(1);
+}
+
+.title.language {
+  align-self: start;
+  display: flex;
+  padding-left: 1.5rem;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  align-self: start;
+  padding: 0;
+  margin: 0 0 0 1.5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.icons img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.icons p {
+  margin-right: 1rem;
+  padding: 0;
+  font-size: 1rem;
+  color: #344543;
 }

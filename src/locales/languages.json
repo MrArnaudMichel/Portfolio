@@ -1,4 +1,3 @@
-
 [
   {
     "name": "C",
@@ -73,7 +72,7 @@
   {
     "name": "Laravel",
     "link": "https://laravel.com/",
-    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-plain.svg"
+    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
   },
   {
     "name": "Git",
@@ -93,7 +92,7 @@
   {
     "name": "UML",
     "link": "https://www.uml.org/",
-    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/uml/uml-plain.svg"
+    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg"
   },
   {
     "name": "XML",
