@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+* {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan Bold', sans-serif;
+    transition: all 0.5s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --primary-color: #025A4E;
+    --secondary-color: #344543;
+    --tertiary-color: #EDE7DE;
+    --quaternary-color: #9DE1D9;
+    --quinary-color: #8DE1D9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 2s linear;
-  }
+h1 {
+    font-size: 8rem;
+    color: #025A4E;
+    font-family: "Arcon Bold", serif;
+    margin: 5rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+    font-size: 4.5rem;
+    color: #344543;
+    font-family: "Arcon Bold", serif;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+    font-size: 3rem;
+    color: #344543;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(15deg);
-  }
+h4 {
+    font-size: 2rem;
+    color: #344543;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: #344543;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #025A4E;
+}
+
+button {
+    font-family: 'League Spartan Bold', sans-serif;
+    font-size: 1.5rem;
+    color: #EDE7DE;
+    background-color: #344543;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #025A4E;
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: #EDE7DE;
+}
+
+@font-face {
+    font-family: 'League Spartan ExtraLight';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan Light';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan Regular';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan Bold';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan Black';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan ExtraBold';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan SemiBold';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'League Spartan Thin';
+    src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Thin.ttf') format('truetype');
 }

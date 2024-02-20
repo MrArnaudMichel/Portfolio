@@ -1,24 +1,22 @@
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
+import Home from './components/Home';
+import Project from './components/Project';
+import {withTranslation} from "react-i18next";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="../public/favicon.ico" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App({t}) {
+    return (
+        <>
+            <Router>
+                <div className={"header"}>
+                    <NavigationBar t={t}/>
+                    <Home t={t}/>
+	                <Project t={t}/>
+                </div>
+            </Router>
+        </>
+    );
 }
 
-export default App;
+export default withTranslation()(App);

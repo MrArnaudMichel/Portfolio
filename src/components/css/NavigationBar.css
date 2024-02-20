@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    border-radius: 50px;
+    width: 35%;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.navbar li {
+    padding: 0 1rem;
+    background-color: transparent;
+
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #025A4E;
+    display: table;
+}
+
+.navbar-brand:hover {
+    animation: shake 0.5s;
+}
+
+.navbar.scrolled {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+.navbar.scrolled.dark {
+    background-color: #233831;
+    background-color: rgba(0, 0, 0, 0.3);
+    /*backdrop-filter: blur(10px);*/
+}
+
+.content {
+    height: 2000px; /* Placeholder pour du contenu de la page */
+}

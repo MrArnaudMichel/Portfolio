@@ -1,0 +1,77 @@
+.Home {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5rem;
+    height: fit-content;
+}
+
+h1{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.maininfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profil {
+    margin-left: calc(10% - 5rem);
+    width: 30%;
+}
+
+.profil img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: #9DE1D9;
+    border-radius: 64px;
+    padding: 20px;
+    text-align: center;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    background-color: #8DE1D9;
+    transform: scale(1.05);
+    height: min-content;
+    box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease-in-out;
+}
+
+.card div h4{
+    margin: 3rem 2rem 3rem 0;
+    display: flex;
+    justify-content: end;
+    font-family: "Arcon Bold", serif;
+}
+
+.text p{
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 20px;
+}
+
+strong {
+    font-weight: bold; /* ou toute autre valeur que vous préférez */
+}
+
+@font-face {
+    font-family: 'Arcon Bold';
+    src: local("Arcon"), url('../../../public/fonts/Arcon/Acorn-Bold.otf') format('opentype');
+}
