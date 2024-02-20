@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
 import Home from './components/Home';
 import Project from './components/Project';
+import Languages from './components/Languages';
 import {withTranslation} from "react-i18next";
 
 function App({t}) {
@@ -13,6 +14,7 @@ function App({t}) {
                     <NavigationBar t={t}/>
                     <Home t={t}/>
 	                <Project t={t}/>
+                    <Languages/>
                 </div>
             </Router>
         </>
