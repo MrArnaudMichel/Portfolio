@@ -40,7 +40,7 @@ function ProjectItem({ t, project, className }) {
 					);
 				})}
 			</div>
-			<p className="button">{t('GoToProject')}</p>
+			<p className="button"><strong>{t('GoToProject')}</strong></p>
 		</Link>
 	)
 }

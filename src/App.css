@@ -7,62 +7,61 @@
     transition: all 0.5s ease;
 }
 
-:root {
-    --primary-color: #025A4E;
-    --secondary-color: #344543;
-    --tertiary-color: #EDE7DE;
-    --quaternary-color: #9DE1D9;
-    --quinary-color: #8DE1D9;
-}
-
 h1 {
-    font-size: 8rem;
-    color: #025A4E;
+    color: var(--color-text-primary);
+    font-size: var(--font-h1);
     font-family: "Arcon Bold", serif;
-    margin: 5rem 0;
+    margin: 5rem 0 2rem 0;
     padding: 0 2rem;
 }
 
 h2 {
-    font-size: 4.5rem;
-    color: #344543;
+    font-size: var(--font-h2);
+    color: var(--color-text-primary);
     font-family: "Arcon Bold", serif;
 }
 
 h3 {
-    font-size: 3rem;
-    color: #344543;
+    font-size: 2.5rem;
+    color: var(--color-text-primary);
+    font-family: "Arcon Bold", serif;
 }
 
 h4 {
     font-size: 2rem;
-    color: #344543;
+    color: var(--color-text-primary);
+    font-family: "Arcon Bold", serif;
 }
 
 h5 {
     font-size: 1.5rem;
-    color: #344543;
+    color: var(--color-text-primary);
+    font-family: "Arcon Bold", serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+strong {
+    font-weight: bold; /* ou toute autre valeur que vous préférez */
+}
+
 a {
     text-decoration: none;
-    color: #4c6763;
+    color: var(--color-text-secondary);
 }
 
 p {
-    font-size: 1.25rem;
-    color: #344543;
+    font-size: var(--font-body);
+    color: var(--color-text-secondary);
     text-align: justify;
 }
 
 button {
     font-family: 'League Spartan Bold', sans-serif;
     font-size: 1.5rem;
-    color: #EDE7DE;
+    color: var(--color-text-active);
     background-color: #344543;
     border: none;
     border-radius: 20px;
@@ -79,6 +78,7 @@ button:hover {
 
 body {
     background-color: #EDE7DE;
+    line-height: 1.25;
 }
 
 @font-face {
@@ -121,50 +121,234 @@ body {
     src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Thin.ttf') format('truetype');
 }
 
-@media (max-width: 1024px) {
-    h1 {
-        font-size: 6rem;
-    }
-    h2 {
-        font-size: 3rem;
-    }
-    h3 {
-        font-size: 2rem;
-    }
-    h4 {
-        font-size: 1.5rem;
-    }
-    h5 {
-        font-size: 1rem;
-    }
-    p {
-        font-size: 1rem;
-    }
-    button {
-        font-size: 1rem;
-    }
+/*@media (max-width: 1024px) {*/
+/*    h1 {*/
+/*        font-size: 6rem;*/
+/*    }*/
+/*    h2 {*/
+/*        font-size: 3rem;*/
+/*    }*/
+/*    h3 {*/
+/*        font-size: 2rem;*/
+/*    }*/
+/*    h4 {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
+/*    h5 {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*    p {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*    button {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*    h1 {*/
+/*        font-size: 4rem;*/
+/*    }*/
+/*    h2 {*/
+/*        font-size: 2rem;*/
+/*    }*/
+/*    h3 {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
+/*    h4 {*/
+/*        font-size: 1.25rem;*/
+/*    }*/
+/*    h5 {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*    p {*/
+/*        font-size: 0.75rem;*/
+/*    }*/
+/*    button {*/
+/*        font-size: 0.75rem;*/
+/*    }*/
+/*}*/
+
+:root {
+    --font-h1: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
+    --font-h2: clamp(1.5rem, 1.0982rem + 1.7143vw, 2.8125rem);
+    --font-h3: clamp(1.375rem, 1.1837rem + .8163vw, 2rem);
+    --font-h4: clamp(1.375rem, 1.1837rem + .8163vw, 1.6rem);
+    --font-h5: clamp(1rem, .9235rem + .3265vw, 1.25rem);
+    --font-h6: clamp(1rem, .9617rem + .1633vw, 1.125rem);
+    --font-body: clamp(1rem, .8852rem + .4898vw, 1.375rem);
+    --font-link: clamp(.875rem, .7985rem + .3265vw, 1.125rem);
+    --font-mini: clamp(.875rem, .8367rem + .1633vw, 1rem);
+    --color-gradient: linear-gradient( to bottom, hsla(36, 31%, 90%, 0) 0%, hsla(36, 31%, 90%, .013) 9.7%, hsla(36, 31%, 90%, .049) 18.1%, hsla(36, 31%, 90%, .104) 25.5%, hsla(36, 31%, 90%, .175) 31.9%, hsla(36, 31%, 90%, .259) 37.7%, hsla(36, 31%, 90%, .352) 43%, hsla(36, 31%, 90%, .45) 47.9%, hsla(36, 31%, 90%, .55) 52.8%, hsla(36, 31%, 90%, .648) 57.7%, hsla(36, 31%, 90%, .741) 63%, hsla(36, 31%, 90%, .825) 68.7%, hsla(36, 31%, 90%, .896) 75%, hsla(36, 31%, 90%, .951) 82.2%, hsla(36, 31%, 90%, .987) 90.5%, hsl(36, 31%, 90%) 100% );
+    --color-white: hsla(0, 0%, 100%, 1);
+    --color-white50: hsla(0, 0%, 100%, .5);
+    --color-white20: hsla(0, 0%, 100%, .2);
+    --color-white30: hsla(0, 0%, 100%, .3);
+    --color-backdrop: hsla(45, 17%, 95%, .8);
+    --color-black: hsla(0, 0%, 0%, 1);
+    --color-blue: hsla(204, 97%, 54%, 1);
+    --color-lightblue: hsla(208, 90%, 40%, 1);
+    --color-lightgrey: hsla(0, 0%, 97%, 1);
+    --color-mint: hsla(172, 45%, 75%, 1);
+    --color-lilac: hsla(227, 65%, 87%, 1);
+    --color-rust: hsla(22, 62%, 76%, 1);
+    --color-babyblue: hsla(206, 84%, 86%, 1);
+    --color-pink: hsla(284, 61%, 74%, 1);
+    --color-dark: hsla(0, 0%, 9%, 1);
+    --color-hilite: hsla(172, 95%, 18%, 1);
+    --color-hilite-off: hsla(172, 95%, 18%, 0);
+    --color-white-flash: hsla(0, 0%, 100%, .5);
+    --color-beige: hsla(36, 31%, 90%, 1);
+    --color-green300: hsla(159, 42%, 88%, 1);
+    --color-green400: hsla(160, 52%, 71%, 1);
+    --color-green500: hsla(172, 95%, 18%, 1);
+    --color-green600: hsla(171, 15%, 35%, 1);
+    --color-green700: hsla(171, 11%, 24%, 1);
+    --color-green800: hsla(158, 23%, 18%, 1);
+    --color-yellow500: hsla(36, 97%, 70%, 1);
+    --color-yellow600: hsla(36, 74%, 25%, 1);
+    --color-yellow700: hsla(36, 91%, 13%, 1);
+    --spectrum-purple-200: hsla(261, 78.7%, 81.6%, 1);
+    --spectrum-purple-600: hsla(267, 43%, 44.7%, 1);
+    --spectrum-clay-400: #ded5d1;
+    --spectrum-clay-500: #c2b4ac;
+    --proto-bg-primary: #fff;
+    --proto-bg-secondary: #ede8e6;
+    --color-text-primary: var(--color-green500);
+    --color-text-secondary: var(--color-green600);
+    --color-text-tertiary: var(--color-beige);
+    --color-text-quarterly: var(--color-green300);
+    --color-text-hilite: var(--color-green400);
+    --color-text-active: var(--color-white);
+    --color-text-bold: var(--color-green700);
+    --color-text-contrast: var(--color-green800);
+    --color-text-ai: var(--spectrum-purple-600);
+    --color-primary: var(--color-beige);
+    --color-primary-accent: var(--color-green500);
+    --color-primary-border: var(--color-white);
+    --color-tertiary: var(--color-green300);
+    --color-opaque: hsla(0, 0%, 100%, .5);
+    --color-selector: var(--color-white);
+    --color-light: var(--color-white);
+    --color-light-border: rgba(0,0,0,.1);
+    --color-white-border: rgba(0,0,0,.1);
+    --color-light-hover: rgba(0,0,0,.05);
+    --color-white-hover: rgba(0,0,0,.05);
+    --color-dark-border: rgba(255,255,255,.1);
+    --canvas-opacity: .5;
+    --font-h2-display: clamp(1.875rem, 1.301rem + 2.449vw, 3.95rem);
+    --14px: .875rem;
+    --15px: .9375rem;
+    --16px: 1rem;
+    --17px: 1.0625rem;
+    --18px: 1.125rem;
+    --19px: 1.1875rem;
+    --20px: 1.25rem;
+    --21px: 1.3125rem;
+    --24px: 1.5rem;
+    --42px: 2.652rem;
+    --64px: 4rem;
+    --spacing-xxl: max( 130px, calc(130px + (260 - 130) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-xl: max( var(--64px), calc(var(--64px) + (128 - 64) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-l: max( var(--42px), calc(var(--42px) + (84 - 42) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-m: max( var(--24px), calc(var(--24px) + (48 - 24) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-s: max( var(--21px), calc(var(--21px) + (42 - 21) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-xs: max( var(--14px), calc(var(--14px) + (28 - 14) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-xxs: max( calc(var(--14px) / 2), calc((var(--14px) / 2) + (14 - 7) * ((100vw - 375px) / (1600 - 375))) );
+    --max-width: 1600px;
+    --transition-bounce: cubic-bezier(.175,.885,.32,1.275);
+    --transition-ease: ease-in-out;
+    --shadow-lg: 0px 50px 100px -20px rgba(0, 0, 0, .15);
+    --zindex-base: 1;
+    --zindex-2: 2;
+    --zindex-content-lower-2: 40;
+    --zindex-content-lower-1: 45;
+    --zindex-content: 50;
+    --zindex-top: 100;
+    --zindex-nav: 1000;
+    --zindex-nav-menu: 1010;
+    --zindex-modal: 2000;
+    --radius-base: .75rem;
+    --app-color-white: #ffffff;
+    --app-color-blue100: #F3FBFF;
+    --app-color-blue200: #D6EDFF;
+    --app-color-blue300: #A0D4FF;
+    --app-color-blue400: #57B0FB;
+    --app-color-blue500: #1292EE;
+    --app-color-blue600: #0077CC;
+    --app-color-blue700: #005CA4;
+    --app-color-blue800: #034077;
+    --app-color-grey200: #F9FAFA;
+    --app-color-grey300: #F1F3F5;
+    --app-color-grey400: #E5E9EC;
+    --app-color-grey500: #D5DCE1;
+    --app-color-grey600: #C5CED6;
+    --app-color-grey700: #B7C2CC;
+    --app-color-grey800: #A5B2BD;
+    --app-color-charcoal200: #93A1B0;
+    --app-color-charcoal300: #748494;
+    --app-color-charcoal400: #556575;
+    --app-color-charcoal500: #405261;
+    --app-color-charcoal600: #314351;
+    --app-color-charcoal700: #253642;
+    --app-color-charcoal800: #1D2B36;
+    --app-color-yellow100: #FFF9EF;
+    --app-color-yellow200: #FFF2D7;
+    --app-color-yellow300: #FFE7B8;
+    --app-color-yellow400: #FDD88E;
+    --app-color-yellow500: #FFC555;
+    --app-color-yellow600: #FAB347;
+    --app-color-yellow900: #B24319;
+    --app-color-green200: #E3FBEE;
+    --app-color-green500: #56C288;
+    --app-color-green600: #39AC6E;
+    --app-color-green700: #268C55;
+    --app-color-green750: #248451;
+    --app-color-green800: #106236;
+    --app-color-indigo200: #DFE7FF;
+    --app-color-purple100: #F9F9FF;
+    --app-color-purple200: hsla(237, 100%, 96%, 1);
+    --app-color-lavender200: #EBECFF;
+    --color-doodler-white: #FFF;
+    --color-doodler-grey: #FCFCFC;
+    --color-doodler-border: rgba(0, 0, 0, .1);
+    --color-doodler-active: #007AFF;
+    --color-doodler-base-grey: #636366;
+    --color-doodler-base-green: #56C288;
+    --color-doodler-base-indigo: #527CEB;
+    --color-doodler-purple: #6e56cf;
+    --color-doodler-purple-dark: #5746af;
+    --color-doodler-lavender: #e4defc;
+    --color-doodler-base-yellow: #FFC555;
+    --color-doodler-base-pink: #F23459;
+    --color-doodler-base-black: #444444;
+    --doodler-radius-menu: 13px;
+    --doodler-radius-md: 6px;
+    --doodler-radius-lg: 20px;
+    --dm-dark-500: #1C1C1E;
+    --dm-dark-400: #2C2C2E;
+    --dm-dark-300: #3A3A3C;
+    --dm-dark-200: #48484A;
+    --dm-dark-100: #636366;
+    --dm-black: #161616;
+    --dm-blur: rgba(28, 28, 30, .7);
+    --dm-light-300: #8E8E93;
+    --dm-light-200: #AEAEB2;
+    --dm-light-100: #C7C7CC;
+    --dm-blue: #57B0FB;
+    --dm-blue-dark: #22282E;
+    --dm-yellow: #FFC555;
+    --dm-yellow-dark: #29241A;
+    --dm-green: #56C288;
+    --dm-green-dark: #172920;
+    --dm-red: #FC5D7D;
+    --dm-red-dark: #332024;
+    --dm-purple: #9FA6FF;
+    --dm-purple-dark: #24242E;
+    --dm-indigo: #527CEB;
+    --dm-indigo-dark: #202739;
+    --curve: cubic-bezier(0, .49, 0, 1.49);
+    --curve-timing: .35s;
+    --shadow-menu: 0px 10px 60px rgba(0, 0, 0, .1);
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 4rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.5rem;
-    }
-    h4 {
-        font-size: 1.25rem;
-    }
-    h5 {
-        font-size: 1rem;
-    }
-    p {
-        font-size: 0.75rem;
-    }
-    button {
-        font-size: 0.75rem;
-    }
-}

@@ -20,20 +20,19 @@ nav {
     display: flex;
     list-style-type: none;
     border-radius: 50px;
-    width: 35%;
+    box-sizing: border-box;
     padding: 1.5rem 1rem 1.5rem 1rem;
 }
 
 .navbar li {
     padding: 0 1rem;
     background-color: transparent;
-
 }
 
 .navbar-brand {
-    font-size: 1.2rem;
+    font-size: var(--font-link);
     background-color: transparent;
-    color: #025A4E;
+    color: var(--color-text-secondary);
     display: table;
 }
 
@@ -42,9 +41,8 @@ nav {
 }
 
 .navbar.scrolled {
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
+    background-color: var(--color-backdrop);
+    backdrop-filter: blur(20px) saturate(1.7);
     z-index: 9999;
 }
 
