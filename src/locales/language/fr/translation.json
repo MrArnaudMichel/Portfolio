@@ -9,9 +9,8 @@
     "Home": "Bonjour ! Je suis Arnaud. Un développeur",
     "Projects": "Mes projets",
     "WelcomeAboutMeTitle": "Bienvenue sur mon site web",
-    "WelcomeAboutMeContent": "Je suis m'appelle Arnaud <strong>Michel</strong>, je suis un développeur web full-stack. Je suis actuellement en second année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden). J'ai commencé à apprendre la programmation web en 2019, et depuis je n'ai pas arrêté d'apprendre et de me perfectionner. J'ai créee ce site web pour vous présenter mes projets, mes compétences et mon parcours."
+    "WelcomeAboutMeContent": "Je suis m'appelle Arnaud <strong>Michel</strong>, je suis un développeur web full-stack. Je suis actuellement en second année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden). J'ai commencé à apprendre la programmation web en 2019, et depuis je n'ai pas arrêté d'apprendre et de me perfectionner. J'ai créee ce site web pour vous présenter mes projets, mes compétences et mon parcours.",
 
-
-
-
+    "NoobletyDescription": "Nooblety est un jeu immersif qui vous transporte dans un univers médiéval se déroulant à Amboise pendant la Renaissance jusqu'au début des Guerres de religion (1450 - 1574). Vous commencerez en incarnant un jeune paysan, mais votre objectif est de gravir les échelons de la société pour devenir un noble respecté.",
+    "GoToProject": "Voir le projet"
 }

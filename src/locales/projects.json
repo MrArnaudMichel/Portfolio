@@ -1,12 +1,16 @@
 [
   {
     "title": "Nooblety",
-    "description": "Nooblety est un jeu immersif qui vous transporte dans un univers médiéval se déroulant à Amboise pendant la Renaissance jusqu'au début des Guerres de religion (1450 - 1574). Vous commencerez en incarnant un jeune paysan, mais votre objectif est de gravir les échelons de la société pour devenir un noble respecté.",
+    "description": "NoobletyDescription",
+    "link": "Nooblety",
     "date": "2024",
     "languages": ["C#", "UML", "SQL"],
+    "tools": ["Unity", "Visual Studio", "Blender", "Photoshop"],
     "images": [
-      "http://klebert-host.com:50009/images/MainImage.png",
-      "http://klebert-host.com:50009/images/MainImage.png"
+      "images/projects/mainImage.png",
+      "images/projects/screen0.png",
+      "images/projects/screen1.png",
+      "images/projects/screen2.png"
     ],
     "gitpath": "https://git.unistra.fr/t3-michel-morawien-kiefner/mod23-d",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",

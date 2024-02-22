@@ -13,7 +13,7 @@ function Home({t}){
     }, []);
 
     return (
-        <div className={"Home"} id={"Home"}>
+        <section className={"Home"} id={"Home"}>
             <h1 className={"maintitle"} data-aos="fade-up">{t('Home')}</h1>
             <div className={"maininfo"}>
                 <div className={"profil"}>
@@ -23,15 +23,13 @@ function Home({t}){
                 <article className={"card"}>
                     <div className={"text"}>
                         <h4 className={"titlesubject"} data-aos="fade-up">{t('WelcomeAboutMeTitle')}</h4>
-                        <p>
-                            <a className={"content"} dangerouslySetInnerHTML={{__html: t('WelcomeAboutMeContent')}}></a>
-                        </p>
+                        <p className={"content"} dangerouslySetInnerHTML={{__html: t('WelcomeAboutMeContent')}}></p>
                         <button onClick={() => window.location.href = "#Projects"}>{t('MyProjects')}</button>
                         <button onClick={() => window.location.href = "#Skills"}>{t('MySkills')}</button>
                     </div>
                 </article>
             </div>
-        </div>
+        </section>
 
     )
 }

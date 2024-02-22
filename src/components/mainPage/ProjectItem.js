@@ -1,8 +1,9 @@
 import React from "react";
 import './css/ProjectItem.css';
-import languages from "../locales/languages.json";
+import languages from "../../locales/languages.json";
 import ImagesSlider from "./ImagesSlider";
 import AOS from "aos";
+import { Link } from 'react-router-dom'; // Importation du composant Link
 
 function ProjectItem({ t, project, className }) {
 	React.useEffect(() => {
@@ -13,27 +14,34 @@ function ProjectItem({ t, project, className }) {
 	}, []);
 
 	return (
-		<div className={`project-item ${className}`} data-aos="fade-up">
+		<Link to={`/Projects/${project.title}`} className={`project-item ${className}`} data-aos="fade-up">
 			<ImagesSlider images={project.images}/>
-			<h3><a href={project.gitpath}>{t(project.title)}</a></h3>
+			<h3>{t(project.title)}</h3>
 			<p className={"date"}>{project.date}</p>
 			<p>{t(project.description)}</p>
-			{/* Check if project.languages exists before accessing it */}
-			{/*<h4 className={"title language"}>{t("Languages")}</h4>*/}
 			<div className={"languages"}>
 				{project.languages && project.languages.map((language) => {
 					const languageData = languages.find(lang => lang.name === language);
 					return (
 						<div key={language} className={"icons"}>
 							<a href={languageData.link}>
-								{/*<img src={languageData.image} alt={language}/>*/}
 								<p>{t(languageData.name)}</p>
 							</a>
 						</div>
 					);
 				})}
 			</div>
-		</div>
+			<div className={"tools"}>
+				{project.tools && project.tools.map((tool) => {
+					return (
+						<div key={tool} className={"icons"}>
+							<p>{t(tool)}</p>
+						</div>
+					);
+				})}
+			</div>
+			<p className="button">{t('GoToProject')}</p>
+		</Link>
 	)
 }
 

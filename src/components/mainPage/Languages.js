@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import languages from './../locales/languages.json';
+import React from 'react';
+import languages from '../../locales/languages.json';
 
 function Language() {
 

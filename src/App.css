@@ -20,6 +20,7 @@ h1 {
     color: #025A4E;
     font-family: "Arcon Bold", serif;
     margin: 5rem 0;
+    padding: 0 2rem;
 }
 
 h2 {
@@ -49,7 +50,13 @@ html {
 
 a {
     text-decoration: none;
-    color: #025A4E;
+    color: #4c6763;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #344543;
+    text-align: justify;
 }
 
 button {
@@ -112,4 +119,52 @@ body {
 @font-face {
     font-family: 'League Spartan Thin';
     src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Thin.ttf') format('truetype');
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 6rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.25rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+    button {
+        font-size: 0.75rem;
+    }
 }

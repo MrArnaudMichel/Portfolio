@@ -7,6 +7,11 @@
   bottom: -30px;
 }
 
+.image-slider img {
+  width: 100%;
+  height: 100%;
+}
+
 .slick-prev:before, .slick-next:before {
   color: #025A4E;
 }

@@ -35,7 +35,7 @@ h1{
 }
 
 .card {
-    background-color: #9DE1D9;
+    background-color: #a3dcd4;
     border-radius: 64px;
     padding: 20px;
     text-align: center;
@@ -43,12 +43,12 @@ h1{
     display: flex;
     flex-direction: column;
     height: min-content;
-    transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .card:hover {
     background-color: #8DE1D9;
-    transform: scale(1.05);
+    transform: scale(1.025);
     height: min-content;
     box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.03);
     transition: all 0.3s ease-in-out;
@@ -65,6 +65,7 @@ h1{
     text-align: justify;
     font-size: 1.25rem;
     margin: 20px;
+    height: fit-content;
 }
 
 strong {
@@ -73,5 +74,19 @@ strong {
 
 @font-face {
     font-family: 'Arcon Bold';
-    src: local("Arcon"), url('../../../public/fonts/Arcon/Acorn-Bold.otf') format('opentype');
+    src: local("Arcon"), url('../../../../public/fonts/Arcon/Acorn-Bold.otf') format('opentype');
 }
+
+@media (max-width: 1024px) {
+    .profil {
+        width: 40%;
+    }
+    .card {
+        width: 70%;
+    }
+    .card div h4{
+        margin: 2rem 0 2rem 0;
+        justify-content: center;
+    }
+}
+
