@@ -1,0 +1,26 @@
+/* AllProjects.css */
+.all-projects-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: auto;
+	grid-gap: 1rem;
+	padding: 3rem;
+}
+
+.project-item {
+	grid-row: span 2;
+}
+
+/* ProjectItem.css */
+.project-item img {
+	width: 100%;
+	height: auto; /* Change this to auto to maintain aspect ratio */
+	object-fit: cover;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.project-item-main {
+	width: 30vw;
+	height: auto;
+}

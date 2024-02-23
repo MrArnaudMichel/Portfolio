@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Lycée Gustave Courbet Belfort (90)",
+    "image": "images/career/lyceeCourbet.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 4,
+    "title": "Fullstack Developer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Engineer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 6,
+    "title": "Data Scientist",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning Engineer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 8,
+    "title": "Data Engineer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 9,
+    "title": "Cloud Engineer",
+    "image": "https://via.placeholder.com/1920x1080"
+  },
+  {
+    "id": 10,
+    "title": "Security Engineer",
+    "image": "https://via.placeholder.com/1920x1080"
+  }
+]

@@ -1,0 +1,48 @@
+/* ProjectItemShort.css */
+.project-item-short {
+	display: grid;
+	grid-template-areas:
+    "title logo"
+    "description logo"
+    "image image";
+	grid-gap: 1rem;
+	justify-content: space-between;
+	background: var(--color-white20);
+	padding: 3rem 3rem 0 3rem;
+	border-radius: 15px;
+}
+
+.project-item-short h3 {
+	grid-area: title;
+}
+
+.project-item-short .logo {
+	grid-area: logo;
+}
+
+.project-item-short p:first-of-type {
+	grid-area: description;
+}
+
+.project-item-short .logo, .project-item-short .image {
+	width: 100px; /* Adjust as needed */
+	height: auto;
+	object-fit: cover;
+}
+
+.project-item-short .image {
+	grid-area: image;
+}
+
+.project-item-short .image.large {
+	width: 80%;
+	height: auto;
+	display: flex;
+	align-self: center;
+	justify-self: center;
+
+}
+
+.project-item-short.double-grid-row {
+	grid-row: span 2;
+}

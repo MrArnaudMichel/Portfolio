@@ -3,9 +3,9 @@ import './css/ProjectItem.css';
 import languages from "../../locales/languages.json";
 import ImagesSlider from "./ImagesSlider";
 import AOS from "aos";
-import { Link } from 'react-router-dom'; // Importation du composant Link
+import {Link} from 'react-router-dom'; // Importation du composant Link
 
-function ProjectItem({ t, project, className }) {
+function ProjectItem({t, project, className}) {
 	React.useEffect(() => {
 		AOS.init({
 			duration: 2000,

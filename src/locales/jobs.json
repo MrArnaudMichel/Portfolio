@@ -1,0 +1,24 @@
+[
+  {
+    "title": "HighSchoolTitle",
+    "date": "2019 - 2022",
+    "description": "HighSchoolDescription",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "image": 1
+  },
+  {
+    "title": "Data Analyst",
+    "date": "2018 - 2020",
+    "description": "Analyzing data using Python and SQL",
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Problem-solving"
+    ],
+    "image": 2
+  }
+]

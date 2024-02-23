@@ -2,10 +2,20 @@
   {
     "title": "Nooblety",
     "description": "NoobletyDescription",
+    "shortDescription": "NoobletyShortDescription",
     "link": "Nooblety",
     "date": "2024",
-    "languages": ["C#", "UML", "SQL"],
-    "tools": ["Unity", "Visual Studio", "Blender", "Photoshop"],
+    "languages": [
+      "C#",
+      "UML",
+      "SQL"
+    ],
+    "tools": [
+      "Unity",
+      "Visual Studio",
+      "Blender",
+      "Photoshop"
+    ],
     "images": [
       "images/projects/mainImage.png",
       "images/projects/screen0.png",
@@ -20,16 +30,16 @@
         "git": "https://github.com/MrArnaudMichel",
         "role": "Lead Developper"
       },
-        {
-          "name": "Morawiec",
-          "git": "https://github.com/bjt2017",
-          "role": "Developper"
-        },
-        {
-          "name": "Kiefner",
-          "git": "https://github.com/LeoKiefner",
-            "role": "Developper"
-        }
+      {
+        "name": "Morawiec",
+        "git": "https://github.com/bjt2017",
+        "role": "Developper"
+      },
+      {
+        "name": "Kiefner",
+        "git": "https://github.com/LeoKiefner",
+        "role": "Developper"
+      }
     ]
   },
   {
@@ -37,17 +47,77 @@
     "description": "Project2Description",
     "images": [
       "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/128",
-      "https://via.placeholder.com/150"
-    ]
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ],
+    "logo": "https://via.placeholder.com/150"
   },
   {
     "title": "Project3Title",
     "description": "Project3Description",
     "images": [
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/128",
-      "https://via.placeholder.com/150"
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ],
+    "logo": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "Project4Title",
+    "description": "Project4Description",
+    "images": [
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ],
+    "logo": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "Project5Title",
+    "description": "Project5Description",
+    "images": [
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
     ]
+  },
+  {
+    "title": "Project6Title",
+    "description": "Project6Description",
+    "images": [
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ]
+  },
+  {
+    "title": "Project7Title",
+    "description": "Project7Description",
+    "images": [
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ],
+    "logo": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "Project8Title",
+    "description": "Project8Description",
+    "images": [
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ],
+    "logo": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "Project9Title",
+    "description": "Project9Description",
+    "images": [
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080",
+      "https://via.placeholder.com/1920x1080"
+    ],
+    "logo": "https://via.placeholder.com/150"
   }
 ]

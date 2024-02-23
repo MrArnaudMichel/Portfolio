@@ -1,7 +1,7 @@
 import React from 'react';
 import languages from '../../locales/languages.json';
 
-function Language() {
+function Language({t}) {
 
 	return (
 		<div>
@@ -9,7 +9,8 @@ function Language() {
 				<div key={index}>
 					<h2>{language.name}</h2>
 					<a href={language.link}>Learn More</a>
-					<img src={language.image} alt={language.name} style={{width: '50vw', height: '50vh', objectFit: 'cover'}}/>
+					<img src={language.image} alt={language.name}
+					     style={{width: '50vw', height: '50vh', objectFit: 'cover'}}/>
 				</div>
 			))}
 		</div>

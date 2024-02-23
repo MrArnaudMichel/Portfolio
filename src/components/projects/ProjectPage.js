@@ -1,8 +1,8 @@
 import React from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import {useNavigate, useParams} from 'react-router-dom';
 
-function ProjectPage({ projects }) {
-	const { projectName } = useParams();
+function ProjectPage({projects}) {
+	const {projectName} = useParams();
 	const project = projects.find(p => p.title === projectName);
 	const navigate = useNavigate();
 
