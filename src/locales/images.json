@@ -1,52 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Lycée Gustave Courbet Belfort (90)",
+    "title": "Lycée Gustave Courbet Belfort (90), France",
     "image": "images/career/lyceeCourbet.jpg"
   },
   {
     "id": 2,
-    "title": "Frontend Developer",
-    "image": "https://via.placeholder.com/1920x1080"
+    "title": "IUT Robert Schuman Illkirch (67), France",
+    "image": "images/career/iutRobertSchuman.jpg"
   },
   {
     "id": 3,
-    "title": "Backend Developer",
-    "image": "https://via.placeholder.com/1920x1080"
+    "title": "Super U Valdoie (90), France",
+    "image": "images/career/superU.jpg"
   },
   {
     "id": 4,
-    "title": "Fullstack Developer",
-    "image": "https://via.placeholder.com/1920x1080"
-  },
-  {
-    "id": 5,
-    "title": "DevOps Engineer",
-    "image": "https://via.placeholder.com/1920x1080"
-  },
-  {
-    "id": 6,
-    "title": "Data Scientist",
-    "image": "https://via.placeholder.com/1920x1080"
-  },
-  {
-    "id": 7,
-    "title": "Machine Learning Engineer",
-    "image": "https://via.placeholder.com/1920x1080"
-  },
-  {
-    "id": 8,
-    "title": "Data Engineer",
-    "image": "https://via.placeholder.com/1920x1080"
-  },
-  {
-    "id": 9,
-    "title": "Cloud Engineer",
-    "image": "https://via.placeholder.com/1920x1080"
-  },
-  {
-    "id": 10,
-    "title": "Security Engineer",
-    "image": "https://via.placeholder.com/1920x1080"
+    "title": "MTU Cork, Ireland",
+    "image": "images/career/mtuCork.jpeg"
   }
 ]

@@ -4,14 +4,57 @@
   "NavProjects": "Projets",
   "NavSkills": "Compétences",
   "NavContact": "Contact",
+
   "Home": "Bonjour ! Je suis Arnaud. Un développeur",
   "Welcome": "Je suis passionné par la programmation",
-  "Projects": "Mes projets",
+
   "WelcomeAboutMeTitle": "Présentation",
   "WelcomeAboutMeContent": "Je suis m'appelle Arnaud <strong>Michel</strong>, je suis un développeur web full-stack. Je suis actuellement en second année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden). J'ai commencé à apprendre la programmation web en 2019, et depuis je n'ai pas arrêté d'apprendre et de me perfectionner. J'ai créee ce site web pour vous présenter mes projets, mes compétences et mon parcours.",
+
   "HighSchoolTitle": "Baccalauréat Scientifique",
   "HighSchoolDescription": "J'ai obtenu mon baccalauréat scientifique en 2022 au lycée Gustave Courbet à Belfort. J'ai choisi la spécialité mathématiques et l'option informatique et sciences du numérique. J'ai obtenu la mention bien.",
-  "NoobletyDescription": "Nooblety est un jeu immersif qui vous transporte dans un univers médiéval se déroulant à Amboise pendant la Renaissance jusqu'au début des Guerres de religion (1450 - 1574). Vous commencerez en incarnant un jeune paysan, mais votre objectif est de gravir les échelons de la société pour devenir un noble respecté.",
+  "CollegeTitle": "BUT Informatique",
+  "CollegeDescription": "Je suis actuellement en deuxième année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden).",
+  "SuperUTitle": "Employé polyvalent",
+  "SuperUDescription": "J'ai travaillé en tant qu'employé polyvalent à Super U à Valdoie pendant 2 mois. J'ai appris à travailler en équipe, à gérer mon temps et à être autonome.",
+  "BachelorTitle": "Licence Informatique",
+  "BachelorDescription": "J'ai passé un semestre en Erasmus au MTU à Cork, en Irlande, où j'ai perfectionné mon anglais, et continué mon BUT en informatique.",
+
+  "Projects": "Mes projets",
+  "NoobletyDescription0": "Nooblety est un jeu immersif qui vous transporte dans un univers médiéval se déroulant à Amboise pendant la Renaissance jusqu'au début des Guerres de religion (1450 - 1574). Vous commencerez en incarnant un jeune paysan, mais votre objectif est de gravir les échelons de la société pour devenir un noble respecté.",
   "NoobletyShortDescription": "Jeu de rôle médiéval en ligne",
-  "GoToProject": "Voir le projet"
+
+  "ParserShortDescription": "API de génération de diagrammes UML",
+  "ParserDescription0": "Le projet consiste à créer une API permettant de générer des diagrammes UML à partir d'un package Java. L'API peut génénerer des diagrammes de classes de type DCA (Diagramme de Classe Abstrait) et DCC (Diagramme de Classe Concret).",
+
+  "ApplicationCulinaireShortDescription": "Application de recettes de cuisine",
+  "ApplicationCulinaireDescription0": "Cette application en Windows Forms et .NET permet de rechercher des recettes de cuisine, de les consulter, de les modifier et de les supprimer. Les recettes sont stockées dans une base de données SQL Server. L'application permet également de gérer les ingrédients et les catégories de recettes.",
+
+  "SudokuSolverDescription0": "Ce projet est un solveur de sudoku en ligne. Il permet de résoudre des grilles de sudoku, de les générer et de les sauvegarder. Le solveur utilise un algorithme de backtracking pour résoudre les grilles.",
+  "SudokuSolverShortDescription": "Solveur de sudoku avec backtracking",
+
+  "GoToProject": "Voir le projet",
+
+
+  "Essential Basic Skills": "Compétences de base",
+  "Discrete Mathematics": "Mathématiques discrètes",
+  "Probability": "Probabilités à densité",
+  "Linear Algebra": "Algèbre linéaire",
+  "Cryptography": "Cryptographie",
+  "Computer Networks": "Réseaux informatiques",
+  "Design Patterns": "Design Patterns",
+  "Data Structures": "Structures de données",
+  "Algorithms": "Algorithmes",
+  "MVC": "MVC",
+  "Databases": "Bases de données",
+  "Web Development": "Développement web",
+  "Mobile Development": "Développement mobile",
+  "Game Development": "Développement de jeux",
+  "Teamwork": "Travail d'équipe",
+  "HardTasks": "Tâches difficiles",
+  "Difficult Schedules": "Horaires difficiles",
+  "Autonomy": "Autonomie",
+  "Adaptability": "Adaptabilité",
+  "English": "Anglais",
+  "Open Projects": "Open Source Projects"
 }

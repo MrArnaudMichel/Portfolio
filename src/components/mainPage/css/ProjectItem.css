@@ -82,7 +82,7 @@
 	margin-right: 1rem;
 	padding: 0;
 	font-size: 1rem;
-	color: #344543;
+	color: var(--color-text-primary);
 }
 
 a.button {

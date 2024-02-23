@@ -179,6 +179,7 @@ body {
 	--color-primary: var(--color-beige);
 	--color-primary-accent: var(--color-green500);
 	--color-primary-border: var(--color-white);
+	--color-secondary: var(--color-green600);
 	--color-tertiary: var(--color-green300);
 	--color-opaque: hsla(0, 0%, 100%, .5);
 	--color-selector: var(--color-white);

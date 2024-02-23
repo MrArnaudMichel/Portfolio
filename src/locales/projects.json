@@ -1,7 +1,7 @@
 [
   {
     "title": "Nooblety",
-    "description": "NoobletyDescription",
+    "description": ["NoobletyDescription0"],
     "shortDescription": "NoobletyShortDescription",
     "link": "Nooblety",
     "date": "2024",
@@ -26,51 +26,120 @@
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
     "team": [
       {
-        "name": "Michel",
+        "name": "Arnaud Michel",
         "git": "https://github.com/MrArnaudMichel",
         "role": "Lead Developper"
       },
       {
-        "name": "Morawiec",
+        "name": "Benjamin Morawiec",
         "git": "https://github.com/bjt2017",
         "role": "Developper"
       },
       {
-        "name": "Kiefner",
+        "name": "Léo Kiefner",
         "git": "https://github.com/LeoKiefner",
         "role": "Developper"
       }
     ]
   },
   {
-    "title": "Project2Title",
-    "description": "Project2Description",
-    "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+    "title": "Application Culinaire",
+    "description": ["ApplicationCulinaireDescription0"],
+    "shortDescription": "ApplicationCulinaireShortDescription",
+    "link": "ApplicationCulinaire",
+    "date": "2023",
+    "languages": [
+      "C#",
+      "UML",
+      "SQL"
     ],
-    "logo": "https://via.placeholder.com/150"
+    "tools": [
+      "Visual Studio",
+      ".NET"
+    ],
+    "images": [
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image1.png",
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image2.png",
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image3.png",
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image4.png",
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image5.png",
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image6.png",
+      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image7.png"
+    ],
+    "logo": "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
+    "gitpath": "https://github.com/bjt2017/Application_culinaire",
+    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      },
+      {
+        "name": "benjamin Morawiec",
+        "git": "https://github.com/bjt2017",
+        "role": "Developper"
+      }
+      ]
   },
   {
-    "title": "Project3Title",
-    "description": "Project3Description",
-    "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+    "title": "API PlantUML Parser",
+    "description": ["ParserDescription0"],
+    "shortDescription": "ParserShortDescription",
+    "link": "APIPlantUMLParser",
+    "date": "2022",
+    "languages": [
+      "Java",
+      "UML"
     ],
-    "logo": "https://via.placeholder.com/150"
+    "tools": [
+      "IntelliJ"
+    ],
+    "images": [
+      "images/projects/parser0.png",
+      "images/projects/parser1.png"
+    ],
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
+    "gitpath": "https://git.unistra.fr/michel_morawiec/p21_projet",
+    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      }
+    ]
   },
   {
-    "title": "Project4Title",
-    "description": "Project4Description",
-    "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+    "title": "Sudoku Solver",
+    "description": ["SudokuSolverDescription0"],
+    "shortDescription": "SudokuSolverShortDescription",
+    "link": "SudokuSolver",
+    "date": "2023",
+    "languages": [
+      "C#",
+      "HTML5",
+      "CSS"
     ],
-    "logo": "https://via.placeholder.com/150"
+    "tools": [
+      "IntelliJ",
+      "Figma"
+    ],
+    "images": [
+      "https://www.researchgate.net/profile/Radek-Pelanek/publication/261217550/figure/fig4/AS:667715102593028@1536207094075/Comprised-version-of-a-search-tree-of-a-backtracking-algorithm-on-a-4-4-Sudoku-puzzle.ppm",
+      "https://stackoverflow.com/questions/29545388/sudoku-backtracking-using-c-sharp",
+      "https://miro.medium.com/v2/resize:fit:1081/1*1wVvuJUuCTDMg--uT8g3ig.png"
+    ],
+    "logo": "https://cdn-icons-png.flaticon.com/128/3269/3269927.png",
+    "gitpath": "https://github.com/MrArnaudMichel/SAE11",
+    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      }
+    ]
   },
   {
     "title": "Project5Title",
@@ -88,7 +157,9 @@
       "https://via.placeholder.com/1920x1080",
       "https://via.placeholder.com/1920x1080",
       "https://via.placeholder.com/1920x1080"
-    ]
+    ],
+    "logo": "https://via.placeholder.com/150"
+
   },
   {
     "title": "Project7Title",
@@ -97,8 +168,7 @@
       "https://via.placeholder.com/1920x1080",
       "https://via.placeholder.com/1920x1080",
       "https://via.placeholder.com/1920x1080"
-    ],
-    "logo": "https://via.placeholder.com/150"
+    ]
   },
   {
     "title": "Project8Title",

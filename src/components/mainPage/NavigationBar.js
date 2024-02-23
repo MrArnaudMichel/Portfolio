@@ -39,7 +39,7 @@ function NavigationBar({t}) {
 					</Link>
 				</li>
 				<li>
-					<Link to="/Career" className="navbar-brand">
+					<Link to="/Career" className="navbar-brand" onClick={() => window.scrollTo(0, 0)}>
 						{t('NavCareer')}
 					</Link>
 				</li>

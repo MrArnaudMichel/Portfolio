@@ -2,24 +2,29 @@
 	position: relative;
 	max-width: 1200px;
 	margin: 0 auto;
+	transition: all 0.5s ease;
 }
 
 .career-container::after {
 	content: '';
 	position: absolute;
 	width: 6px;
-	background-color: #6c757d;
+	background-color: var(--color-primary-accent);
 	top: 0;
 	bottom: 0;
 	left: 50%;
 	margin-left: -3px;
+
 }
 
 .job-item {
 	padding: 10px 40px;
 	position: relative;
-	background-color: inherit;
+	background-color: var(--color-white20);
+	border-radius: 10px;
+	block-size: 100%;
 	width: 50%;
+	box-sizing: border-box;
 }
 
 
@@ -73,6 +78,10 @@
 	border-width: 10px 10px 10px 0;
 	border-color: transparent white transparent transparent;
 }
+.job-item-right {
+	left: 50%;
+}
+
 
 .job-item h2, .job-item .date, .job-item p {
 	padding: 0 20px;
@@ -98,6 +107,7 @@
 
 .icons p {
 	margin: 0;
+	font-size: 1rem;
 }
 
 .image-container {
@@ -119,7 +129,7 @@
 	visibility: hidden; /* Remplacez 'display: none;' par 'visibility: hidden;' */
 	opacity: 0;
 	transition: all 0.5s ease;
-	transform: translateY(100%);
+	transform: translateY(50%);
 	color: var(--color-text-tertiary);
 }
 
@@ -127,4 +137,34 @@
 	visibility: visible; /* Remplacez 'display: block;' par 'visibility: visible;' */
 	opacity: 1;
 	transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+	.career-container::after {
+		display: none;
+	}
+	.job-item {
+		width: 100%;
+	}
+	.job-item::after {
+		display: none;
+	}
+	.job-item:nth-child(odd)::before {
+		display: none;
+	}
+	.job-item:nth-child(even)::before {
+		display: none;
+	}
+	.job-item:nth-child(odd) {
+		left: 0;
+	}
+	.job-item:nth-child(even) {
+		left: 0;
+	}
+	.job-item:nth-child(even)::after {
+		left: 0;
+	}
+	.job-item-right {
+		left: 0;
+	}
 }

@@ -4,21 +4,52 @@
     "date": "2019 - 2022",
     "description": "HighSchoolDescription",
     "skills": [
-      "Python",
-      "SQL"
+      "Essential Basic Skills"
     ],
     "image": 1
   },
   {
-    "title": "Data Analyst",
-    "date": "2018 - 2020",
-    "description": "Analyzing data using Python and SQL",
+    "title": "CollegeTitle",
+    "date": "2022 - Present",
+    "description": "CollegeDescription",
     "skills": [
-      "Python",
-      "SQL",
-      "Tableau",
-      "Problem-solving"
+      "Discrete Mathematics",
+      "Probability",
+      "Linear Algebra",
+      "Cryptography",
+      "Computer Networks",
+      "Design Patterns",
+      "Data Structures",
+      "Algorithms",
+      "MVC",
+      "Databases",
+      "Web Development",
+      "Mobile Development",
+      "Game Development"
     ],
     "image": 2
-  }
+  },
+  {
+    "title": "SuperUTitle",
+    "date": "2023",
+    "description": "SuperUDescription",
+    "skills": [
+      "Teamwork",
+      "HardTasks",
+      "Difficult Schedules"
+    ],
+    "image": 3
+  },
+  {
+    "title": "BachelorTitle",
+    "date": "2024",
+    "description": "BachelorDescription",
+    "skills": [
+      "English",
+      "Open Projects",
+      "Autonomy",
+      "Adaptability"
+    ],
+    "image": 4
+    }
 ]
