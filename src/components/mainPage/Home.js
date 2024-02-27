@@ -18,20 +18,19 @@ function Home({t}) {
 			<p className={"subtitle"} data-aos="fade-up">{t('Welcome')}</p>
 			<div className={"maininfo"}>
 				<div className={"profil"}>
-					<img src={"https://via.placeholder.com/256"} alt={"Profile"} className={"profile"}/>
+					<img src={"https://via.placeholder.com/256"} alt={"Profile"} className={"profile"} data-aos="fade-up"/>
 					<h2 className={"name"} data-aos="fade-up">Arnaud Michel</h2>
 				</div>
 				<article className={"card"}>
 					<div className={"text"}>
 						<h4 className={"titlesubject"} data-aos="fade-up">{t('WelcomeAboutMeTitle')}</h4>
-						<p className={"content"} dangerouslySetInnerHTML={{__html: t('WelcomeAboutMeContent')}}></p>
+						<p className={"content"} data-aos="fade-up" dangerouslySetInnerHTML={{__html: t('WelcomeAboutMeContent')}} ></p>
 						<button onClick={() => window.location.href = "#Projects"}>{t('MyProjects')}</button>
 						<button onClick={() => window.location.href = "#Skills"}>{t('MySkills')}</button>
 					</div>
 				</article>
 			</div>
 		</section>
-
 	)
 }
 
