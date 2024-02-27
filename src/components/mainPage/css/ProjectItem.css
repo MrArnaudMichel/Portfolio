@@ -85,8 +85,20 @@
 	color: var(--color-text-primary);
 }
 
-a.button {
+p.button {
+	display: flex;
 	padding: 1rem 0;
+	align-self: center;
+	justify-content: center;
+
+}
+
+p.button:hover {
+	cursor: pointer;
+	background: var(--color-primary-accent);
+	color: var(--color-white);
+	border-radius: 100px;
+	transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 1024px) {

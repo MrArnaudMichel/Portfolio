@@ -20,7 +20,7 @@ function Project({t}) {
 					<ProjectItem key={index} t={t} project={project} className={index >= 2 ? 'large' : ''}/>
 				)}
 			</div>
-			<Link to={"/AllProjects"} className={"button"}><strong>{t('AllProjects')}</strong></Link>
+			<Link to={"/AllProjects"} className={"buttonAllProjects"}><strong>{t('AllProjects')}</strong></Link>
 		</section>
 	)
 }

@@ -171,6 +171,30 @@
       "link": "https://visualstudio.microsoft.com/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg",
       "level": 7
+    },
+    {
+      "name": "Json",
+        "link": "https://www.json.org/json-en.html",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
+        "level": 10
+    },
+    {
+      "name": "CSV",
+        "link": "https://www.csvjson.com/csv2json",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csv/csv-plain.svg",
+        "level": 10
+    },
+    {
+      "name": "TileD",
+        "link": "https://www.mapeditor.org/",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tiled/tiled-original.svg",
+        "level": 7
+    },
+    {
+      "name": "PSDK",
+        "link": "https://www.playstation.com/en-us/develop/",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playstation/playstation-original.svg",
+        "level": 7
     }
   ]
 }
