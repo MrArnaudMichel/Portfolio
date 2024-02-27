@@ -6,7 +6,7 @@ import jobs from "../../locales/jobs.json";
 import images from "../../locales/images.json"; // Import images
 
 function Career({t}) {
-    const [jobPositions, setJobPositions] = useState([]);
+    const [jobPositions] = useState([]);
     const jobItemsRef = useRef([]);
 
     useEffect(() => {
