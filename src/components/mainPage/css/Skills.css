@@ -1,99 +1,99 @@
 .skills {
-	width: 100%;
-	padding: 50px;
+    width: 100%;
+    padding: 50px;
 }
 
 .skills-container {
-	background-color: var(--color-white20);
-	border-radius: 10px;
-	padding: 20px;
+    background-color: var(--color-white20);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .tabs-header {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 20px;
-	border: 1px solid var(--color-secondary);
-	border-radius: 10px;
-	padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-secondary);
+    border-radius: 10px;
+    padding-top: 10px;
 }
 
 .tab {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 10px 20px;
-	border: 2px solid var(--color-text-bold);
-	border-style: solid solid none solid;
-	border-radius: 10px 10px 0 0;
-	margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid var(--color-text-bold);
+    border-style: solid solid none solid;
+    border-radius: 10px 10px 0 0;
+    margin: 0 5px;
 }
 
 .tab:hover {
-	background-color: var(--color-primary-accent);
-	opacity: 0.5;
-	color: var(--color-white);
+    background-color: var(--color-primary-accent);
+    opacity: 0.5;
+    color: var(--color-white);
 }
 
 ul.react-tabs__tab-list {
-	display: flex;
-	border: none;
-	margin: 0 0 10px;
-	padding: 0;
+    display: flex;
+    border: none;
+    margin: 0 0 10px;
+    padding: 0;
 }
 
 li.react-tabs__tab--selected {
-	background-color: var(--color-primary-accent);
-	color: var(--color-white);
+    background-color: var(--color-primary-accent);
+    color: var(--color-white);
 }
 
 .skills-grid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 20px;
-	margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
 .skill-card {
-	width: 10vw;
-	border: 1px solid var(--color-tertiary);
-	border-radius: 10px;
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	transition: all 0.3s ease;
-	box-shadow: 10px 10px 30px #c1c1c1;
+    width: 10vw;
+    border: 1px solid var(--color-tertiary);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 10px 10px 30px #c1c1c1;
 }
 
 .skill-card:hover {
-	transform: scale(1.05);
-	box-shadow: 0 0 5px var(--color-primary-accent);
-	text-shadow: 0 0 5px #FFFFFF;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px var(--color-primary-accent);
+    text-shadow: 0 0 5px #FFFFFF;
 }
 
 .skill-card img {
-	width: 100px;
-	height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .skill-card a {
-	margin-top: 10px;
-	color: var(--color-text-secondary);
-	text-decoration: none;
+    margin-top: 10px;
+    color: var(--color-text-secondary);
+    text-decoration: none;
 }
 
 
 .progress-bar {
-	width: 100%;
-	background-color: var(--color-white);
-	border-radius: 5px;
+    width: 100%;
+    background-color: var(--color-white);
+    border-radius: 5px;
 }
 
 .progress {
-	height: 20px;
-	background-color: var(--color-primary-accent);
-	border-radius: 5px;
+    height: 20px;
+    background-color: var(--color-primary-accent);
+    border-radius: 5px;
 }

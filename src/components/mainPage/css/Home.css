@@ -1,123 +1,123 @@
 .Home {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	margin-top: 7.5rem;
-	height: fit-content;
-	/*background-color: var(--color-gradient)*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5rem;
+    height: fit-content;
+    /*background-color: var(--color-gradient)*/
 }
 
 h1 {
-	display: flex;
-	align-self: center;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 100%;
-	text-align: center;
-	color: var(--color-text-primary);
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: var(--color-text-primary);
 }
 
 .subtitle {
-	padding: 0 0 3rem 0;
+    padding: 0 0 3rem 0;
 }
 
 .maininfo {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .profil {
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	margin: 0 calc(10% - 5rem) 0 calc(10% - 5rem);
-	width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 calc(10% - 5rem) 0 calc(10% - 5rem);
+    width: 30%;
 }
 
 .profil img {
-	border-radius: 50%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	width: fit-content;
-	height: auto;
-	margin-bottom: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    height: auto;
+    margin-bottom: 2rem;
 }
 
 .card {
-	background-color: var(--color-mint);
-	border-radius: 64px;
-	padding: 20px;
-	text-align: center;
-	width: 55%;
-	display: flex;
-	flex-direction: column;
-	height: min-content;
-	transition: all 0.2s ease-in-out;
+    background-color: var(--color-mint);
+    border-radius: 64px;
+    padding: 20px;
+    text-align: center;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    transition: all 0.2s ease-in-out;
 }
 
 .card:hover {
-	transform: translate3d(0, -4px, 0);
-	filter: saturate(1.25);
-	box-shadow: 0 0 0 1px var(--color-light-border);
+    transform: translate3d(0, -4px, 0);
+    filter: saturate(1.25);
+    box-shadow: 0 0 0 1px var(--color-light-border);
 }
 
 .card div h4 {
-	margin: 3rem 2rem 3rem 0;
-	display: flex;
-	justify-content: end;
-	font-family: "Arcon Bold", serif;
-	color: var(--color-text-bold);
+    margin: 3rem 2rem 3rem 0;
+    display: flex;
+    justify-content: end;
+    font-family: "Arcon Bold", serif;
+    color: var(--color-text-bold);
 }
 
 .text p {
-	text-align: justify;
-	font-size: 1.25rem;
-	margin: 20px;
-	height: fit-content;
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 20px;
+    height: fit-content;
 }
 
 @font-face {
-	font-family: 'Arcon Bold';
-	src: local("Arcon"), url('../../../../public/fonts/Arcon/Acorn-Bold.otf') format('opentype');
+    font-family: 'Arcon Bold';
+    src: local("Arcon"), url('../../../../public/fonts/Arcon/Acorn-Bold.otf') format('opentype');
 }
 
 @media (max-width: 1024px) {
-	.profil {
-		width: 40%;
-		align-items: center;
-		justify-content: center;
-	}
+    .profil {
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+    }
 
-	.card {
-		width: 70%;
-	}
+    .card {
+        width: 70%;
+    }
 
-	.card div h4 {
-		margin: 2rem 0 2rem 0;
-		justify-content: center;
-	}
+    .card div h4 {
+        margin: 2rem 0 2rem 0;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
-	.profil {
-		width: 50%;
-		align-items: center;
-		justify-content: center;
-		flex-direction: row;
-	}
+    .profil {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
 
-	.card {
-		width: 80%;
-	}
+    .card {
+        width: 80%;
+    }
 
-	.card div h4 {
-		margin: 2rem 0 2rem 0;
-		justify-content: center;
-	}
+    .card div h4 {
+        margin: 2rem 0 2rem 0;
+        justify-content: center;
+    }
 }
 
 

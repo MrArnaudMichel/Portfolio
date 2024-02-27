@@ -1,49 +1,49 @@
 /* ProjectItemShort.css */
 .project-item-short {
-	display: grid;
-	grid-template-areas:
+    display: grid;
+    grid-template-areas:
     "title logo"
     "description logo"
     "image image";
-	grid-gap: 1rem;
-	justify-content: space-between;
-	background: var(--color-white20);
-	padding: 3rem 3rem 0 3rem;
-	border-radius: 15px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    grid-gap: 1rem;
+    justify-content: space-between;
+    background: var(--color-white20);
+    padding: 3rem 3rem 0 3rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .project-item-short h3 {
-	grid-area: title;
+    grid-area: title;
 }
 
 .project-item-short .logo {
-	grid-area: logo;
+    grid-area: logo;
 }
 
 .project-item-short p:first-of-type {
-	grid-area: description;
+    grid-area: description;
 }
 
 .project-item-short .logo, .project-item-short .image {
-	width: 100px; /* Adjust as needed */
-	height: auto;
-	object-fit: cover;
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    object-fit: cover;
 }
 
 .project-item-short .image {
-	grid-area: image;
+    grid-area: image;
 }
 
 .project-item-short .image.large {
-	width: 90%;
-	height: auto;
-	display: flex;
-	align-self: center;
-	justify-self: center;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-self: center;
 
 }
 
 .project-item-short.double-grid-row {
-	grid-row: span 2;
+    grid-row: span 2;
 }
