@@ -34,7 +34,7 @@ h1 {
 .profil {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     margin: 0 calc(10% - 5rem) 0 calc(10% - 5rem);
     width: 30%;
 }
@@ -48,7 +48,7 @@ h1 {
 }
 
 .card {
-    background-color: var(--color-mint);
+    background-color: wheat;
     border-radius: 64px;
     padding: 20px;
     text-align: center;
@@ -78,6 +78,7 @@ h1 {
     font-size: 1.25rem;
     margin: 20px;
     height: fit-content;
+    color: var(--color-green600);
 }
 
 @font-face {

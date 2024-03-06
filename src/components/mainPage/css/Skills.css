@@ -4,7 +4,6 @@
 }
 
 .skills-container {
-    background-color: var(--color-white20);
     border-radius: 10px;
     padding: 20px;
 }
@@ -65,13 +64,12 @@ li.react-tabs__tab--selected {
     align-items: center;
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 10px 10px 30px #c1c1c1;
 }
 
 .skill-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 5px var(--color-primary-accent);
-    text-shadow: 0 0 5px #FFFFFF;
+    text-shadow: 0 0 2px var(--color-text-secondary);
 }
 
 .skill-card img {
@@ -85,6 +83,11 @@ li.react-tabs__tab--selected {
     text-decoration: none;
 }
 
+.skill-card a:hover {
+    color: var(--color-primary-accent);
+    transform: scale(1.1);
+}
+
 
 .progress-bar {
     width: 100%;
@@ -96,4 +99,35 @@ li.react-tabs__tab--selected {
     height: 20px;
     background-color: var(--color-primary-accent);
     border-radius: 5px;
+}
+@media (max-width: 1024px) {
+
+    .tab {
+        padding: 10px 15px;
+    }
+
+    .skills {
+        padding: 30px;
+    }
+
+    .skill-card {
+        width: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .tab {
+        padding: 10px 10px;
+    }
+    .skills {
+        padding: 20px;
+    }
+
+    .skills-grid {
+        gap: 10px;
+    }
+
+    .skill-card {
+        width: 20vw;
+    }
 }

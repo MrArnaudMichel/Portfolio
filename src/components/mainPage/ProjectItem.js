@@ -23,7 +23,7 @@ function ProjectItem({t, project, className}) {
         <Link to={`/Projects/${project.title}`} className={`project-item ${className}`} data-aos="fade-up">
             <ImagesSlider images={project.images}/>
             <h3>{t(project.title)}</h3>
-            <p className={"date"}>{project.date}</p>
+            <p className={"date"}><strong>{project.date}</strong></p>
             <p>{t(project.description[0])}</p>
             <div className={"languages"}>
                 {project.languages && project.languages.map((language) => {

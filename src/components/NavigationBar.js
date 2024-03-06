@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
-import './css/NavigationBar.css';
+import './mainPage/css/NavigationBar.css';
 
-function NavigationBar({t}) {
+function NavigationBar({ t, toggleTheme, currentTheme }) {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -57,6 +57,11 @@ function NavigationBar({t}) {
                     <Link to="/Contact" className="navbar-brand">
                         {t('NavContact')}
                     </Link>
+                </li>
+                <li>
+                    <button onClick={toggleTheme}>
+                        {currentTheme === 'light' ? 'Mode Nuit' : 'Mode Jour'}
+                    </button>
                 </li>
             </ul>
         </nav>

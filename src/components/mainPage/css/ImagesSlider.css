@@ -14,13 +14,13 @@
 }
 
 .slick-prev:before, .slick-next:before {
-    color: #025A4E;
+    color: var(--color-text-secondary);
 }
 
 .slick-dots li button:before {
-    color: #025A4E;
+    color: var(--color-text-secondary);
 }
 
 .slick-dots li.slick-active button:before {
-    color: #025A4E;
+    color: var(--color-text-primary);
 }

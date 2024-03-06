@@ -7,10 +7,12 @@
     "image image";
     grid-gap: 1rem;
     justify-content: space-between;
-    background: var(--color-white20);
-    padding: 3rem 3rem 0 3rem;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-backdrop);
+    backdrop-filter: blur(10px) saturate(1.3);
+    padding: var(--42px);
+    border-radius: var(--radius-base);
+    border: 2px solid var(--color-secondary);
+    cursor: pointer;
 }
 
 .project-item-short h3 {
@@ -33,6 +35,9 @@
 
 .project-item-short .image {
     grid-area: image;
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-base);
 }
 
 .project-item-short .image.large {

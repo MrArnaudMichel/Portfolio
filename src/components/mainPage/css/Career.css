@@ -18,10 +18,10 @@
 }
 
 .job-item {
-    padding: 10px 40px;
+    padding: var(--42px);
     position: relative;
-    background-color: var(--color-white20);
-    border-radius: 10px;
+    border: 2px solid var(--color-primary-accent);
+    border-radius: 10px 0 0 10px;
     block-size: 100%;
     width: 50%;
     box-sizing: border-box;
@@ -47,6 +47,7 @@
 
 .job-item:nth-child(even) {
     left: 50%;
+    border-radius: 0 10px 10px 0;
 }
 
 .job-item:nth-child(even)::after {

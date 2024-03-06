@@ -33,6 +33,10 @@
   "SudokuSolverDescription0": "Ce projet est un solveur de sudoku en ligne. Il permet de résoudre des grilles de sudoku, de les générer et de les sauvegarder. Le solveur utilise un algorithme de backtracking pour résoudre les grilles.",
   "SudokuSolverShortDescription": "Solveur de sudoku avec backtracking",
 
+  "ForetEternelleShortDescription": "Jeu de rôle en ligne",
+  "ForetEternelleDescription0": "Forêt Éternelle est un projet de jeu vidéo en 2D lancé en 2012 par une équipe de passionnés, avec pour objectif de capturer l'essence même de la franchise Pokémon dans une expérience unique. En tant que fangame, notre ambition était de renouer avec les éléments qui ont fait le succès de la série tout en proposant une approche plus mature et un scénario profondément travaillé.",
+  "ForetEternelleDescription1": "J'ai rejoint l'équipe en 2023 en tant que développeur ruby. J'ai travaillé sur le système de combat, le système de quêtes et le système de météo.",
+
   "GoToProject": "Voir le projet",
 
 

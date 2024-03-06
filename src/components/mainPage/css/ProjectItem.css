@@ -1,7 +1,8 @@
 .project-item {
     background: var(--color-white30);
+    backdrop-filter: blur(10px) saturate(1.3);
     color: var(--color-text-tertiary);
-    /*flex-direction: column;*/
+    padding: var(--42px);
     align-items: center;
     justify-content: center;
     border: 1px solid #ccc;
@@ -33,7 +34,7 @@
 }
 
 .project-item p {
-    padding: 0 1.5rem 1rem 1.5rem;
+    padding: 0 0 1rem 0;
     text-align: justify;
 }
 
@@ -44,7 +45,6 @@
 .title.language {
     align-self: start;
     display: flex;
-    padding-left: 1.5rem;
 }
 
 .languages {
@@ -53,8 +53,6 @@
     justify-content: start;
     align-items: start;
     align-self: start;
-    padding: 0;
-    margin: 0 0 0 1.5rem;
 }
 
 .languages.icons {
@@ -69,7 +67,8 @@
     justify-content: end;
     align-items: end;
     align-self: end;
-    padding: 0.5rem 1rem 0.5rem 0;
+    margin-right: -0.70rem;
+    padding: 0.5rem 0 0.5rem 0;
 }
 
 .icons img {
@@ -79,7 +78,6 @@
 }
 
 .icons p {
-    margin-right: 1rem;
     padding: 0;
     font-size: 1rem;
     color: var(--color-text-primary);
