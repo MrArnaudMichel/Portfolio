@@ -70,7 +70,6 @@ footer .footer-section select {
 
 footer .footer-section select:hover {
     background-color: var(--color-text-primary);
-
 }
 
 footer .footer-section select:focus {
@@ -82,11 +81,15 @@ footer .footer-section select:focus {
     color: var(--color-text-secondary);
 }
 
-.footer-section ul li a[href*="github.com/MrArnaudMichel/Portfolio"] {
+.footer-section a[href*="github.com/MrArnaudMichel/Portfolio"] {
+    display: flex;
+    text-decoration: none;
     color: var(--color-text-primary);
     transition: color 0.3s ease;
+
+    margin-top: 1rem;
 }
 
-.footer-section ul li a[href*="github.com/MrArnaudMichel/Portfolio"]:hover {
+.footer-section a[href*="github.com/MrArnaudMichel/Portfolio"]:hover {
     color: var(--color-text-active);
 }

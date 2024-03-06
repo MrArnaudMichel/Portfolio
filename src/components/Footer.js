@@ -17,6 +17,8 @@ function Footer({ t }) {
                 <div className={"footer-section MadeByMe"}>
                     <h3>{t('MadeByMeTitle')}</h3>
                     <p className={"TextMadeByMe"}>{t('MadeByMe')}</p>
+                    <p><a href="https://github.com/MrArnaudMichel/Portfolio" target="_blank"
+                          rel="noopener noreferrer"><FaGithub/><strong>{t('SourceCode')}</strong></a></p>
                 </div>
                 <div className={"footer-section"}>
                     <h3>{t('Links')}</h3>
@@ -29,13 +31,12 @@ function Footer({ t }) {
                                rel="noopener noreferrer"><FaLinkedin/> LinkedIn</a></li>
                         <li><a href="/cv.pdf" target="_blank" rel="noopener noreferrer"><CiUser/> Curriculum Vitae</a>
                         </li>
-                        <li><a href="https://github.com/MrArnaudMichel/Portfolio" target="_blank"
-                               rel="noopener noreferrer"><FaGithub/> Git Repo</a></li>
                     </ul>
                 </div>
                 <div className={"footer-section"}>
                     <h3>{t('Contact')}</h3>
                     <ul>
+                        <li><Link to={"/Contact"}><FaEnvelope/> {t('Form')}</Link></li>
                         <li><a href="mailto:example@example.com"><CiMail/> {t('Email')}</a></li>
                         <li><a href="tel:+1234567890"><CiPhone/> {t('Phone')}</a></li>
                         <li><a href="https://goo.gl/maps/example"><CiMap/> {t('Address')}</a></li>
@@ -51,7 +52,7 @@ function Footer({ t }) {
             </div>
             <div className={"copyright"}>
                 <p>© {new Date().getFullYear()} Arnaud Michel <span className={"dot"}>•</span> <a
-                    href={"https://www.seanhalpin.xyz/notes"}>{t('AllRightsReserved')}</a> <GoLaw/></p>
+                    href={"https://github.com/MrArnaudMichel/Portfolio/blob/main/LICENSE"}>{t('AllRightsReserved')}</a> <GoLaw/></p>
             </div>
         </footer>
     );

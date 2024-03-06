@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 import projects from './locales/projects.json';
 
 function App({ t }) {
-	const [theme, setTheme] = useState('light');
+	const [theme, setTheme] = useState(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
 	const toggleTheme = () => {
 		setTheme(theme === 'light' ? 'dark' : 'light');
