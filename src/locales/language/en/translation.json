@@ -1,4 +1,78 @@
 {
-  "test": "enVal",
-  "welcome": "Welcome to the world of React"
+  "NavHome": "Home",
+  "NavCareer": "Career",
+  "NavProjects": "Projects",
+  "NavSkills": "Skills",
+  "NavContact": "Contact",
+
+  "Home": "Hi! I'm Arnaud. A developer",
+  "Welcome": "I'm passionate about programming",
+
+  "WelcomeAboutMeTitle": "About Me",
+  "WelcomeAboutMeContent": "My name is Arnaud <strong>Michel</strong>, I am a full-stack web developer. I am currently in my second year of Computer Science at the IUT Robert Schumann (Illkirch-Graffenstaden). I started learning web development in 2019, and since then, I have not stopped learning and improving. I created this website to showcase my projects, skills, and journey.",
+
+  "HighSchoolTitle": "High School Diploma",
+  "HighSchoolDescription": "I obtained my high school diploma in 2022 from Gustave Courbet High School in Belfort. I chose mathematics as my specialty and computer science as an option. I graduated with honors.",
+  "CollegeTitle": "Computer Science Degree",
+  "CollegeDescription": "I am currently in my second year of Computer Science at the IUT Robert Schumann (Illkirch-Graffenstaden).",
+  "SuperUTitle": "Versatile Employee",
+  "SuperUDescription": "I worked as a versatile employee at Super U in Valdoie for 2 months. I learned to work in a team, manage my time, and be autonomous.",
+  "MTUTitle": "Erasmus Semester",
+  "MTUDescription": "I spent a semester on Erasmus at MTU in Cork, Ireland, where I improved my English and continued my Computer Science studies.",
+
+  "Projects": "My Projects",
+  "NoobletyDescription0": "Nooblety is an immersive game that transports you to a medieval universe set in Amboise during the Renaissance to the beginning of the Wars of Religion (1450 - 1574). You will start by playing as a young peasant, but your goal is to climb the social ladder to become a respected noble.",
+  "NoobletyShortDescription": "Online medieval role-playing game",
+
+  "ParserShortDescription": "UML Diagram Generation API",
+  "ParserDescription0": "The project involves creating an API that generates UML diagrams from a Java package. The API can generate Class Diagrams of Abstract Class Type (DCA) and Concrete Class Type (DCC).",
+
+  "ApplicationCulinaireShortDescription": "Cooking Recipe Application",
+  "ApplicationCulinaireDescription0": "This Windows Forms and .NET application allows users to search for cooking recipes, view them, modify them, and delete them. Recipes are stored in a SQL Server database. The application also allows managing ingredients and recipe categories.",
+
+  "SudokuSolverDescription0": "This project is an online sudoku solver. It allows solving sudoku grids, generating them, and saving them. The solver uses a backtracking algorithm to solve the grids.",
+  "SudokuSolverShortDescription": "Sudoku solver with backtracking",
+
+  "ForetEternelleShortDescription": "Online role-playing game",
+  "ForetEternelleDescription0": "Forêt Éternelle is a 2D video game project launched in 2012 by a team of enthusiasts, with the aim of capturing the very essence of the Pokémon franchise in a unique experience. As a fangame, our ambition was to reconnect with the elements that made the series successful while offering a more mature approach and a deeply worked scenario.",
+  "ForetEternelleDescription1": "I joined the team in 2023 as a Ruby developer. I worked on the combat system, quest system, and weather system.",
+
+  "GoToProject": "View Project",
+  "AllProjects": "All Projects",
+
+  "All": "All",
+  "Languages": "Languages",
+  "WebDevelopment": "Web Development",
+  "ToolsAndFramework": "Tools and Frameworks",
+  "LearnMore": "Learn More",
+
+  "Essential Basic Skills": "Basic Skills",
+  "Discrete Mathematics": "Discrete Mathematics",
+  "Probability": "Probability",
+  "Linear Algebra": "Linear Algebra",
+  "Cryptography": "Cryptography",
+  "Computer Networks": "Computer Networks",
+  "Design Patterns": "Design Patterns",
+  "Data Structures": "Data Structures",
+  "Algorithms": "Algorithms",
+  "MVC": "MVC",
+  "Databases": "Databases",
+  "Web Development": "Web Development",
+  "Mobile Development": "Mobile Development",
+  "Game Development": "Game Development",
+  "Teamwork": "Teamwork",
+  "HardTasks": "Hard Tasks",
+  "Difficult Schedules": "Difficult Schedules",
+  "Autonomy": "Autonomy",
+  "Adaptability": "Adaptability",
+  "English": "English",
+  "Open Projects": "Open Source Projects",
+
+  "MadeByMeTitle": "This website was created by me",
+  "MadeByMe": "This website was created exclusively with ReactJS, HTML, and CSS to provide a smooth and aesthetic user experience. Thanks to these modern technologies, I offer intuitive and responsive navigation. Moreover, this site is available in multiple languages and features a day/night mode for a personalized experience.",
+  "Links": "Links",
+  "Email": "Email",
+  "Phone": "Phone",
+  "Address": "Address",
+  "AllRightsReserved": "All Rights Reserved"
 }

@@ -22,7 +22,7 @@ function ProjectItem({t, project, className}) {
     return (
         <Link to={`/Projects/${project.title}`} className={`project-item ${className}`} data-aos="fade-up">
             <ImagesSlider images={project.images}/>
-            <h3>{t(project.title)}</h3>
+            <h3 data-aos="fade-up">{t(project.title)}</h3>
             <p className={"date"}><strong>{project.date}</strong></p>
             <p>{t(project.description[0])}</p>
             <div className={"languages"}>

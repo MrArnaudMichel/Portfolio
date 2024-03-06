@@ -12,7 +12,7 @@ function Skills({t}) {
             <div className="progress-bar">
                 <div className="progress" style={{width: `${skill.level * 10}%`}}></div>
             </div>
-            <a href={skill.link} target="_blank" rel="noopener noreferrer">Learn More</a>
+            <a href={skill.link} target="_blank" rel="noopener noreferrer">{t('LearnMore')}</a>
         </div>
     );
 

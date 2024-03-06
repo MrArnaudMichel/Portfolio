@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import './mainPage/css/NavigationBar.css';
+import ThemeToggle from './ThemeToggle';
 
 function NavigationBar({ t, toggleTheme, currentTheme }) {
     const [scrolled, setScrolled] = useState(false);
@@ -59,9 +60,7 @@ function NavigationBar({ t, toggleTheme, currentTheme }) {
                     </Link>
                 </li>
                 <li>
-                    <button onClick={toggleTheme}>
-                        {currentTheme === 'light' ? 'Mode Nuit' : 'Mode Jour'}
-                    </button>
+                    <ThemeToggle theme={currentTheme} toggleTheme={toggleTheme}/>
                 </li>
             </ul>
         </nav>

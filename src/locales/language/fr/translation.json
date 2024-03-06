@@ -38,7 +38,13 @@
   "ForetEternelleDescription1": "J'ai rejoint l'équipe en 2023 en tant que développeur ruby. J'ai travaillé sur le système de combat, le système de quêtes et le système de météo.",
 
   "GoToProject": "Voir le projet",
+  "AllProjects": "Tous les projets",
 
+  "All": "Tous",
+  "Languages": "Langages",
+  "WebDevelopment": "Développement web",
+  "ToolsAndFramework": "Outils et Frameworks",
+  "LearnMore": "En savoir plus",
 
   "Essential Basic Skills": "Compétences de base",
   "Discrete Mathematics": "Mathématiques discrètes",
@@ -60,5 +66,13 @@
   "Autonomy": "Autonomie",
   "Adaptability": "Adaptabilité",
   "English": "Anglais",
-  "Open Projects": "Open Source Projects"
+  "Open Projects": "Open Source Projects",
+
+  "MadeByMeTitle": "Ce site a été créé par moi-même",
+  "MadeByMe": "Ce site a été créé exclusivement avec ReactJS, HTML et CSS pour offrir une expérience utilisateur fluide et esthétique. Grâce à ces technologies modernes, je vous proposons une navigation intuitive et responsive. De plus, ce site est disponible en plusieurs langues et dispose d'un mode jour/nuit pour une expérience personnalisée.",
+  "Links": "Liens",
+  "Email": "Email",
+  "Phone": "Téléphone",
+  "Address": "Adresse",
+  "AllRightsReserved": "Tous droits réservés"
 }

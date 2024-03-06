@@ -35,6 +35,12 @@
       "link": "https://www.java.com",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
       "level": 9
+    },
+    {
+      "name": "R",
+        "link": "https://www.r-project.org/",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg",
+        "level": 6
     }
   ],
   "web_development": [
@@ -188,12 +194,6 @@
       "name": "TileD",
         "link": "https://www.mapeditor.org/",
         "image": "https://static.macupdate.com/products/62323/l/tiled-logo.png?v=1663570260",
-        "level": 7
-    },
-    {
-      "name": "PSDK",
-        "link": "https://pokemonworkshop.com/en/sdk",
-        "image": "https://pbs.twimg.com/profile_images/1416038618863374339/p-oU-vCE_400x400.png",
         "level": 7
     }
   ]

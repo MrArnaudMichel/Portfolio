@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 7.5rem;
     height: fit-content;
     /*background-color: var(--color-gradient)*/
 }

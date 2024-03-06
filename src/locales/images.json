@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Lycée Gustave Courbet Belfort (90), France",
+    "title": "Lycée Gustave Courbet Belfort (90), France \uD83C\uDDEB\uD83C\uDDF7",
     "image": "images/career/lyceeCourbet.jpg"
   },
   {
     "id": 2,
-    "title": "IUT Robert Schuman Illkirch (67), France",
+    "title": "IUT Robert Schuman Illkirch (67), France \uD83C\uDDEB\uD83C\uDDF7",
     "image": "images/career/iutRobertSchuman.jpg"
   },
   {
     "id": 3,
-    "title": "Super U Valdoie (90), France",
+    "title": "Super U Valdoie (90), France \uD83C\uDDEB\uD83C\uDDF7",
     "image": "images/career/superU.jpg"
   },
   {
     "id": 4,
-    "title": "MTU Cork, Ireland",
+    "title": "MTU Cork, Ireland \uD83C\uDDEE\uD83C\uDDEA",
     "image": "images/career/mtuCork.jpeg"
   }
 ]

@@ -1,0 +1,44 @@
+.SunIcon {
+    width: 16px !important;
+    transform: rotate(0deg);
+    margin-right: 8px;
+}
+
+.MoonIcon {
+    width: 16px !important;
+}
+
+.ThemeToggle:active .SunIcon,
+.ThemeToggle:active .MoonIcon {
+    transform: rotate(180deg);
+}
+
+@keyframes moveIcon {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+}
+
+@keyframes moveIconReverse {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+.icon-left {
+    position: absolute;
+    left: 5px;
+    animation: moveIcon 0.5s ease;
+}
+
+.icon-right {
+    position: absolute;
+    right: 5px;
+    animation: moveIconReverse 0.5s ease;
+}
+
+.ThemeToggle .SunIcon {
+    animation-direction: reverse;
+}
+
+.ThemeToggle .MoonIcon {
+    animation-direction: normal;
+}
