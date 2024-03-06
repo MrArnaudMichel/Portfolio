@@ -35,6 +35,12 @@
       "link": "https://www.java.com",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
       "level": 9
+    },
+    {
+      "name": "R",
+        "link": "https://www.r-project.org/",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg",
+        "level": 6
     }
   ],
   "web_development": [
@@ -181,19 +187,13 @@
     {
       "name": "CSV",
         "link": "https://www.csvjson.com/csv2json",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csv/csv-plain.svg",
+        "image": "https://media.licdn.com/dms/image/D5612AQHC2nx9rC9FQg/article-cover_image-shrink_600_2000/0/1687377146849?e=2147483647&v=beta&t=t8BQ7HJi-SkLtfee3jIRef_8Ry2X45BZTsGVuHS2lwU",
         "level": 10
     },
     {
       "name": "TileD",
         "link": "https://www.mapeditor.org/",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tiled/tiled-original.svg",
-        "level": 7
-    },
-    {
-      "name": "PSDK",
-        "link": "https://www.playstation.com/en-us/develop/",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playstation/playstation-original.svg",
+        "image": "https://static.macupdate.com/products/62323/l/tiled-logo.png?v=1663570260",
         "level": 7
     }
   ]

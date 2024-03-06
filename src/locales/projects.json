@@ -8,7 +8,8 @@
     "languages": [
       "C#",
       "UML",
-      "SQL"
+      "SQL",
+      "Markdown"
     ],
     "tools": [
       "Unity",
@@ -17,10 +18,10 @@
       "Photoshop"
     ],
     "images": [
-      "images/projects/mainImage.png",
-      "images/projects/screen0.png",
-      "images/projects/screen1.png",
-      "images/projects/screen2.png"
+      "images/projects/Nooblety0.png",
+      "images/projects/Nooblety1.png",
+      "images/projects/Nooblety2.png",
+      "images/projects/Nooblety3.png"
     ],
     "gitpath": "https://git.unistra.fr/t3-michel-morawien-kiefner/mod23-d",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
@@ -51,20 +52,21 @@
     "languages": [
       "C#",
       "UML",
-      "SQL"
+      "SQL",
+      "Markdown"
     ],
     "tools": [
       "Visual Studio",
       ".NET"
     ],
     "images": [
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image1.png",
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image2.png",
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image3.png",
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image4.png",
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image5.png",
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image6.png",
-      "https://raw.githubusercontent.com/bjt2017/Application_culinaire/master/image/image7.png"
+      "images/projects/Application Culinaire0.png",
+        "images/projects/Application Culinaire1.png",
+        "images/projects/Application Culinaire2.png",
+        "images/projects/Application Culinaire3.png",
+        "images/projects/Application Culinaire4.png",
+        "images/projects/Application Culinaire5.png",
+        "images/projects/Application Culinaire6.png"
     ],
     "logo": "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
     "gitpath": "https://github.com/bjt2017/Application_culinaire",
@@ -90,14 +92,15 @@
     "date": "2022",
     "languages": [
       "Java",
-      "UML"
+      "UML",
+      "Markdown"
     ],
     "tools": [
       "IntelliJ"
     ],
     "images": [
-      "images/projects/parser0.png",
-      "images/projects/parser1.png"
+      "images/projects/Parser0.png",
+      "images/projects/Parser1.png"
     ],
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
     "gitpath": "https://git.unistra.fr/michel_morawiec/p21_projet",
@@ -126,9 +129,9 @@
       "Figma"
     ],
     "images": [
-      "https://www.researchgate.net/profile/Radek-Pelanek/publication/261217550/figure/fig4/AS:667715102593028@1536207094075/Comprised-version-of-a-search-tree-of-a-backtracking-algorithm-on-a-4-4-Sudoku-puzzle.ppm",
-      "https://stackoverflow.com/questions/29545388/sudoku-backtracking-using-c-sharp",
-      "https://miro.medium.com/v2/resize:fit:1081/1*1wVvuJUuCTDMg--uT8g3ig.png"
+      "images/projects/Sudoku Solver0.png",
+      "images/projects/Sudoku Solver1.png",
+      "images/projects/Sudoku Solver2.png"
     ],
     "logo": "https://cdn-icons-png.flaticon.com/128/3269/3269927.png",
     "gitpath": "https://github.com/MrArnaudMichel/SAE11",
@@ -142,8 +145,8 @@
     ]
   },
   {
-    "title": "ForetEternelle",
-    "description": "ForetEternelleDescription",
+    "title": "Pokemon Foret Eternelle",
+    "description": ["ForetEternelleDescription0"],
     "shortDescription": "ForetEternelleShortDescription",
     "link": "ForetEternelle",
     "date": "2012-Present",
@@ -158,9 +161,9 @@
       "PSDK"
     ],
     "images": [
-      "https://pokemonworkshop.com/media/pages/games/foret-eternelle/15ed3b5bff-1668939008/screen1-fr-1024x592.webp",
-      "https://pokemonworkshop.com/media/pages/games/foret-eternelle/b8e6ebcabe-1668939009/screen2-fr-1024x592.webp",
-      "https://pokemonworkshop.com/media/pages/games/foret-eternelle/faaa37053e-1668939009/screen3-fr-1024x592.webp"
+      "images/projects/ForetEternelle0.webp",
+      "images/projects/ForetEternelle1.webp",
+      "images/projects/ForetEternelle2.webp"
     ],
     "gitpath": "",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",

@@ -19,7 +19,8 @@ i18n
 	.use(initReactI18next) // pass i18n instance to react-i18next
 	.init({
 		resources,
-		fallbackLng: "fr",
+		lng: "en",
+		fallbackLng: "en", // use en if detected lng is not available
 		debug: true,
 		detection: {
 			order: ['queryString', 'cookie'],

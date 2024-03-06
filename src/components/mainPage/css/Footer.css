@@ -1,0 +1,95 @@
+footer {
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer .list {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    padding: var(--48px);
+    margin-bottom: var(--24px);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section.MadeByMe{
+    width: 40%;
+
+}
+
+.TextMadeByMe {
+    font-size: var(--font-link);
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover {
+    color: var(--color-text-active);
+}
+
+.footer-section ul li a svg {
+    margin-right: 10px;
+}
+
+.dot {
+    color: var(--color-text-primary);
+}
+
+footer .footer-section select {
+    padding: 10px;
+    border: 1px solid var(--color-text-primary);
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+footer .footer-section select:hover {
+    background-color: var(--color-text-primary);
+}
+
+footer .footer-section select:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--color-text-primary);
+}
+
+.OptionValue {
+    color: var(--color-text-secondary);
+}
+
+.footer-section a[href*="github.com/MrArnaudMichel/Portfolio"] {
+    display: flex;
+    text-decoration: none;
+    color: var(--color-text-primary);
+    transition: color 0.3s ease;
+
+    margin-top: 1rem;
+}
+
+.footer-section a[href*="github.com/MrArnaudMichel/Portfolio"]:hover {
+    color: var(--color-text-active);
+}
