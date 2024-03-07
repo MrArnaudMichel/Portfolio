@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import './mainPage/css/NavigationBar.css';
 import ThemeToggle from './ThemeToggle';
 
-function NavigationBar({ t, toggleTheme, currentTheme }) {
+function NavigationBar({t, toggleTheme, currentTheme}) {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {

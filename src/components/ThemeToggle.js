@@ -28,11 +28,11 @@ const ToggleContainer = styled.button`
     position: relative;
 `;
 
-const Toggle = ({ theme, toggleTheme }) => {
+const Toggle = ({theme, toggleTheme}) => {
     return (
         <ToggleContainer onClick={toggleTheme}>
-            <SunIcon className={"SunIcon"} style={{color: theme === 'light' ? '#FFA500' : '#D3D3D3'}} />
-            <MoonIcon className={"MoonIcon"} style={{color: theme === 'dark' ? '#FFA500' : '#D3D3D3'}} />
+            <SunIcon className={"SunIcon"} style={{color: theme === 'light' ? '#FFA500' : '#D3D3D3'}}/>
+            <MoonIcon className={"MoonIcon"} style={{color: theme === 'dark' ? '#FFA500' : '#D3D3D3'}}/>
         </ToggleContainer>
     );
 };

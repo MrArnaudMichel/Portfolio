@@ -105,6 +105,7 @@ li.react-tabs__tab--selected {
     background-color: var(--color-primary-accent);
     border-radius: 5px;
 }
+
 @media (max-width: 1024px) {
 
     .tab {
@@ -125,6 +126,7 @@ li.react-tabs__tab--selected {
         padding: 10px 10px;
 
     }
+
     .skills {
         padding: 20px;
     }
