@@ -17,7 +17,7 @@ function Footer({ t }) {
                 <div className={"footer-section MadeByMe"}>
                     <h3>{t('MadeByMeTitle')}</h3>
                     <p className={"TextMadeByMe"}>{t('MadeByMe')}</p>
-                    <p><a href="https://github.com/MrArnaudMichel/Portfolio" target="_blank"
+                    <p><a href="https://github.com/MrArnaudMichel/Portfolio" target="_blank" className={"SourceCode"}
                           rel="noopener noreferrer"><FaGithub/><strong>{t('SourceCode')}</strong></a></p>
                 </div>
                 <div className={"footer-section"}>
