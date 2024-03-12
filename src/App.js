@@ -39,7 +39,7 @@ function App({ t }) {
 								<Skills t={t} />
 							</>
 						} />
-						<Route path="/AllProjects" element={<AllProjects t={t} />} />
+						<Route path="/Projects" element={<AllProjects t={t} />} />
 						<Route path="/Projects/:projectName" element={<ProjectPage projects={projects} />} />
 					</Routes>
 				</div>

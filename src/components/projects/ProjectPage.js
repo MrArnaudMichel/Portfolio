@@ -1,5 +1,7 @@
 import React from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
+import Contributor from './Contributor';
+import "./css/ProjectPage.css"
 
 function ProjectPage({projects}) {
     const {projectName} = useParams();
@@ -7,10 +9,19 @@ function ProjectPage({projects}) {
     const navigate = useNavigate();
 
     return (
-        <div>
-            <h1>{project.title}</h1>
-            <p>{project.description}</p>
+        <div className="project-page">
+            <div className="project-header">
+                <h1>{project.title}</h1>
+                <div className={"project-info"}>
+                    <div className={"timeline"}>
+                        Timeline
+                        <p>
+                            {project.date}
+                        </p>
+                    </div>
+                </div>
             <button onClick={() => navigate(-1)}>Retour</button>
+            </div>
         </div>
     );
 }

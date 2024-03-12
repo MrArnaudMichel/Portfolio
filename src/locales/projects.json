@@ -1,7 +1,7 @@
 [
   {
     "title": "Nooblety",
-    "description": ["NoobletyDescription0"],
+    "description": ["NoobletyDescription0", "NoobletyDescription1", "NoobletyDescription2", "NoobletyDescription3"],
     "shortDescription": "NoobletyShortDescription",
     "link": "Nooblety",
     "date": "2024",
@@ -25,6 +25,7 @@
     ],
     "gitpath": "https://git.unistra.fr/t3-michel-morawien-kiefner/mod23-d",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Lead Developper",
     "team": [
       {
         "name": "Arnaud Michel",
@@ -71,6 +72,7 @@
     "logo": "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
     "gitpath": "https://github.com/bjt2017/Application_culinaire",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Lead Developper",
     "team": [
       {
         "name": "Arnaud Michel",
@@ -105,6 +107,7 @@
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
     "gitpath": "https://git.unistra.fr/michel_morawiec/p21_projet",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Lead Developper",
     "team": [
       {
         "name": "Arnaud Michel",
@@ -136,6 +139,7 @@
     "logo": "https://cdn-icons-png.flaticon.com/128/3269/3269927.png",
     "gitpath": "https://github.com/MrArnaudMichel/SAE11",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Lead Developper",
     "team": [
       {
         "name": "Arnaud Michel",
@@ -167,6 +171,7 @@
     ],
     "gitpath": "",
     "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Developper",
     "team": [
       {
         "name": "Arnaud Michel",

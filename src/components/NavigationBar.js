@@ -45,7 +45,7 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/AllProjects" className="navbar-brand">
+                    <Link to="/Projects" className="navbar-brand">
                         {t('NavProjects')}
                     </Link>
                 </li>
