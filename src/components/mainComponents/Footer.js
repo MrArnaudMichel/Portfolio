@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import "../i18n";
+import "../../i18n";
 import {FaEnvelope, FaGithub, FaGitlab, FaLinkedin} from 'react-icons/fa';
 import {GoLaw} from "react-icons/go";
 import {CiMail, CiMap, CiPhone, CiUser} from "react-icons/ci";
-import './mainPage/css/Footer.css';
-import i18n from "../i18n";
+import './css/Footer.css';
+import i18n from "../../i18n";
 
 function Footer({t}) {
     const changeLanguage = (event) => {

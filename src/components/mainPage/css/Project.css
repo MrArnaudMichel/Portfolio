@@ -1,8 +1,8 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
     padding: 0;
 }
@@ -26,13 +26,14 @@ a.buttonAllProjects {
 a.buttonAllProjects strong {
     padding: 1rem 3rem;
     border-radius: 10px;
-    background-color: var(--color-primary-accent);
+    background-color: var(--color-secondary);
     color: var(--color-white);
     font-size: 1.5rem;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 a.buttonAllProjects strong:hover {
-    cursor: pointer;
-    background-color: var(--color-primary-accent);
+    background-color: var(--color-text-primary);
+    color: var(--color-text-tertiary);
 }

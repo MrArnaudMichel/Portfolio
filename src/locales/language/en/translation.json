@@ -75,5 +75,9 @@
   "Email": "Email",
   "Phone": "Phone",
   "Address": "Address",
-  "AllRightsReserved": "All Rights Reserved"
+  "AllRightsReserved": "All Rights Reserved",
+
+  "timeline": "Timeline",
+  "contributors": "Contributors",
+  "role": "Role"
 }

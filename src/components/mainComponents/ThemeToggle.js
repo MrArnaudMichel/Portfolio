@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import "./mainPage/css/ThemeToggle.css";
+import "./css/ThemeToggle.css";
 
 import {FaMoon, FaSun} from 'react-icons/fa';
 

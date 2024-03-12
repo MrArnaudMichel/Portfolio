@@ -1,7 +1,8 @@
 [
   {
     "title": "Nooblety",
-    "description": ["NoobletyDescription0", "NoobletyDescription1", "NoobletyDescription2", "NoobletyDescription3"],
+    "description": ["NoobletyDescription0", "NoobletyDescription1"],
+    "titledescription": ["NoobletyTitleDescription0", "NoobletyTitleDescription1"],
     "shortDescription": "NoobletyShortDescription",
     "link": "Nooblety",
     "date": "2024",
@@ -24,7 +25,7 @@
       "images/projects/Nooblety3.png"
     ],
     "gitpath": "https://git.unistra.fr/t3-michel-morawien-kiefner/mod23-d",
-    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "video": "https://www.youtube.com/embed/bJzb-RuUcMU",
     "role": "Lead Developper",
     "team": [
       {

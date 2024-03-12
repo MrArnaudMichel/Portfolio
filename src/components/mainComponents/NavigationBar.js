@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
-import './mainPage/css/NavigationBar.css';
+import './css/NavigationBar.css';
 import ThemeToggle from './ThemeToggle';
 
 function NavigationBar({t, toggleTheme, currentTheme}) {
@@ -20,15 +20,6 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
             document.removeEventListener("scroll", handleScroll);
         };
     }, [scrolled]);
-
-    const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-            //     remonte en plus de 100px
-            //     window.scrollBy(0, -100);
-        }
-    };
 
 
     return (

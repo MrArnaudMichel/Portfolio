@@ -43,16 +43,16 @@
 }
 
 .title.language {
-    align-self: start;
+    align-self: flex-start;
     display: flex;
 }
 
 .languages {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
-    align-self: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
 }
 
 .languages.icons {
@@ -64,9 +64,9 @@
 .tools {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
-    align-items: end;
-    align-self: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
     margin-right: -0.70rem;
     padding: 0.5rem 0 0.5rem 0;
 }
