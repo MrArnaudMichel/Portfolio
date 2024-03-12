@@ -21,15 +21,6 @@ function NavigationBar({ t, toggleTheme, currentTheme }) {
         };
     }, [scrolled]);
 
-    const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-            //     remonte en plus de 100px
-            //     window.scrollBy(0, -100);
-        }
-    };
-
 
     return (
         <nav>

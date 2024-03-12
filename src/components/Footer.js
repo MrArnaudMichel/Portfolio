@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../i18n";
-import { FaGithub, FaGitlab, FaLinkedin, FaFilePdf, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaGithub, FaGitlab, FaLinkedin, FaEnvelope} from 'react-icons/fa';
 import { GoLaw } from "react-icons/go";
 import {CiMail, CiPhone, CiMap, CiUser} from "react-icons/ci";
 import './mainPage/css/Footer.css';

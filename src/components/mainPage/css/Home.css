@@ -67,7 +67,7 @@ h1 {
 .card div h4 {
     margin: 3rem 2rem 3rem 0;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-family: "Arcon Bold", serif;
     color: var(--color-text-bold);
 }
