@@ -56,24 +56,6 @@
     margin: 0;
 }
 
-.contributors {
-    display: flex;
-    gap: 1rem;
-}
-
-.contributor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contributor img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    border: 3px solid var(--color-text-secondary);
-}
-
 .project-description {
     display: flex;
     justify-content: center;
