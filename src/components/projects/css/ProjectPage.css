@@ -20,14 +20,7 @@
     justify-content: space-around; /* Déjà présent dans votre code */
     font-size: var(--font-link);
 }
-
-.timeline{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.contributors {
+.project-header-main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -36,21 +29,13 @@
 .contributorsimg {
     display: flex;
 }
-.role {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
+
 
 .colorprimary {
     color: var(--color-text-primary);
 }
 
-.project-gitpath {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
+
 
 .project-header p {
     margin: 0;

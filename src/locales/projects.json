@@ -6,6 +6,7 @@
     "shortDescription": "NoobletyShortDescription",
     "link": "Nooblety",
     "date": "2024",
+    "website": "https://nooblety.com",
     "languages": [
       "C#",
       "UML",
@@ -14,6 +15,7 @@
     ],
     "tools": [
       "Unity",
+      "Git",
       "Visual Studio",
       "Blender",
       "Photoshop"
@@ -25,7 +27,6 @@
       "images/projects/Nooblety3.png"
     ],
     "gitpath": "https://git.unistra.fr/t3-michel-morawien-kiefner/mod23-d",
-    "video": "https://www.youtube.com/embed/bJzb-RuUcMU",
     "role": "Lead Developper",
     "team": [
       {
@@ -47,7 +48,8 @@
   },
   {
     "title": "Application Culinaire",
-    "description": ["ApplicationCulinaireDescription0"],
+    "description": ["ApplicationCulinaireDescription0", "ApplicationCulinaireDescription1", "ApplicationCulinaireDescription2"],
+    "titledescription": ["ApplicationCulinaireTitleDescription0", "ApplicationCulinaireTitleDescription1", "ApplicationCulinaireTitleDescription2"],
     "shortDescription": "ApplicationCulinaireShortDescription",
     "link": "ApplicationCulinaire",
     "date": "2023",
@@ -58,6 +60,7 @@
       "Markdown"
     ],
     "tools": [
+      "Git",
       "Visual Studio",
       ".NET"
     ],
@@ -81,7 +84,7 @@
         "role": "Lead Developper"
       },
       {
-        "name": "benjamin Morawiec",
+        "name": "Benjamin Morawiec",
         "git": "https://github.com/bjt2017",
         "role": "Developper"
       }
@@ -89,7 +92,8 @@
   },
   {
     "title": "API PlantUML Parser",
-    "description": ["ParserDescription0"],
+    "description": ["ParserDescription0", "ParserDescription1"],
+    "titledescription": ["ParserTitleDescription0", "ParserTitleDescription1"],
     "shortDescription": "ParserShortDescription",
     "link": "APIPlantUMLParser",
     "date": "2022",
@@ -99,6 +103,7 @@
       "Markdown"
     ],
     "tools": [
+      "Git",
       "IntelliJ"
     ],
     "images": [
@@ -119,7 +124,8 @@
   },
   {
     "title": "Sudoku Solver",
-    "description": ["SudokuSolverDescription0"],
+    "description": ["SudokuSolverDescription0", "SudokuSolverDescription1", "SudokuSolverDescription2"],
+    "titledescription": ["SudokuSolverTitleDescription0", "SudokuSolverTitleDescription1", "SudokuSolverTitleDescription2"],
     "shortDescription": "SudokuSolverShortDescription",
     "link": "SudokuSolver",
     "date": "2023",
@@ -129,6 +135,7 @@
       "CSS"
     ],
     "tools": [
+      "Git",
       "IntelliJ",
       "Figma"
     ],
@@ -151,7 +158,8 @@
   },
   {
     "title": "Pokemon Foret Eternelle",
-    "description": ["ForetEternelleDescription0"],
+    "description": ["ForetEternelleDescription0", "ForetEternelleDescription1", "ForetEternelleDescription2", "ForetEternelleDescription3", "ForetEternelleDescription4"],
+    "titledescription": ["ForetEternelleTitleDescription0", "ForetEternelleTitleDescription1", "ForetEternelleTitleDescription2", "ForetEternelleTitleDescription3", "ForetEternelleTitleDescription4"],
     "shortDescription": "ForetEternelleShortDescription",
     "link": "ForetEternelle",
     "date": "2012-Present",
@@ -161,6 +169,7 @@
       "CSV"
     ],
     "tools": [
+      "Git",
       "IntelliJ",
       "TileD",
       "PSDK"
@@ -178,27 +187,99 @@
         "name": "Arnaud Michel",
         "git": "https://github.com/MrArnaudMichel",
         "role": "Developper"
+      },
+      {
+        "name": "Aerun",
+        "git": "https://github.com/AerunDev",
+        "role": "Project Leader"
+      },
+      {
+        "name": "Elliott Ventura",
+        "git": "https://github.com/eventura26",
+        "role": "Developper"
       }
     ]
   },
   {
-    "title": "Project6Title",
-    "description": "Project6Description",
-    "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+    "title": "CocoBot",
+    "description": ["CocoBotDescription0", "CocoBotDescription1", "CocoBotDescription2"],
+    "titledescription": ["CocoBotTitleDescription0", "CocoBotTitleDescription1", "CocoBotTitleDescription2"],
+    "shortDescription": "CocoBotShortDescription",
+    "link": "CocoBot",
+    "date": "2023",
+    "languages": [
+      "Python",
+      "Markdown"
     ],
-    "logo": "https://via.placeholder.com/150"
-
+    "tools": [
+      "Git",
+      "IntelliJ",
+      "Figma"
+    ],
+    "images": [
+      "images/projects/CocoBot0.gif",
+      "images/projects/CocoBot1.png",
+      "images/projects/CocoBot2.png"
+    ],
+    "gitpath": "https://github.com/MrArnaudMichel/CocoBot",
+    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Lead Developper",
+    "logo": "https://cdn.discordapp.com/icons/1172982242037993623/5495eaabf4294c21e366d0f2d5c41c00.webp",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      },
+      {
+        "name": "Léo Kiefner",
+        "git": "https://github.com/LeoKiefner",
+        "role": "Project Owner"
+      }
+    ]
   },
   {
-    "title": "Project7Title",
-    "description": "Project7Description",
+    "title": "AIctron",
+    "description": ["AIctronDescription0", "AIctronDescription1", "AIctronDescription2"],
+    "titledescription": ["AIctronTitleDescription0", "AIctronTitleDescription1", "AIctronTitleDescription2"],
+    "shortDescription": "AIctronShortDescription",
+    "link": "AIctron",
+    "date": "2024",
+    "languages": [
+      "Python",
+      "React",
+      "Markdown"
+    ],
+    "tools": [
+      "Git",
+      "Electron",
+      "IntelliJ",
+      "Figma"
+    ],
     "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+      "images/projects/AIctron0.png",
+      "images/projects/AIctron1.png",
+      "images/projects/AIctron2.png"
+    ],
+    "gitpath": "https://github.com/Group-3-Charlie/AIctron",
+    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "role": "Lead Developper",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      },
+      {
+        "name": "Quentin Macheda",
+        "git": "https://github.com/QuentinMacheda",
+        "role": "Web Developper"
+      },
+      {
+          "name": "Aaron Broderick",
+          "git": "https://github.com/AaronBrdrck",
+          "role": "Web Developper"
+      }
     ]
   },
   {

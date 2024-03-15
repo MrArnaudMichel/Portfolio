@@ -19,11 +19,11 @@ i18n
 	.use(initReactI18next) // pass i18n instance to react-i18next
 	.init({
 		resources,
-		lng: "en",
+		lng: "fr",
 		fallbackLng: "en", // use en if detected lng is not available
 		debug: true,
 		detection: {
-			order: ['queryString', 'cookie'],
+			order: ['navigator', 'queryString', 'cookie'], // Change l'ordre de détection
 			cache: ['cookie']
 		},
 		interpolation: {
@@ -31,6 +31,15 @@ i18n
 		}
 	})
 	.then(() => {
-		console.log(i18n.language); // logs the detected language
+		console.log("i18n initialized");
+		console.log(i18n.language);
+		console.log(i18n.services.languageDetector.detectors);
+		console.log(i18n.services.languageDetector.caches);
+		console.log(i18n.services.languageDetector.lookup);
+		console.log(i18n.services.languageDetector.order);
+		console.log(i18n.services.languageDetector);
+		// logs the detected language affiche aussi le retour des moyens de détection
+
 	});
+
 export default i18n;

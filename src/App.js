@@ -11,7 +11,7 @@ import Career from "./components/mainPage/Career";
 import AllProjects from "./components/projects/AllProjects";
 import ProjectPage from './components/projects/ProjectPage';
 import Footer from "./components/mainComponents/Footer";
-
+import ScrollToTop from './ScrollToTop';
 
 import projects from './locales/projects.json';
 
@@ -26,6 +26,7 @@ function App({ t }) {
 		<div className={`App ${theme}`}>
 			<GlobalStyle theme={theme} />
 			<Router>
+				<ScrollToTop />
 				<div className={"header"}>
 					<NavigationBar t={t} toggleTheme={toggleTheme} currentTheme={theme} />
 				</div>
@@ -46,6 +47,7 @@ function App({ t }) {
 				<div className={"footer"}>
 					<Footer t={t} />
 				</div>
+				<ScrollToTop />
 			</Router>
 		</div>
 	);

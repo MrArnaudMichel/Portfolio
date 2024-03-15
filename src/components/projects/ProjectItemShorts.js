@@ -13,7 +13,7 @@ function ProjectItemShort({t, project, className}) {
     }, []);
 
     return (
-        <Link to={`/Projects/${project.title}`}
+        <Link to={`/Projects/${project.link}`}
               className={`project-item-short ${className} ${!project.logo ? 'double-grid-row' : ''}`}
               data-aos="fade-up">
             <h5>{t(project.title)}</h5>
