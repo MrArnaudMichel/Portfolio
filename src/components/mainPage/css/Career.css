@@ -25,6 +25,8 @@
     block-size: 100%;
     width: 50%;
     box-sizing: border-box;
+    background-color: var(--color-backdrop);
+    backdrop-filter: blur(10px) saturate(1.3);
 }
 
 
@@ -39,6 +41,10 @@
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+}
+
+p.job-description {
+    padding: 20px !important;
 }
 
 .job-item:nth-child(odd) {

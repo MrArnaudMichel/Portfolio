@@ -47,7 +47,7 @@ function Career({t}) {
                     >
                         <h2>{t(job.title)}</h2>
                         <p className={"date"}>{job.date}</p>
-                        <p>{t(job.description)}</p>
+                        <p className={"job-description"}>{t(job.description)}</p>
                         <div className={"image-container"}>
                             <img src={images.find((image) => image.id === job.image).image} alt={job.title}/>
                             <div

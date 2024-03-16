@@ -13,6 +13,12 @@
     border-radius: var(--radius-base);
     border: 2px solid var(--color-secondary);
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-item-short:hover {
+    box-shadow: 0 0 10px var(--color-text-primary);
+    transform: translateY(-4px);
 }
 
 .project-item-short h3 {
