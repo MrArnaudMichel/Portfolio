@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import "../i18n";
-import { FaGithub, FaGitlab, FaLinkedin, FaEnvelope} from 'react-icons/fa';
-import { GoLaw } from "react-icons/go";
-import {CiMail, CiPhone, CiMap, CiUser} from "react-icons/ci";
-import './mainPage/css/Footer.css';
-import i18n from "../i18n";
+import {Link} from 'react-router-dom';
+import "../../i18n";
+import {FaEnvelope, FaGithub, FaGitlab, FaLinkedin} from 'react-icons/fa';
+import {GoLaw} from "react-icons/go";
+import {CiMail, CiMap, CiPhone, CiUser} from "react-icons/ci";
+import './css/Footer.css';
+import i18n from "../../i18n";
 
-function Footer({ t }) {
+function Footer({t}) {
     const changeLanguage = (event) => {
         i18n.changeLanguage(event.target.value);
     };
@@ -17,7 +17,7 @@ function Footer({ t }) {
                 <div className={"footer-section MadeByMe"}>
                     <h3>{t('MadeByMeTitle')}</h3>
                     <p className={"TextMadeByMe"}>{t('MadeByMe')}</p>
-                    <p><a href="https://github.com/MrArnaudMichel/Portfolio" target="_blank"
+                    <p><a href="https://github.com/MrArnaudMichel/Portfolio" target="_blank" className={"SourceCode"}
                           rel="noopener noreferrer"><FaGithub/><strong>{t('SourceCode')}</strong></a></p>
                 </div>
                 <div className={"footer-section"}>
@@ -52,7 +52,8 @@ function Footer({ t }) {
             </div>
             <div className={"copyright"}>
                 <p>© {new Date().getFullYear()} Arnaud Michel <span className={"dot"}>•</span> <a
-                    href={"https://github.com/MrArnaudMichel/Portfolio/blob/main/LICENSE"}>{t('AllRightsReserved')}</a> <GoLaw/></p>
+                    href={"https://github.com/MrArnaudMichel/Portfolio/blob/main/LICENSE"}>{t('AllRightsReserved')}</a>
+                    <GoLaw/></p>
             </div>
         </footer>
     );

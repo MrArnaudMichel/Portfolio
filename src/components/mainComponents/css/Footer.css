@@ -24,7 +24,7 @@ footer .list {
     flex-direction: column;
 }
 
-.footer-section.MadeByMe{
+.footer-section.MadeByMe {
     width: 40%;
 
 }
@@ -93,3 +93,28 @@ footer .footer-section select:focus {
 .footer-section a[href*="github.com/MrArnaudMichel/Portfolio"]:hover {
     color: var(--color-text-active);
 }
+
+@media (max-width: 768px) {
+    footer .list {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    footer .footer-section {
+        margin-bottom: 20px;
+    }
+
+    footer .footer-section.MadeByMe {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .SourceCode {
+        display: flex;
+        align-self: center;
+    }
+}
+

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./css/ImagesSlider.css"; // Create this file for custom styles
+import "./css/ImagesSlider.css";
 
 const ImageSlider = ({images}) => {
     const settings = {
@@ -22,7 +22,7 @@ const ImageSlider = ({images}) => {
             <Slider {...settings}>
                 {images.map((image, index) => (
                     <div key={index}>
-                        <img src={image} width={1920} height={1080} alt={`Slide ${index}`}/>
+                        <img src={`/${image}`} width={1920} height={1080} alt={`Slide ${index}`}/>
                     </div>
                 ))}
             </Slider>

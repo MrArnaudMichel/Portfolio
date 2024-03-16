@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
-import './mainPage/css/NavigationBar.css';
+import './css/NavigationBar.css';
 import ThemeToggle from './ThemeToggle';
 
-function NavigationBar({ t, toggleTheme, currentTheme }) {
+function NavigationBar({t, toggleTheme, currentTheme}) {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -26,17 +26,19 @@ function NavigationBar({ t, toggleTheme, currentTheme }) {
         <nav>
             <ul className={scrolled ? "navbar scrolled" : "navbar"}>
                 <li>
-                    <Link to="/#Home" className="navbar-brand">
+                    <Link to="/" className="navbar-brand">
                         {t('NavHome')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Career" className="navbar-brand" onClick={() => window.scrollTo(0, 0)}>
+                    <Link to="/Career" className="navbar-brand">
                         {t('NavCareer')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/AllProjects" className="navbar-brand">
+                    <Link to="/Projects" className="navbar-brand" onClick={() => {
+                        window.location.href = "#Projects";
+                    }}>
                         {t('NavProjects')}
                     </Link>
                 </li>

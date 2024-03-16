@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     :root {
@@ -215,10 +215,10 @@ const GlobalStyle = createGlobalStyle`
         --spectrum-clay-500: #637871;
     }
 
-  body {
-    transition: background-color 0.5s ease;
-    background-color: ${props => props.theme === 'dark' ? 'var(--color-green800)' : 'var(--color-beige)'};
-  }
+    body {
+        transition: background-color 0.5s ease;
+        background-color: ${props => props.theme === 'dark' ? 'var(--color-green800)' : 'var(--color-beige)'};
+    }
 `;
 
 export default GlobalStyle;

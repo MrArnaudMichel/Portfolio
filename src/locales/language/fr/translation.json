@@ -5,11 +5,13 @@
   "NavSkills": "Compétences",
   "NavContact": "Contact",
 
-  "Home": "Bonjour ! Je suis Arnaud. Un développeur",
-  "Welcome": "Je suis passionné par la programmation",
+  "Home": "Bienvenue sur mon Portfolio.",
+  "Welcome": "Je suis un développeur full-stack.",
 
   "WelcomeAboutMeTitle": "Présentation",
   "WelcomeAboutMeContent": "Je suis m'appelle Arnaud <strong>Michel</strong>, je suis un développeur web full-stack. Je suis actuellement en second année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden). J'ai commencé à apprendre la programmation web en 2019, et depuis je n'ai pas arrêté d'apprendre et de me perfectionner. J'ai créee ce site web pour vous présenter mes projets, mes compétences et mon parcours.",
+
+  "Career": "Mon parcours",
 
   "HighSchoolTitle": "Baccalauréat Scientifique",
   "HighSchoolDescription": "J'ai obtenu mon baccalauréat scientifique en 2022 au lycée Gustave Courbet à Belfort. J'ai choisi la spécialité mathématiques et l'option informatique et sciences du numérique. J'ai obtenu la mention bien.",
@@ -22,20 +24,63 @@
 
   "Projects": "Mes projets",
   "NoobletyDescription0": "Nooblety est un jeu immersif qui vous transporte dans un univers médiéval se déroulant à Amboise pendant la Renaissance jusqu'au début des Guerres de religion (1450 - 1574). Vous commencerez en incarnant un jeune paysan, mais votre objectif est de gravir les échelons de la société pour devenir un noble respecté.",
-  "NoobletyShortDescription": "Jeu de rôle médiéval en ligne",
+  "NoobletyDescription1": "Votre personnage naît dans la peau d'un modeste paysan, et vous avez la liberté de choisir comment il évolue. Vous pouvez tenter de maximiser vos profits en vendant vos produits, ou bien essayer (même si cela peut s'avérer difficile) de bâtir un réseau de relations et une réputation parmi les différentes castes sociales. Une fois votre heure arrivée, le fils de votre personnage naît, vous prendrez le contrôle de sa destinée. Vous pourrez choisir son métier en fonction des ressources et de la réputation que vous avez accumulées avec le personnage précédent. Votre nouveau personnage, un fils né avec des opportunités différentes, pourra entreprendre diverses quêtes visant à obtenir la reconnaissance de la noblesse. Le jeu se poursuit jusqu'à ce que votre personnage atteigne le statut de noble tant convoité ou jusqu'à la fin d'un nombre prédéfini de générations. Serez-vous capable de guider votre lignée vers la noblesse et la gloire dans cet univers médiéval exigeant ?",
+  "NoobletyTitleDescription0": "Aperçu du jeu",
+  "NoobletyTitleDescription1": "Description du jeu",
+
+
+  "NoobletyShortDescription": "Jeu ludique sur la société de caste à la Renaissance",
 
   "ParserShortDescription": "API de génération de diagrammes UML",
   "ParserDescription0": "Le projet consiste à créer une API permettant de générer des diagrammes UML à partir d'un package Java. L'API peut génénerer des diagrammes de classes de type DCA (Diagramme de Classe Abstrait) et DCC (Diagramme de Classe Concret).",
+  "ParserDescription1": "L'API est développée en Java et utilise la Javadoc pour extraire les informations des classes. L'API peut être utilisée en ligne de commande. Pour cela il suffit de sélectionner un package Java, une fois cela fait vous pouvez modifier les options (tel que le type de diagramme, le nom du fichier, les relations à afficher, l'affichage des types non primitif avec des associations...) et enfin générer le diagramme.",
+  "ParserTitleDescription0": "Description de l'API",
+  "ParserTitleDescription1": "Aperçu de l'API",
 
   "ApplicationCulinaireShortDescription": "Application de recettes de cuisine",
   "ApplicationCulinaireDescription0": "Cette application en Windows Forms et .NET permet de rechercher des recettes de cuisine, de les consulter, de les modifier et de les supprimer. Les recettes sont stockées dans une base de données SQL Server. L'application permet également de gérer les ingrédients et les catégories de recettes.",
+  "ApplicationCulinaireDescription1": "L'application est développée en C#. Elle utilise une base de données SQL Server pour stocker les recettes, les ingrédients et les catégories. L'application permet de rechercher des recettes, de les consulter, de les modifier et de les supprimer. L'application permet également de gérer les ingrédients et les catégories de recettes. il est également possible d'ajouter des avis et de télecharger des recettes.",
+  "ApplicationCulinaireDescription2": "J'ai travaillé sur ce projet en binôme avec un autre étudiant. J'ai principalement travaillé sur la gestion des recettes, des ingrédients et des catégories. J'ai également travaillé sur la gestion des utilisateurs. Mon binôme a principalement travaillé sur la gestion des avis et le graphisme de l'application.",
+  "ApplicationCulinaireTitleDescription0": "Aperçu de l'application",
+  "ApplicationCulinaireTitleDescription1": "Description de l'application",
+  "ApplicationCulinaireTitleDescription2": "Mon rôle dans le projet",
 
   "SudokuSolverDescription0": "Ce projet est un solveur de sudoku en ligne. Il permet de résoudre des grilles de sudoku, de les générer et de les sauvegarder. Le solveur utilise un algorithme de backtracking pour résoudre les grilles.",
+  "SudokuSolverDescription1": "Le solveur est développé en C#. Il utilise un algorithme de backtracking pour résoudre les grilles. Cet algorithme est disponible en 2 versions : une version récursive et une version itérative. Le solveur permet également de générer des grilles de sudoku et de les sauvegarder.",
+  "SudokuSolverDescription2": "Le programme est également lié à un site web qui permet d'afficher les grilles de sudoku et de les résoudre. le site web est développé unique en HTML et CSS.",
   "SudokuSolverShortDescription": "Solveur de sudoku avec backtracking",
+  "SudokuSolverTitleDescription0": "Aperçu du solveur",
+  "SudokuSolverTitleDescription1": "Description du solveur",
+  "SudokuSolverTitleDescription2": "Site web",
 
   "ForetEternelleShortDescription": "Jeu de rôle en ligne",
   "ForetEternelleDescription0": "Forêt Éternelle est un projet de jeu vidéo en 2D lancé en 2012 par une équipe de passionnés, avec pour objectif de capturer l'essence même de la franchise Pokémon dans une expérience unique. En tant que fangame, notre ambition était de renouer avec les éléments qui ont fait le succès de la série tout en proposant une approche plus mature et un scénario profondément travaillé.",
-  "ForetEternelleDescription1": "J'ai rejoint l'équipe en 2023 en tant que développeur ruby. J'ai travaillé sur le système de combat, le système de quêtes et le système de météo.",
+  "ForetEternelleDescription1": "Le jeu est développé en Ruby. Il est actuellement en développement et est actuellement sur ca version 0.37 ou environ 1 tiers du jeu est développé. Le jeu est basé sur un moteur créer par l'équipe: Pokemon SDK, qui permet de créer ses propres jeux Pokémon.",
+  "ForetEternelleDescription2": "Pour ajouter des fonctionnalités au jeu, nous faisons du monkey patching sur le moteur. Certaines fonctionnalités sont ajoutées directement dans le moteur par l'équipe. De plus, nous avons également créé un site web pour le jeu qui permet de suivre l'avancée du jeu, de télécharger le launcher et de discuter avec la communauté.",
+  "ForetEternelleDescription3": "J'ai rejoint l'équipe en 2023 en tant que développeur ruby. J'ai travaillé, pour le moment, sur le système d'évolutions des pokémons.",
+  "ForetEternelleDescription4": "Jeune dresseur Pokémon en quête d’aventures, vous prenez part au tournoi junior se tenant à Bourg Palette. Malgré votre triomphe, papa et maman ne sont pas là pour vous féliciter à votre retour. Plus curieux encore, une mystérieuse lettre, vous étant adressée, se trouve sur le sol de votre chambre. Vous y apprenez que vos parents ont été enlevés et qu’il vous est demandé de rencontrer l’un des ravisseurs à la tombée de la nuit. Un homme en noir vous attendra. Bien que ses intentions soient floues, il vous fera comprendre que vous n’avez pas le choix. Une seule option s’offre à vous pour les revoir vivants : coopérer. Mais le prix à payer sera lourd, car vous devrez passer du côté obscur et dérober un Pokémon dans le laboratoire du Professeur Chen. Cela marquera le début d’une mission d’infiltration au sein de la plus grande organisation criminelle du pays : la Team Rocket. Qui sait quels terribles secrets cachent la Team Rocket ? Et pourquoi les malfrats ayant kidnappé votre famille vous demandent de collaborer à leur sombre entreprise ? Entre la morale et le devoir, vous devrez choisir… et surtout agir prudemment ! Voyageant à travers la région de Kanto, en passant par l’archipel Orange et bien plus encore, vous rencontrerez d’incroyables Pokémon et affronterez des dresseurs célèbres…",
+  "ForetEternelleTitleDescription0": "Aperçu du jeu",
+  "ForetEternelleTitleDescription1": "Description du jeu",
+  "ForetEternelleTitleDescription2": "Monkey patching sur le moteur",
+  "ForetEternelleTitleDescription3": "Mon rôle dans le projet",
+  "ForetEternelleTitleDescription4": "Synopsis",
+
+  "CocoBotShortDescription": "Bot Discord pour faire des shorts YouTube",
+  "CocoBotDescription0": "CocoBot est un bot Discord qui permet de faire des shorts YouTube. Le bot permet de rechercher des vidéos YouTube, de les consulter, de les télécharger en plusieurs parties de 60 secondes et d'ajouter un titre et une description.",
+  "CocoBotDescription1": "Le bot est développé en Python. Il utilise l'API de YouTube pour rechercher des vidéos et les télécharger. Et il édite les vidéos avec la librairie moviepy.",
+  "CocoBotDescription2": "J'ai travaillé sur ce projet en binôme avec un autre étudiant. J'ai principalement travaillé sur la recherche des vidéos, le téléchargement et l'édition des vidéos. Mon binôme a principalement travaillé sur le site web et la gestion des utilisateurs.",
+  "CocoBotTitleDescription0": "Aperçu du bot",
+  "CocoBotTitleDescription1": "Description du bot",
+  "CocoBotTitleDescription2": "Mon rôle dans le projet",
+
+  "AIctronShortDescription": "Application web pour faire des prédictions avec l'IA",
+  "AIctronDescription0": "Aictron est une application web qui permet à ses utilisateurs d'obtenir une analyse prédictive des données en insérant n'importe quel ensemble de données csv. L'application utilisera l'intelligence artificielle, et plus précisément l'apprentissage automatique avec la bibliothèque SKlearn Python. Le principal avantage de l'application est sa légèreté, car les algorithmes d'apprentissage automatique sont peu gourmands en ressources, ce qui la rend particulièrement utile pour tous ceux qui ont besoin de faire des prédictions basées sur des données spécifiques. L'application est conçue pour être conviviale, avec une interface simple et intuitive. L'utilisateur pourra télécharger un ensemble de données, sélectionner la colonne cible et obtenir la prédiction.\n\nTraduit avec DeepL.com (version gratuite)",
+  "AIctronDescription1": "L'application est développée en Python. Elle utilise la bibliothèque SKlearn pour faire des prédictions sur les données. L'application permet de télécharger un ensemble de données, de sélectionner la colonne cible et d'obtenir la prédiction.",
+  "AIctronDescription2": "J'ai travaillé sur ce projet en trinôme lors de mon Erasmus. J'ai principalement travaillé sur l'IA et sur l'API. Pour cela, j'ai utilisé la bibliothèque SKlearn pour faire des prédictions sur les données et utilisé Flask pour créer l'API.",
+  "AIctronTitleDescription0": "Aperçu de l'application",
+  "AIctronTitleDescription1": "Description de l'application",
+  "AIctronTitleDescription2": "Mon rôle dans le projet",
+
 
   "GoToProject": "Voir le projet",
   "AllProjects": "Tous les projets",
@@ -75,5 +120,16 @@
   "Email": "Email",
   "Phone": "Téléphone",
   "Address": "Adresse",
-  "AllRightsReserved": "Tous droits réservés"
+  "AllRightsReserved": "Tous droits réservés",
+
+  "timeline": "Chronologie",
+  "contributors": "Contributeurs",
+  "role": "Rôle",
+  "gitpath": "Dépôt Git",
+  "link": "Lien du projet",
+  "website": "Site web",
+
+  "images": "Images",
+  "video": "Vidéo",
+  "back": "Retour"
 }

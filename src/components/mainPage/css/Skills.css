@@ -105,6 +105,7 @@ li.react-tabs__tab--selected {
     background-color: var(--color-primary-accent);
     border-radius: 5px;
 }
+
 @media (max-width: 1024px) {
 
     .tab {
@@ -123,7 +124,9 @@ li.react-tabs__tab--selected {
 @media (max-width: 768px) {
     .tab {
         padding: 10px 10px;
+
     }
+
     .skills {
         padding: 20px;
     }
@@ -134,5 +137,18 @@ li.react-tabs__tab--selected {
 
     .skill-card {
         width: 20vw;
+    }
+
+    .skill-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skill-card h4 {
+        font-size: var(--font-h5);
+    }
+
+    .skill-card a {
+        font-size: var(--font-mini);
     }
 }
