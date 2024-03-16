@@ -6,7 +6,7 @@
     "shortDescription": "NoobletyShortDescription",
     "link": "Nooblety",
     "date": "2024",
-    "website": "https://nooblety.com",
+    "website": "https://nooblety.arnaudmichel.fr",
     "languages": [
       "C#",
       "UML",
@@ -26,7 +26,7 @@
       "images/projects/Nooblety2.png",
       "images/projects/Nooblety3.png"
     ],
-    "gitpath": "https://git.unistra.fr/t3-michel-morawien-kiefner/mod23-d",
+    "gitpath": "https://github.com/MrArnaudMichel/Nooblety",
     "role": "Lead Developper",
     "team": [
       {
@@ -75,7 +75,6 @@
     ],
     "logo": "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
     "gitpath": "https://github.com/bjt2017/Application_culinaire",
-    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
     "role": "Lead Developper",
     "team": [
       {
@@ -111,8 +110,8 @@
       "images/projects/Parser1.png"
     ],
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
-    "gitpath": "https://git.unistra.fr/michel_morawiec/p21_projet",
-    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "gitpath": "https://github.com/MrArnaudMichel/API-PlantUML-Parser",
+    "website": "https://plantuml-parser.arnaudmichel.fr",
     "role": "Lead Developper",
     "team": [
       {
@@ -128,6 +127,7 @@
     "titledescription": ["SudokuSolverTitleDescription0", "SudokuSolverTitleDescription1", "SudokuSolverTitleDescription2"],
     "shortDescription": "SudokuSolverShortDescription",
     "link": "SudokuSolver",
+    "website": "https://sudoku-solver.arnaudmichel.fr",
     "date": "2023",
     "languages": [
       "C#",
@@ -145,8 +145,7 @@
       "images/projects/Sudoku Solver2.png"
     ],
     "logo": "https://cdn-icons-png.flaticon.com/128/3269/3269927.png",
-    "gitpath": "https://github.com/MrArnaudMichel/SAE11",
-    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
+    "gitpath": "https://github.com/MrArnaudMichel/Sudoku-Solver",
     "role": "Lead Developper",
     "team": [
       {
@@ -162,6 +161,7 @@
     "titledescription": ["ForetEternelleTitleDescription0", "ForetEternelleTitleDescription1", "ForetEternelleTitleDescription2", "ForetEternelleTitleDescription3", "ForetEternelleTitleDescription4"],
     "shortDescription": "ForetEternelleShortDescription",
     "link": "ForetEternelle",
+    "website": "https://www.pokemonforeteternelle.com/",
     "date": "2012-Present",
     "languages": [
       "Ruby",
@@ -180,7 +180,6 @@
       "images/projects/ForetEternelle2.webp"
     ],
     "gitpath": "",
-    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
     "role": "Developper",
     "team": [
       {

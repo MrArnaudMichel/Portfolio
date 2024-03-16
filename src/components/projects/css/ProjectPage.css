@@ -15,7 +15,7 @@
 
 .project-info {
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: auto; /* Ajouté pour centrer le bloc */
     justify-content: space-around; /* Déjà présent dans votre code */
     font-size: var(--font-link);

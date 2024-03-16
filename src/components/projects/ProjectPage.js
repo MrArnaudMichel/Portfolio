@@ -33,7 +33,7 @@ function ProjectPage({t, projects}) {
                 <div className={"project-info"} data-aos="fade-up">
                     {project.date && (
                         <div className={"project-header-main timeline"}>
-                            <p>{t("timeline")}</p>
+                            <p><strong>{t("timeline")}</strong></p>
                             <p className={"colorprimary"}>
                                 {project.date}
                             </p>
@@ -41,7 +41,7 @@ function ProjectPage({t, projects}) {
                     )}
                     {project.team && (
                         <div className={"project-header-main contributors"} data-aos="fade-up">
-                            <p>{t("contributors")}</p>
+                            <p><strong>{t("contributors")}</strong></p>
                             <div className={"contributorsimg"}>
                                 {project.team.map((contributor, index) => <Contributor key={index}
                                                                                        contributor={contributor}/>)}
@@ -50,7 +50,7 @@ function ProjectPage({t, projects}) {
                     )}
                     {project.role && (
                         <div className={"project-header-main role"} data-aos="fade-up">
-                            <p>{t("role")}</p>
+                            <p><strong>{t("role")}</strong></p>
                             <p className={"colorprimary"}>
                                 {project.role}
                             </p>
@@ -58,7 +58,7 @@ function ProjectPage({t, projects}) {
                     )}
                     {project.gitpath && (
                         <div className="project-header-main project-gitpath" data-aos="fade-up">
-                            <p>{t("gitpath")}</p>
+                            <p><strong>{t("gitpath")}</strong></p>
                             <a href={project.gitpath} target="_blank" rel="noopener noreferrer">
                                 <p  className={"colorprimary"}>{project.gitpath.split("/")[project.gitpath.split("/").length - 1]}</p>
                             </a>
@@ -67,7 +67,7 @@ function ProjectPage({t, projects}) {
                     {
                         project.website && (
                             <div className="project-header-main project-website" data-aos="fade-up">
-                                <p>{t("website")}</p>
+                                <p><strong>{t("website")}</strong></p>
                                 <a href={project.website} target="_blank" rel="noopener noreferrer">
                                     <p  className={"colorprimary"}>{project.website.split("//")[1]}</p>
                                 </a>
