@@ -41,6 +41,10 @@
     z-index: 1;
 }
 
+p.job-description {
+    padding: 20px !important;
+}
+
 .job-item:nth-child(odd) {
     left: 0;
 }
