@@ -25,6 +25,8 @@
     block-size: 100%;
     width: 50%;
     box-sizing: border-box;
+    background-color: var(--color-backdrop);
+    backdrop-filter: blur(10px) saturate(1.3);
 }
 
 
