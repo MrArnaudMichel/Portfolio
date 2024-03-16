@@ -60,7 +60,7 @@ function ProjectPage({t, projects}) {
                         <div className="project-header-main project-gitpath" data-aos="fade-up">
                             <p><strong>{t("gitpath")}</strong></p>
                             <a href={project.gitpath} target="_blank" rel="noopener noreferrer">
-                                <p  className={"colorprimary"}>{project.gitpath.split("/")[project.gitpath.split("/").length - 1]}</p>
+                                <p className={"colorprimary"}>{project.gitpath.split("/")[project.gitpath.split("/").length - 1]}</p>
                             </a>
                         </div>
                     )}
@@ -69,7 +69,7 @@ function ProjectPage({t, projects}) {
                             <div className="project-header-main project-website" data-aos="fade-up">
                                 <p><strong>{t("website")}</strong></p>
                                 <a href={project.website} target="_blank" rel="noopener noreferrer">
-                                    <p  className={"colorprimary"}>{project.website.split("//")[1]}</p>
+                                    <p className={"colorprimary"}>{project.website.split("//")[1]}</p>
                                 </a>
                             </div>
                         )

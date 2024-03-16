@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import './css/AllProjects.css';
 import ProjectItemShort from "./ProjectItemShorts";
 import jsonProjects from "../../locales/projects.json";
