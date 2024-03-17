@@ -33,8 +33,6 @@
   "NoobletyTitleDescription2": "Conception du jeu",
   "NoobletyTitleDescription3": "Mon rôle de développeur",
   "NoobletyTitleDescription4": "Mon rôle de leader",
-
-
   "NoobletyShortDescription": "Jeu ludique sur la société de caste à la Renaissance",
 
   "ParserShortDescription": "API de génération de diagrammes UML",
@@ -59,7 +57,7 @@
   "SudokuSolverTitleDescription1": "Description du solveur",
   "SudokuSolverTitleDescription2": "Site web",
 
-  "ForetEternelleShortDescription": "Jeu de rôle en ligne",
+  "ForetEternelleShortDescription": "Jeu vidéo Pokémon en 2D",
   "ForetEternelleDescription0": "Forêt Éternelle est un projet de jeu vidéo en 2D lancé en 2012 par une équipe de passionnés, avec pour objectif de capturer l'essence même de la franchise Pokémon dans une expérience unique. En tant que fangame, notre ambition était de renouer avec les éléments qui ont fait le succès de la série tout en proposant une approche plus mature et un scénario profondément travaillé.",
   "ForetEternelleDescription1": "Le jeu est développé en Ruby. Il est actuellement en développement et est actuellement sur ca version 0.37 ou environ 1 tiers du jeu est développé. Le jeu est basé sur un moteur créer par l'équipe: Pokemon SDK, qui permet de créer ses propres jeux Pokémon.",
   "ForetEternelleDescription2": "Pour ajouter des fonctionnalités au jeu, nous faisons du monkey patching sur le moteur. Certaines fonctionnalités sont ajoutées directement dans le moteur par l'équipe. De plus, nous avons également créé un site web pour le jeu qui permet de suivre l'avancée du jeu, de télécharger le launcher et de discuter avec la communauté.",
