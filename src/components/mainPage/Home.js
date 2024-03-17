@@ -14,11 +14,11 @@ function Home({t}) {
 
     return (
         <section className={"Home"} id={"Home"}>
-            <h1 className={"maintitle"} data-aos="fade-up">{t('Home')}</h1>
-            <p className={"subtitle"} data-aos="fade-up">{t('Welcome')}</p>
+            <h1 className={"maintitle"} data-aos="fade-up" dangerouslySetInnerHTML={{__html: t('Home')}}></h1>
+            <p className={"subtitle"} data-aos="fade-up" dangerouslySetInnerHTML={{__html: t('Welcome')}}></p>
             <div className={"maininfo"}>
                 <div className={"profil"}>
-                    <img src={"https://via.placeholder.com/256"} alt={"Profile"} className={"profile"}
+                <img src={"https://via.placeholder.com/256"} alt={"Profile"} className={"profile"}
                          data-aos="fade-up"/>
                     <h2 className={"name"} data-aos="fade-up">Arnaud Michel</h2>
                 </div>

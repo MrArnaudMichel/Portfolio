@@ -82,6 +82,10 @@ body {
 	line-height: 1.25;
 }
 
+p li {
+	margin: 8px 0 8px 4rem;
+}
+
 @font-face {
 	font-family: 'League Spartan ExtraLight';
 	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-ExtraLight.ttf') format('truetype');
