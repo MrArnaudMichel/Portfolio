@@ -205,6 +205,7 @@
     "titledescription": ["CocoBotTitleDescription0", "CocoBotTitleDescription1", "CocoBotTitleDescription2"],
     "shortDescription": "CocoBotShortDescription",
     "link": "CocoBot",
+    "website": "https://cocobot.arnaudmichel.fr",
     "date": "2023",
     "languages": [
       "Python",
