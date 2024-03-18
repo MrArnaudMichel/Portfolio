@@ -44,7 +44,7 @@ function Footer({t}) {
                 </div>
                 <div className={"footer-section"}>
                     <h3>{t('Language')}</h3>
-                    <select onChange={changeLanguage} className={"OptionValue"}>
+                    <select onChange={changeLanguage} className={"OptionValue"} defaultValue={i18n.language}>
                         <option value="en">English</option>
                         <option value="fr">Français</option>
                     </select>

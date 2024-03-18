@@ -13,7 +13,7 @@
     border-radius: var(--radius-base);
     border: 2px solid var(--color-secondary);
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease !important;
 }
 
 .project-item-short:hover {

@@ -11,10 +11,9 @@ import Career from "./components/mainPage/Career";
 import AllProjects from "./components/projectsPage/AllProjects";
 import ProjectPage from './components/projectsPage/ProjectPage';
 import AllOccupations from "./components/careerPage/AllOccupations";
+import Occupation from "./components/careerPage/Occupation";
 import Footer from "./components/layoutComponents/Footer";
 import ScrollToTop from './ScrollToTop';
-
-import projects from './locales/projects.json';
 
 function App({ t }) {
 	const [theme, setTheme] = useState(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -46,6 +45,7 @@ function App({ t }) {
 						<Route path="/Projects/:projectName" element={<ProjectPage t={t}/>} />
 
 						<Route path="/Career" element={<AllOccupations t={t} />} />
+						<Route path="/Career/:occupationName" element={<Occupation t={t} />} />
 
 					</Routes>
 				</div>
