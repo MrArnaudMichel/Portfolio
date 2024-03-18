@@ -46,3 +46,13 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+.contributor a[href*="http"] {
+    padding-right: 0;
+}
+
+.contributor a[href*="http"]::after {
+    content: "";
+    right: 0;
+    top: 0;
+}

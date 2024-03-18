@@ -53,6 +53,18 @@ a {
 	color: var(--color-text-secondary);
 }
 
+a[href*="http"] {
+	padding-right: 19px;
+	position: relative;
+}
+
+a[href*="http"]::after {
+	content: "↗";
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 p {
 	font-size: var(--font-body);
 	color: var(--color-text-secondary);
