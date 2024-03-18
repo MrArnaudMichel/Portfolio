@@ -65,7 +65,6 @@ function ProjectPage({t}) {
             <p dangerouslySetInnerHTML={{__html: `<strong>${t("website")}</strong>`}}></p>
             <a className={"project-header-website-link"} href={project.website} target="_blank" rel="noopener noreferrer">
                 <strong><p className={"colorprimary project-header-contains-link"}>{project.website.split("//")[1]}</p></strong>
-
             </a>
         </div>
     )
@@ -120,7 +119,9 @@ function ProjectPage({t}) {
                 {project.tools.map((tool) => {
                     return (
                         <div key={tool} className={"icons"}>
-                            <p dangerouslySetInnerHTML={{__html: t(tool)}}></p>
+                            <a href={tool.link}>
+                                <p>{t(tool)}</p>
+                            </a>
                         </div>
                     );
                 })}
