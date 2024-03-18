@@ -48,7 +48,7 @@ function Occupation({ t }) {
                     <div className="occupation-projects" data-aos="fade-up">
                         <h3 dangerouslySetInnerHTML={{__html: `${t("projects")}`}}></h3>
                             {occupation.projects.map((project, index) => (
-                                <p key={index} onClick={() => navigate(`/projects/${project}`)}>{t(project)}</p>
+                                <p key={index} onClick={() => navigate(`/projects/${project}`)}>{t(project)} ↗</p>
                             ))}
                     </div>
                 )}

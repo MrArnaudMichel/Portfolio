@@ -41,7 +41,7 @@
     font-size: var(--font-link);
 }
 
-.project-header-contains-link:hover {
+.project-header-contains-link:hover  {
     box-shadow: inset 100vw 0 0 0 var(--color-text-primary);
     color: var(--color-text-tertiary);
 }
@@ -49,6 +49,10 @@
 
 .project-header p {
     margin: 0;
+}
+
+.project-header-website-link {
+    display: flex;
 }
 
 .project-description {

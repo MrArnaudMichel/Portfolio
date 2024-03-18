@@ -55,7 +55,7 @@ function ProjectPage({t}) {
     <div className="project-header-main project-gitpath" data-aos="fade-up">
         <p dangerouslySetInnerHTML={{__html: `<strong>${t("gitpath")}</strong>`}}></p>
         <a href={project.gitpath} target="_blank" rel="noopener noreferrer">
-            <p className={"colorprimary project-header-contains-link"} dangerouslySetInnerHTML={{__html: project.gitpath.split("/")[project.gitpath.split("/").length - 1]}}></p>
+            <p className={"colorprimary project-header-contains-link"}>{project.gitpath.split("/")[project.gitpath.split("/").length - 1]} ↗</p>
         </a>
     </div>
 )}
@@ -63,8 +63,9 @@ function ProjectPage({t}) {
     project.website && (
         <div className="project-header-main project-website" data-aos="fade-up">
             <p dangerouslySetInnerHTML={{__html: `<strong>${t("website")}</strong>`}}></p>
-            <a href={project.website} target="_blank" rel="noopener noreferrer">
-                <p className={"colorprimary project-header-contains-link"} dangerouslySetInnerHTML={{__html: project.website.split("//")[1]}}></p>
+            <a className={"project-header-website-link"} href={project.website} target="_blank" rel="noopener noreferrer">
+                <strong><p className={"colorprimary project-header-contains-link"}>{project.website.split("//")[1]} ↗</p></strong>
+
             </a>
         </div>
     )

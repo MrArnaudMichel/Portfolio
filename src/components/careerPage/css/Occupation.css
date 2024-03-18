@@ -45,6 +45,11 @@
     margin-top: 1rem;
 }
 
+.occupation-projects p:hover {
+    color: var(--color-text-primary);
+    cursor: pointer;
+}
+
 .skills-tools {
     justify-content: space-between;
 }
