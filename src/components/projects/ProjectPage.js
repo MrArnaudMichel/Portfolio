@@ -4,13 +4,12 @@ import Contributor from './Contributor';
 import ImagesSlider from "../mainPage/ImagesSlider";
 import './css/ProjectPage.css';
 import languagesData from "../../locales/skills.json";
+import projects from '../../locales/projects.json';
 import AOS from "aos";
 
-function ProjectPage({t, projects}) {
+function ProjectPage({t}) {
     const {projectName} = useParams();
-    const project = projects.find(p =>
-        p.link === projectName
-    );
+    const project = projects.find(p => p.link === projectName);
     const navigate = useNavigate();
     const findLanguageData = (language) => {
         const foundLanguage = languagesData.languages.find(lang => lang.name === language) ||

@@ -41,7 +41,7 @@ function App({ t }) {
 							</>
 						} />
 						<Route path="/Projects" element={<AllProjects t={t} />} />
-						<Route path="/Projects/:projectName" element={<ProjectPage t={t} projects={projects} />} />
+						<Route path="/Projects/:projectName" element={<ProjectPage t={t}/>} />
 					</Routes>
 				</div>
 				<div className={"footer"}>
