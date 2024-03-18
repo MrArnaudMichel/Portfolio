@@ -1,7 +1,9 @@
 [
   {
     "title": "HighSchoolTitle",
+    "link": "HighSchool",
     "date": "2019 - 2022",
+    "shortdescription": "HighSchoolShortDescription",
     "description": "HighSchoolDescription",
     "skills": [
       "Essential Basic Skills"
@@ -10,7 +12,9 @@
   },
   {
     "title": "CollegeTitle",
+    "link": "College",
     "date": "2022 - Present",
+    "shortdescription": "CollegeShortDescription",
     "description": "CollegeDescription",
     "skills": [
       "Discrete Mathematics",
@@ -31,7 +35,9 @@
   },
   {
     "title": "SuperUTitle",
+    "link": "SuperU",
     "date": "2023",
+    "shortdescription": "SuperUShortDescription",
     "description": "SuperUDescription",
     "skills": [
       "Teamwork",
@@ -42,7 +48,9 @@
   },
   {
     "title": "MTUTitle",
+    "link": "MTU",
     "date": "2024",
+    "shortdescription": "MTUShortDescription",
     "description": "MTUDescription",
     "skills": [
       "English",
