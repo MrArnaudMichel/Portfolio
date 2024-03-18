@@ -45,12 +45,13 @@ footer .list {
 .footer-section ul li a {
     display: flex;
     align-items: center;
+    justify-content: start;
     text-decoration: none;
     margin-bottom: 10px;
 }
 
 .footer-section ul li a:hover {
-    color: var(--color-text-active);
+    color: var(--color-text-primary);
 }
 
 .footer-section ul li a svg {
