@@ -45,9 +45,15 @@
     margin-top: 1rem;
 }
 
-.occupation-project {
-    padding: 2rem;
-    margin-top: 2rem;
+.skills-tools {
+    justify-content: center;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    width: auto;
+
 }
 
 .back {

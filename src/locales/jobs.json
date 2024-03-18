@@ -21,6 +21,7 @@
     "company": "CollegeCompany",
     "location": "CollegeLocation",
     "role": "Student",
+    "projects": ["Nooblety", "ApplicationCulinaire", "APIPlantUMLParser", "SudokuSolver"],
     "shortdescription": "CollegeShortDescription",
     "description": "CollegeDescription",
     "skills": [

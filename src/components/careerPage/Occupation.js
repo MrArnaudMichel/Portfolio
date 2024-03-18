@@ -2,6 +2,7 @@ import React from 'react';
 import './css/Occupation.css';
 import {useNavigate, useParams} from 'react-router-dom';
 import occupations from "../../locales/jobs.json";
+import tools from "../../locales/skills.json";
 
 function Occupation({ t }) {
     const {occupationName} = useParams();
@@ -44,22 +45,24 @@ function Occupation({ t }) {
             </div>
             {occupation.projects && (
                 <div className="occupation-projects" data-aos="fade-up">
-                    <p dangerouslySetInnerHTML={{__html: `<strong>${t("projects")}</strong>`}}></p>
-                    <ul>
+                    <h3 dangerouslySetInnerHTML={{__html: `${t("projects")}`}}></h3>
                         {occupation.projects.map((project, index) => (
-                            <li key={index} onClick={() => navigate(`/projects/${project}`)}>{t(project)}</li>
+                            <p key={index} onClick={() => navigate(`/projects/${project}`)}>{t(project)}</p>
                         ))}
-                    </ul>
                 </div>
             )}
             {occupation.skills && (
-                <div className="occupation-skills" data-aos="fade-up">
-                    <h3 dangerouslySetInnerHTML={{__html: `${t("skills")}</>`}}></h3>
-                    <ul>
-                        {occupation.skills.map((skill, index) => (
-                            <p>{t(skill)}</p>
-                        ))}
-                    </ul>
+                <div className={"occupation-skills"} data-aos="fade-up">
+                    <h3 className={"title"} dangerouslySetInnerHTML={{__html: `${t("skills")}`}}></h3>
+                    <div className={"skills-tools tools"}>
+                        {occupation.skills.map((tool) => {
+                            return (
+                                <div className={"icons"}>
+                                    <p dangerouslySetInnerHTML={{__html: t(tool)}}></p>
+                                </div>
+                            );
+                        })}
+                    </div>
                 </div>
             )}
             <div className={"back"} data-aos="fade-up">
