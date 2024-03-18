@@ -1,0 +1,25 @@
+.career-job-item{
+    grid-gap: 1rem;
+    justify-content: space-between;
+    background-color: var(--color-backdrop);
+    backdrop-filter: blur(10px) saturate(1.3);
+    padding: var(--42px);
+    border-radius: var(--radius-base);
+    border: 2px solid var(--color-secondary);
+    cursor: pointer;
+    width: 60vw;
+    margin: 0 auto 2rem auto;
+    transition: all 0.3s ease !important;
+}
+
+.career-job-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.career-job-item:hover {
+    background-color: var(--color-backdrop);
+    backdrop-filter: blur(15px) saturate(1.3) brightness(2);
+}

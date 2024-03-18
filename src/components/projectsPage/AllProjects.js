@@ -14,11 +14,9 @@ function AllProjects({t}) {
 
 
     return (
-        <div id={"Projects"} onLoad={() => {
-            window.location.href = "#Projects";
-        }}>
-            <section className={"all-projects"} id={"AllProjects"} data-aos="fade-up">
-                <h1>{t('AllProjects')}</h1>
+        <div data-aos="fade-up">
+            <h1>{t('AllProjects')}</h1>
+            <section className={"all-projectsPage"} id={"AllProjects"} data-aos="fade-up">
                 <div className={"all-projects-container"}>
                     {jsonProjects.map((project, index) =>
                         <ProjectItemShort key={index} t={t} project={project} className={`project-item-main item`}/>
