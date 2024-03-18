@@ -3,6 +3,10 @@
     "title": "HighSchoolTitle",
     "link": "HighSchool",
     "date": "2019 - 2022",
+    "company": "HighSchoolCompany",
+    "location": "HighSchoolLocation",
+    "role": "Student",
+    "projects": ["ForetEternelle"],
     "shortdescription": "HighSchoolShortDescription",
     "description": "HighSchoolDescription",
     "skills": [
@@ -14,6 +18,9 @@
     "title": "CollegeTitle",
     "link": "College",
     "date": "2022 - Present",
+    "company": "CollegeCompany",
+    "location": "CollegeLocation",
+    "role": "Student",
     "shortdescription": "CollegeShortDescription",
     "description": "CollegeDescription",
     "skills": [
@@ -37,6 +44,9 @@
     "title": "SuperUTitle",
     "link": "SuperU",
     "date": "2023",
+    "company": "SuperUCompany",
+    "location": "SuperULocation",
+    "role": "FruitAndVegetablesEmployee",
     "shortdescription": "SuperUShortDescription",
     "description": "SuperUDescription",
     "skills": [
@@ -50,6 +60,9 @@
     "title": "MTUTitle",
     "link": "MTU",
     "date": "2024",
+    "company": "MTUCompany",
+    "location": "MTULocation",
+    "role": "ErasmusStudent",
     "shortdescription": "MTUShortDescription",
     "description": "MTUDescription",
     "skills": [
