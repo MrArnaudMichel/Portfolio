@@ -10,7 +10,7 @@
 
 ## General info
 
-This project is a personal portfolio. It is a single page application that uses ReactJS. It is made 100% from scratch, without any template or boilerplate.
+This project is a personal portfolio. It is a multipage website that uses ReactJS. It is made 100% from scratch, without any template or boilerplate.
 
 ## Technologies
 - ReactJS
@@ -27,3 +27,7 @@ cd Portfolio
 npm install
 npm start
 ```
+
+## Usage
+
+The website is available at [arnaudmichel.fr](https://arnaudmichel.fr/).

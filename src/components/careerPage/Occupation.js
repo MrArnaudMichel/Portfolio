@@ -52,6 +52,16 @@ function Occupation({ t }) {
                     </ul>
                 </div>
             )}
+            {occupation.skills && (
+                <div className="occupation-skills" data-aos="fade-up">
+                    <h3 dangerouslySetInnerHTML={{__html: `${t("skills")}</>`}}></h3>
+                    <ul>
+                        {occupation.skills.map((skill, index) => (
+                            <p>{t(skill)}</p>
+                        ))}
+                    </ul>
+                </div>
+            )}
             <div className={"back"} data-aos="fade-up">
                 <button onClick={() => navigate(-1)} dangerouslySetInnerHTML={{__html: t("back")}}></button>
             </div>
