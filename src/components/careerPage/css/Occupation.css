@@ -53,7 +53,7 @@
     margin: auto;
     text-align: center;
     width: auto;
-
+    justify-content: start;
 }
 
 .back {
