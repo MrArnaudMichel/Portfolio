@@ -144,6 +144,22 @@
   "English": "Anglais",
   "Open Projects": "Open Source Projects",
 
+  "Fencing": "Escrime",
+  "FencingDescription": "Je pratique l'escrime depuis l'école primaire. J'ai commencé à l'âge de 7 ans et j'ai continué jusqu'à la fin du collège. J'ai participé à plusieurs compétitions départementales et régionales. J'ai obtenu les blasons jaune, rouge vert et bleu.",
+
+  "Badminton": "Badminton",
+  "BadmintonDescription": "J'ai commencé à jouer au badminton en arrivant au lycée. J'ai rejoint le club de badminton de Belfort. Je me suis arrêté en arrivant à l'IUT pour me concentrer sur mes études. Mais j'ai repris le badminton en arrivant en Irlande. J'ai rejoint le club de badminton de Cork et du MTU.",
+
+
+
+
+
+
+
+
+
+
+
   "MadeByMeTitle": "A propos de ce site",
   "MadeByMe": "Ce site a été créé exclusivement avec ReactJS, HTML et CSS pour offrir une expérience utilisateur fluide et esthétique. Grâce à ces technologies modernes, je vous proposons une navigation intuitive et responsive. De plus, ce site est disponible en plusieurs langues et dispose d'un mode jour/nuit pour une expérience personnalisée.",
   "SourceCode": "Code source",
