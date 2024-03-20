@@ -42,7 +42,6 @@
 
 .interests-container p {
     color: hsla(171, 15%, 35%, 1);
-    line-height: 1.6;
 }
 
 .interest:nth-child(1){
