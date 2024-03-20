@@ -43,8 +43,8 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Skills" className="navbar-brand">
-                        {t('NavSkills')}
+                    <Link to="/Interests" className="navbar-brand">
+                        {t('NavInterests')}
                     </Link>
                 </li>
                 <li>
