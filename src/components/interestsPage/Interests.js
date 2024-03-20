@@ -1,6 +1,5 @@
 import React from "react";
 import './css/Interests.css';
-import {Link} from "react-router-dom";
 import AOS from "aos";
 import interests from "../../locales/interests.json";
 
@@ -18,7 +17,14 @@ function Interests({t}) {
             <div className={"interests-container"}>
                 {interests.map((interest, index) =>
                     <div key={index} className={"interest"} data-aos="fade-up">
-                        <h3>{t(interest.title)}</h3>
+                        <div className={"overlay"}>
+                            <div className={"interest-header"}>
+                                <h3>{t(interest.name)}</h3>
+                                <p><strong>{t(interest.category)}</strong></p>
+                                <p>{t(interest.date)}</p>
+                            </div>
+                            <img src={interest.logo} alt={interest.name}/>
+                        </div>
                         <p dangerouslySetInnerHTML={{__html: t(interest.description)}}></p>
                     </div>
                 )}
@@ -26,6 +32,5 @@ function Interests({t}) {
         </section>
     )
 }
-
 
 export default Interests;

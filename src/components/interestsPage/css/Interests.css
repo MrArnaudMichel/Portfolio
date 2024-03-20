@@ -1,0 +1,66 @@
+.interests {
+    background-color: var(--color-background-secondary);
+    padding: 20px;
+}
+
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.interest-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interest {
+    background-color: var(--color-background-primary);
+    border-radius:var(--radius-base);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(50% - 40px);
+}
+
+.interest img {
+    width: 128px;
+    color: var(--color-text-primary);
+    height: auto;
+}
+
+.interests-container h3 {
+    color: hsla(172, 95%, 18%, 1);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.interests-container p {
+    color: hsla(171, 15%, 35%, 1);
+    line-height: 1.6;
+}
+
+.interest:nth-child(1){
+    background-color: lightblue;
+}
+
+.interest:nth-child(2){
+    background-color: var(--color-rust)
+}
+
+.interest:nth-child(3){
+    background-color: lightgreen;
+}
+
+.interest:nth-child(4){
+    background-color: pink;
+}
+
+.interest:nth-child(5){
+    background-color: white;
+}
