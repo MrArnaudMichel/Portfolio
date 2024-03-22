@@ -12,7 +12,7 @@ function Interests({t}) {
     }, []);
 
     return (
-        <section className={"interests"} id={"Interests"} data-aos="fade-up">
+        <div className={"interests"} data-aos="fade-up">
             <h1>{t('Interests')}</h1>
             <div className={"interests-container"}>
                 {interests.map((interest, index) =>
@@ -29,7 +29,7 @@ function Interests({t}) {
                     </div>
                 )}
             </div>
-        </section>
+        </div>
     )
 }
 

@@ -145,13 +145,20 @@
   "Open Projects": "Open Source Projects",
 
   "Fencing": "Escrime",
-  "FencingDescription": "Je pratique l'escrime depuis l'école primaire. J'ai commencé à l'âge de 7 ans et j'ai continué jusqu'à la fin du collège. J'ai participé à plusieurs compétitions départementales et régionales. J'ai obtenu les blasons jaune, rouge vert et bleu.",
+  "FencingDescription": "J'ai pratiqué l'escrime à partir de l'école primaire jusqu'à la fin du collège dans le club d'escrime de Belfort ou j'ai participé à quelques compétitions. J'ai obtenu les blasons jaune, rouge et bleu.",
 
   "Badminton": "Badminton",
-  "BadmintonDescription": "J'ai commencé à jouer au badminton en arrivant au lycée. J'ai rejoint le club de badminton de Belfort. Je me suis arrêté en arrivant à l'IUT pour me concentrer sur mes études. Mais j'ai repris le badminton en arrivant en Irlande. J'ai rejoint le club de badminton de Cork et du MTU.",
+  "BadmintonDescription": "J'ai commencé à jouer au badminton en arrivant au lycée. J'ai rejoint le club de badminton de Belfort. Je me suis arrêté en arrivant à l'IUT pour me concentrer sur mes études. Mais j'ai repris le badminton en arrivant en Irland en rejoignant le club de badminton du MTU.",
+
+  "Swimming": "Natation",
+  "SwimmingDescription": "Durant mon année de césure entre l'escrime et le badminton, j'ai pratiqué la natation.",
+
+  "Sport Climbing": "Escalade",
+  "SportClimbingDescription": "J'ai commencé l'escalade en arrivant à l'IUT. J'en fais régulièrement avec mes amis et mon frère. Je pratique essentiellement en faisant du bloc.",
 
 
-
+  "Running": "Course à pied",
+    "RunningDescription": "Je me suis mis à la course à pied pour faire le semi-marathon de Paris en 2023. J'ai continué à courir régulièrement depuis.",
 
 
 

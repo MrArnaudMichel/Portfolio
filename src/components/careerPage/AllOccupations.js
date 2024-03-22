@@ -19,7 +19,7 @@ function AllOccupations({ t }) {
     const sortedJobsData = [...jobsData].sort((a, b) => new Date(b.date.split(' - ')[0]) - new Date(a.date.split(' - ')[0]));
 
     return (
-        <div className="all-occupations-container" data-aos="fade-up">
+        <div data-aos="fade-up">
             <h1>{t('AllOccupations')}</h1>
             {sortedJobsData.map((job, index) => (
                 <Link to={`/Career/${job.link}`}>
