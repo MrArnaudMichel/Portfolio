@@ -24,7 +24,7 @@ function ProjectItem({t, project, className}) {
             <ImagesSlider images={project.images}/>
             <h3 data-aos="fade-up">{t(project.title)}</h3>
             <p className={"date"}><strong>{project.date}</strong></p>
-            <p>{t(project.description[0])}</p>
+            <p dangerouslySetInnerHTML={{__html: t(project.description)}}></p>
             <div className={"languages"}>
                 {project.languages && project.languages.map((language) => {
                     const languageData = findLanguageData(language);
@@ -41,7 +41,9 @@ function ProjectItem({t, project, className}) {
                 {project.tools && project.tools.map((tool) => {
                     return (
                         <div key={tool} className={"icons"}>
-                            <p>{t(tool)}</p>
+                            <a href={tool.link}>
+                                <p>{t(tool)}</p>
+                            </a>
                         </div>
                     );
                 })}

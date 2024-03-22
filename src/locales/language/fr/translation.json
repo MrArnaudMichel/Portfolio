@@ -3,6 +3,7 @@
   "NavCareer": "Parcours",
   "NavProjects": "Projets",
   "NavSkills": "Compétences",
+  "NavInterests": "Centres d'intérêts",
   "NavContact": "Contact",
 
   "Home": "Bienvenue sur mon Portfolio.",
@@ -142,6 +143,29 @@
   "Adaptability": "Adaptabilité",
   "English": "Anglais",
   "Open Projects": "Open Source Projects",
+
+  "Fencing": "Escrime",
+  "FencingDescription": "J'ai pratiqué l'escrime à partir de l'école primaire jusqu'à la fin du collège dans le club d'escrime de Belfort ou j'ai participé à quelques compétitions. J'ai obtenu les blasons jaune, rouge et bleu.",
+
+  "Badminton": "Badminton",
+  "BadmintonDescription": "J'ai commencé à jouer au badminton en arrivant au lycée. J'ai rejoint le club de badminton de Belfort. Je me suis arrêté en arrivant à l'IUT pour me concentrer sur mes études. Mais j'ai repris le badminton en arrivant en Irland en rejoignant le club de badminton du MTU.",
+
+  "Swimming": "Natation",
+  "SwimmingDescription": "Durant mon année de césure entre l'escrime et le badminton, j'ai pratiqué la natation.",
+
+  "Sport Climbing": "Escalade",
+  "SportClimbingDescription": "J'ai commencé l'escalade en arrivant à l'IUT. J'en fais régulièrement avec mes amis et mon frère. Je pratique essentiellement en faisant du bloc.",
+
+
+  "Running": "Course à pied",
+  "RunningDescription": "Je me suis mis à la course à pied pour faire le semi-marathon de Paris en 2023. J'ai continué à courir régulièrement depuis.",
+
+
+
+
+
+
+
 
   "MadeByMeTitle": "A propos de ce site",
   "MadeByMe": "Ce site a été créé exclusivement avec ReactJS, HTML et CSS pour offrir une expérience utilisateur fluide et esthétique. Grâce à ces technologies modernes, je vous proposons une navigation intuitive et responsive. De plus, ce site est disponible en plusieurs langues et dispose d'un mode jour/nuit pour une expérience personnalisée.",

@@ -45,6 +45,34 @@
     margin-top: 1rem;
 }
 
+.occupation-projects ul {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    list-style: '- ';
+    padding: 0;
+    font-size: var(--font-link);
+    color: var(--color-text-secondary);
+}
+
+.occupation-projects ul li {
+    margin-top: 0.5rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--color-text-primary);
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    width: fit-content;
+}
+
+.occupation-projects ul li:hover {
+    /*Box shadow size of the liste element*/
+    box-shadow: inset 100vw 0 0 0 var(--color-text-primary);
+    color: var(--color-text-tertiary);
+}
+
+.occupation-projects p:hover {
+    color: var(--color-text-primary);
+    cursor: pointer;
+}
+
 .skills-tools {
     justify-content: space-between;
 }

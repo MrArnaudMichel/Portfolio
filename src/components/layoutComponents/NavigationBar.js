@@ -36,15 +36,13 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Projects" className="navbar-brand" onClick={() => {
-                        window.location.href = "#Projects";
-                    }}>
+                    <Link to="/Projects" className="navbar-brand">
                         {t('NavProjects')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Skills" className="navbar-brand">
-                        {t('NavSkills')}
+                    <Link to="/Interests" className="navbar-brand">
+                        {t('NavInterests')}
                     </Link>
                 </li>
                 <li>

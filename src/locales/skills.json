@@ -4,13 +4,13 @@
       "name": "C",
       "link": "https://www.learn-c.org/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-      "level": 8
+      "level": 8.2
     },
     {
       "name": "C++",
       "link": "http://www.cplusplus.com/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
-      "level": 5
+      "level": 6.5
     },
     {
       "name": "C#",
@@ -34,7 +34,7 @@
       "name": "Java",
       "link": "https://www.java.com",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-      "level": 9
+      "level": 8.5
     },
     {
       "name": "R",
@@ -48,31 +48,31 @@
       "name": "HTML5",
       "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-      "level": 8
+      "level": 9
     },
     {
       "name": "CSS",
       "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-      "level": 7
+      "level": 8.5
     },
     {
       "name": "JavaScript",
       "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      "level": 6
+      "level": 7.5
     },
     {
       "name": "React",
       "link": "https://reactjs.org/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-      "level": 7.5
+      "level": 8
     },
     {
       "name": "PHP",
       "link": "https://www.php.net/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
-      "level": 8
+      "level": 7
     },
     {
       "name": "Laravel",
@@ -152,7 +152,7 @@
       "name": "Unity",
       "link": "https://unity.com/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
-      "level": 7
+      "level": 8
     },
     {
       "name": "Figma",

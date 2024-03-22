@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Fencing",
+    "category": "Sports",
+    "date": "2012 - 2017",
+    "description": "FencingDescription",
+    "logo": "images/sports/Paris2024_OlyPicto-Fencing.svg",
+    "color": "var(--color-pink)"
+  },
+  {
+    "name": "Badminton",
+    "category": "Sports",
+    "date": "2019 - Present",
+    "description": "BadmintonDescription",
+    "logo": "images/sports/Paris2024_Picto-BadmintonParaBadminton.svg"
+  },
+  {
+    "name": "Swimming",
+    "category": "Sports",
+    "date": "2018",
+    "description": "SwimmingDescription",
+    "logo": "images/sports/Paris2024_OlyPicto-Swimming.svg"
+  },
+  {
+    "name": "Sport Climbing",
+    "category": "Sports",
+    "date": "2022 - Present",
+    "description": "SportClimbingDescription",
+    "logo": "images/sports/Paris2024_OlyPicto-SportClimbing.svg"
+  },
+  {
+    "name": "Running",
+    "category": "Sports",
+    "date": "2019 - Present",
+    "description": "RunningDescription",
+    "logo": "images/sports/Paris2024_OlyPicto-Athletics.svg"
+  }
+]
