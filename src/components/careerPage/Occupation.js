@@ -2,7 +2,6 @@ import React from 'react';
 import './css/Occupation.css';
 import {useNavigate, useParams} from 'react-router-dom';
 import occupations from "../../locales/jobs.json";
-import tools from "../../locales/skills.json";
 
 function Occupation({ t }) {
     const {occupationName} = useParams();
