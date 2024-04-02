@@ -8,7 +8,7 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
 
     useEffect(() => {
         const handleScroll = () => {
-            const isScrolled = window.scrollY > 80;
+            const isScrolled = window.scrollY > 10;
             if (isScrolled !== scrolled) {
                 setScrolled(!scrolled);
             }

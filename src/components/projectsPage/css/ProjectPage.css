@@ -151,3 +151,23 @@
     background-color: var(--color-text-primary);
     color: var(--color-text-tertiary);
 }
+
+@media (max-width: 1024px) {
+    .project-info {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .project-header-main {
+        max-width: 100%;
+    }
+
+    .project-description {
+        width: 90vw;
+    }
+
+    .project-skills {
+        width: 90vw;
+    }
+
+}

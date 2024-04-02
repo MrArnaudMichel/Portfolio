@@ -58,3 +58,47 @@
 .project-item-short.double-grid-row {
     grid-row: span 2;
 }
+
+@media screen and (max-width: 768px) {
+    .project-item-short {
+        grid-template-areas:
+        "title logo"
+        "description logo"
+        "image image";
+    }
+
+    .project-item-short .logo, .project-item-short .image {
+        width: 80px; /* Adjust as needed */
+    }
+
+    .project-item-short .image {
+        width: 100%;
+    }
+
+    .project-item-short .image.large {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-item-short {
+        grid-template-areas:
+        "title"
+        "logo"
+        "description"
+        "image";
+    }
+
+    .project-item-short .logo, .project-item-short .image {
+        width: 60px; /* Adjust as needed */
+    }
+
+    .project-item-short .image {
+        width: 100%;
+    }
+
+    .project-item-short .image.large {
+        width: 90%;
+    }
+}
+

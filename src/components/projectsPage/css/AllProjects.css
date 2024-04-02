@@ -25,3 +25,22 @@
     height: auto;
 }
 
+@media screen and (max-width: 768px) {
+    .all-projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-item-main {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .all-projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-item-main {
+        width: 80vw;
+    }
+}

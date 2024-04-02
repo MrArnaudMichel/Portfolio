@@ -21,16 +21,16 @@ function ProjectItem({t, project, className}) {
 
     return (
         <Link to={`/Projects/${project.link}`} className={`project-item ${className}`} data-aos="fade-up">
-            <ImagesSlider images={project.images}/>
+            <ImagesSlider images={project.images} data-aos="fade-up"/>
             <h3 data-aos="fade-up">{t(project.title)}</h3>
-            <p className={"date"}><strong>{project.date}</strong></p>
-            <p dangerouslySetInnerHTML={{__html: t(project.description)}}></p>
-            <div className={"languages"}>
+            <p className={"date"} data-aos="fade-up"><strong>{project.date}</strong></p>
+            <p dangerouslySetInnerHTML={{__html: t(project.description)}} data-aos="fade-up"></p>
+            <div className={"languages"} data-aos="fade-up">
                 {project.languages && project.languages.map((language) => {
                     const languageData = findLanguageData(language);
                     return (
-                        <div key={language} className={"icons"}>
-                            <a href={languageData.link}>
+                        <div key={language} className={"icons"} data-aos="fade-up">
+                            <a href={languageData.link} data-aos="fade-up">
                                 <p>{t(languageData.name)}</p>
                             </a>
                         </div>
@@ -40,15 +40,15 @@ function ProjectItem({t, project, className}) {
             <div className={"tools"}>
                 {project.tools && project.tools.map((tool) => {
                     return (
-                        <div key={tool} className={"icons"}>
-                            <a href={tool.link}>
+                        <div key={tool} className={"icons"} data-aos="fade-up">
+                            <a href={tool.link} data-aos="fade-up">
                                 <p>{t(tool)}</p>
                             </a>
                         </div>
                     );
                 })}
             </div>
-            <p className="button"><strong>{t('GoToProject')}</strong></p>
+            <p className="button" data-aos="fade-up"><strong>{t('GoToProject')}</strong></p>
         </Link>
     )
 }
