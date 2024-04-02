@@ -56,3 +56,38 @@ nav {
 .content {
     height: 2000px; /* Placeholder pour du contenu de la page */
 }
+
+/*add smooth keyframe effect*/
+
+@keyframes shake {
+    0% {
+        transform: translate(0px, 1px);
+    }
+
+    25% {
+        transform: translate(0px, -1px);
+    }
+
+    50% {
+        transform: translate(0px, 1px);
+    }
+
+    75% {
+        transform: translate(0px, -1px);
+    }
+
+    100% {
+        transform: translate(0px, 1px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sc-dmyCSP {
+        width: 80%;
+    }
+
+    .navbar li {
+        padding: 0 0.5rem;
+    }
+}
+
