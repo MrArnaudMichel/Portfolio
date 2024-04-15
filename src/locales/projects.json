@@ -140,7 +140,6 @@
       "Figma"
     ],
     "images": [
-      "images/projects/Sudoku Solver0.png",
       "images/projects/Sudoku Solver1.png",
       "images/projects/Sudoku Solver2.png"
     ],
@@ -307,7 +306,8 @@
       "images/projects/MoseArt0.png",
       "images/projects/MoseArt1.png",
       "images/projects/MoseArt2.png",
-      "images/projects/MoseArt3.png"
+      "images/projects/MoseArt3.png",
+      "images/projects/MoseArt4.png"
     ],
     "gitpath": "https://github.com/MrArnaudMichel/MoseArt",
     "role": "Lead Developper, Game Designer, Git Leader",
