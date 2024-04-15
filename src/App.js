@@ -42,13 +42,13 @@ function App({ t }) {
 							</>
 						} />
 
-						<Route path="/Career" element={<AllOccupations t={t} />} />
-						<Route path="/Career/:occupationName" element={<Occupation t={t} />} />
+						<Route path="/career" element={<AllOccupations t={t} />} />
+						<Route path="/career/:occupationName" element={<Occupation t={t} />} />
 
-						<Route path="/Projects" element={<AllProjects t={t} />} />
-						<Route path="/Projects/:projectName" element={<ProjectPage t={t}/>} />
+						<Route path="/projects" element={<AllProjects t={t} />} />
+						<Route path="/projects/:projectName" element={<ProjectPage t={t}/>} />
 
-						<Route path="/Interests" element={<Interests t={t} />} />
+						<Route path="/interests" element={<Interests t={t} />} />
 					</Routes>
 				</div>
 				<div className={"footer"}>

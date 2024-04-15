@@ -112,6 +112,13 @@
   "AIctronTitleDescription1": "Description de l'application",
   "AIctronTitleDescription2": "Mon rôle dans le projet",
 
+  "MoseArtShortDescription": "Jeu ludique de gestion au tour par tour",
+  "MoseArtDescription0": "MoseArt est un jeu de gestion au tour par tour dans lequel le joueur incarne Robert Mose, le directeur de l'IUT Robert Schuman d'Illkirch-Graffenstaden, pour un mandat de 5 ans.",
+  "MoseArtDescription1": "Le jeu est développé en C# sous Unity. Une des principales difficultés du projet a été le temps imparti pour le réaliser. En effet, nous avions <strong>48 heures</strong> pour réaliser le jeu. Nous avons donc dû nous organiser pour réaliser le jeu dans les temps.",
+  "MoseArtDescription2": "<p>J'ai principalement travaillé sur:</p> <ul> <li> L'affectation UI a des événements </li> <li> La gestion des événements aléatoire <ul> <li> Epidémie </li> <li> Vague de froid </li> <li> Scandale académique </li> <li> Recevoir de l'argent de la part de la CPER(Contrat de Plan Etat Région) </ul> </li> <li> Le déroulement du temps <ul> <li> Les changements de saisons </li> <li> L'évolution du cout des charges </li> </ul> </li> <li> La gestion des événements <ul> <li> Les événements aléatoires </li> <li> Les événements déclenchés par l'utilisateur </li> </ul> </li> </ul>",
+  "MoseArtTitleDescription0": "Aperçu du jeu",
+  "MoseArtTitleDescription1": "Description du jeu",
+  "MoseArtTitleDescription2": "Mon rôle dans le projet",
 
   "GoToProject": "Voir le projet",
   "AllProjects": "Tous les projets",

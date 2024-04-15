@@ -67,3 +67,10 @@
 .interest:nth-child(5){
     background-color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .interest {
+        width: calc(100% - 40px);
+    }
+}
+
