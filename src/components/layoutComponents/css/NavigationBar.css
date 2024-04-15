@@ -91,6 +91,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
     .sc-dmyCSP {
         width: 80%;
     }
@@ -98,7 +101,7 @@ nav {
     .navbar li {
         padding: 0;
     }
-    
+
 
     .navbar-brand {
         font-size: 0.6rem;

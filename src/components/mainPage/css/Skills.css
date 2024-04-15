@@ -127,6 +127,21 @@ li.react-tabs__tab--selected {
 
     }
 
+    .tabs-header {
+        margin: 0;
+        padding: 0.4rem 0 0 0;
+    }
+    
+    .tabs-header ul li {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .skills-container {
+        padding: 0;
+    }
+
     .skills {
         padding: 20px;
     }
