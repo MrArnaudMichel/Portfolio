@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca92d26f.css",
-    "main.js": "/static/js/main.ba95f525.js",
+    "main.css": "/static/css/main.3915afae.css",
+    "main.js": "/static/js/main.3a0b3651.js",
     "static/media/Acorn-Bold.otf": "/static/media/Acorn-Bold.2a82187cdf1b4c80bdff.otf",
     "static/media/LeagueSpartan-ExtraBold.ttf": "/static/media/LeagueSpartan-ExtraBold.3273ea0e69650f114210.ttf",
     "static/media/LeagueSpartan-Black.ttf": "/static/media/LeagueSpartan-Black.d4303c11df0dad0324cf.ttf",
@@ -16,11 +16,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ca92d26f.css.map": "/static/css/main.ca92d26f.css.map",
-    "main.ba95f525.js.map": "/static/js/main.ba95f525.js.map"
+    "main.3915afae.css.map": "/static/css/main.3915afae.css.map",
+    "main.3a0b3651.js.map": "/static/js/main.3a0b3651.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca92d26f.css",
-    "static/js/main.ba95f525.js"
+    "static/css/main.3915afae.css",
+    "static/js/main.3a0b3651.js"
   ]
 }
