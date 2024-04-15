@@ -22,7 +22,7 @@ nav {
     list-style-type: none;
     border-radius: 50px;
     box-sizing: border-box;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.3rem;
 }
 
 .navbar li {
@@ -35,10 +35,18 @@ nav {
     background-color: transparent;
     color: var(--color-text-secondary);
     display: table;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
 }
 
 .navbar-brand:hover {
     animation: shake 0.5s;
+}
+
+.navbar-brand.active {
+    background: var(--color-primary-accent);
+    color: var(--color-text-tertiary);
+    border-radius: 50px;
 }
 
 .navbar.scrolled {
@@ -56,6 +64,7 @@ nav {
 .content {
     height: 2000px; /* Placeholder pour du contenu de la page */
 }
+
 
 /*add smooth keyframe effect*/
 
@@ -82,12 +91,26 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
     .sc-dmyCSP {
         width: 80%;
     }
 
     .navbar li {
-        padding: 0 0.5rem;
+        padding: 0;
+    }
+
+
+    .navbar-brand {
+        font-size: 0.6rem;
+    }
+
+    .navbar-brand.active {
+        background: var(--color-primary-accent);
+        color: var(--color-text-tertiary);
+        border-radius: 50px;
     }
 }
 

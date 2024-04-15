@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import './css/NavigationBar.css';
 import ThemeToggle from './ThemeToggle';
 
 function NavigationBar({t, toggleTheme, currentTheme}) {
     const [scrolled, setScrolled] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,32 +22,31 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
         };
     }, [scrolled]);
 
-
     return (
         <nav>
             <ul className={scrolled ? "navbar scrolled" : "navbar"}>
                 <li>
-                    <Link to="/" className="navbar-brand">
+                    <Link to="/" className={`navbar-brand ${location.pathname === "/" ? "active" : ""}`}>
                         {t('NavHome')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Career" className="navbar-brand">
+                    <Link to="/Career" className={`navbar-brand ${location.pathname.startsWith("/Career") ? "active" : ""}`}>
                         {t('NavCareer')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Projects" className="navbar-brand">
+                    <Link to="/Projects" className={`navbar-brand ${location.pathname.startsWith("/Projects") ? "active" : ""}`}>
                         {t('NavProjects')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Interests" className="navbar-brand">
+                    <Link to="/Interests" className={`navbar-brand ${location.pathname.startsWith("/Interests") ? "active" : ""}`}>
                         {t('NavInterests')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Contact" className="navbar-brand">
+                    <Link to="/Contact" className={`navbar-brand ${location.pathname.startsWith("/Contact") ? "active" : ""}`}>
                         {t('NavContact')}
                     </Link>
                 </li>
