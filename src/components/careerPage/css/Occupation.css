@@ -107,3 +107,56 @@
     background-color: var(--color-text-primary);
     color: var(--color-text-tertiary);
 }
+
+@media (max-width: 1024px) {
+    .occupation-info {
+        width: 90vw;
+    }
+
+    .occupation-description {
+        width: 90vw;
+    }
+
+    .occupation-projects ul {
+        margin-left: 1rem;
+    }
+
+    .occupation-projects ul li {
+        font-size: var(--font-h5);
+    }
+
+    .back button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .occupation-info {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .occupation-header-main {
+        max-width: 90vw;
+    }
+
+    .occupation-content {
+        max-width: 90vw;
+    }
+
+    .occupation-description {
+        width: 90vw;
+    }
+
+    .occupation-projects ul {
+        margin-left: 1rem;
+    }
+
+    .occupation-projects ul li {
+        font-size: var(--font-h5);
+    }
+
+    .back button {
+        width: 50%;
+    }
+}

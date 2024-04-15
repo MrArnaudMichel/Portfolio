@@ -128,26 +128,23 @@
 .back {
     margin-top: 2rem;
 }
-
-.back button {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-radius: var(--radius-base);
-    background: var(--color-opaque);
-    border: 2px solid var(--color-text-primary);
-    font-size: var(--font-link);
-    color: var(--color-text-primary);
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-    width: 25%;
-    margin: 2rem auto;
+.back-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: var(--font-h2);
+
+}
+button.back  {
+    font-size: var(--font-link);
+    color: var(--color-text-primary);
+    border-radius: var(--radius-base);
+    border: 1px solid var(--color-primary-border);
+    cursor: pointer;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+
 }
 
-.back button:hover {
+button.back:hover {
     background-color: var(--color-text-primary);
     color: var(--color-text-tertiary);
 }

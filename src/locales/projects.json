@@ -140,7 +140,6 @@
       "Figma"
     ],
     "images": [
-      "images/projects/Sudoku Solver0.png",
       "images/projects/Sudoku Solver1.png",
       "images/projects/Sudoku Solver2.png"
     ],
@@ -283,14 +282,58 @@
     ]
   },
   {
-    "title": "Project8Title",
-    "description": "Project8Description",
-    "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+    "title": "MoseArt",
+    "titledescription": ["MoseArtTitleDescription0", "MoseArtTitleDescription1", "MoseArtTitleDescription2"],
+    "description": ["MoseArtDescription0", "MoseArtDescription1", "MoseArtDescription2"],
+    "shortDescription": "MoseArtShortDescription",
+    "link": "MoseArt",
+    "date": "2024",
+    "website": "https://moseart.arnaudmichel.fr",
+    "languages": [
+      "C#",
+      "UML",
+      "SQL",
+      "Markdown"
     ],
-    "logo": "https://via.placeholder.com/150"
+    "tools": [
+      "Unity",
+      "Git",
+      "Visual Studio",
+      "Blender",
+      "Photoshop"
+    ],
+    "images": [
+      "images/projects/MoseArt0.png",
+      "images/projects/MoseArt1.png",
+      "images/projects/MoseArt2.png",
+      "images/projects/MoseArt3.png",
+      "images/projects/MoseArt4.png"
+    ],
+    "gitpath": "https://github.com/MrArnaudMichel/MoseArt",
+    "role": "Lead Developper, Game Designer, Git Leader",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      },
+      {
+        "name": "Benjamin Morawiec",
+        "git": "https://github.com/bjt2017",
+        "role": "Developper"
+      },
+      {
+        "name": "Léo Kiefner",
+        "git": "https://github.com/LeoKiefner",
+        "role": "Developper"
+      },
+      {
+        "name": "Téo Walter",
+        "git": "https://github.com/TeHozen",
+        "role": "Developper"
+      }
+    ],
+    "logo": "images/projects/MoseArtLogo.jpeg"
   },
   {
     "title": "Project9Title",

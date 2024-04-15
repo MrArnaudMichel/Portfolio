@@ -31,22 +31,22 @@ function NavigationBar({t, toggleTheme, currentTheme}) {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Career" className={`navbar-brand ${location.pathname.startsWith("/Career") ? "active" : ""}`}>
+                    <Link to="/career" className={`navbar-brand ${location.pathname.startsWith("/career") ? "active" : ""}`}>
                         {t('NavCareer')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Projects" className={`navbar-brand ${location.pathname.startsWith("/Projects") ? "active" : ""}`}>
+                    <Link to="/projects" className={`navbar-brand ${location.pathname.startsWith("/projects") ? "active" : ""}`}>
                         {t('NavProjects')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Interests" className={`navbar-brand ${location.pathname.startsWith("/Interests") ? "active" : ""}`}>
+                    <Link to="/interests" className={`navbar-brand ${location.pathname.startsWith("/interests") ? "active" : ""}`}>
                         {t('NavInterests')}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/Contact" className={`navbar-brand ${location.pathname.startsWith("/Contact") ? "active" : ""}`}>
+                    <Link to="/contact" className={`navbar-brand ${location.pathname.startsWith("/contact") ? "active" : ""}`}>
                         {t('NavContact')}
                     </Link>
                 </li>

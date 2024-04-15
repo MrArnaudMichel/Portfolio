@@ -13,6 +13,7 @@ import ProjectPage from './components/projectsPage/ProjectPage';
 import AllOccupations from "./components/careerPage/AllOccupations";
 import Occupation from "./components/careerPage/Occupation";
 import Interests from "./components/interestsPage/Interests";
+import Contact from "./components/contact/Contact";
 import Footer from "./components/layoutComponents/Footer";
 import ScrollToTop from './ScrollToTop';
 
@@ -42,13 +43,15 @@ function App({ t }) {
 							</>
 						} />
 
-						<Route path="/Career" element={<AllOccupations t={t} />} />
-						<Route path="/Career/:occupationName" element={<Occupation t={t} />} />
+						<Route path="/career" element={<AllOccupations t={t} />} />
+						<Route path="/career/:occupationName" element={<Occupation t={t} />} />
 
-						<Route path="/Projects" element={<AllProjects t={t} />} />
-						<Route path="/Projects/:projectName" element={<ProjectPage t={t}/>} />
+						<Route path="/projects" element={<AllProjects t={t} />} />
+						<Route path="/projects/:projectName" element={<ProjectPage t={t}/>} />
 
-						<Route path="/Interests" element={<Interests t={t} />} />
+						<Route path="/interests" element={<Interests t={t} />} />
+
+						<Route path="/contact" element={<Contact t={t} />} />
 					</Routes>
 				</div>
 				<div className={"footer"}>

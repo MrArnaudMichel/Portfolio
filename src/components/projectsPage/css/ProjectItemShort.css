@@ -27,6 +27,7 @@
 
 .project-item-short .logo {
     grid-area: logo;
+    border-radius: var(--radius-base);
 }
 
 .project-item-short p:first-of-type {
@@ -52,7 +53,6 @@
     display: flex;
     align-self: center;
     justify-self: center;
-
 }
 
 .project-item-short.double-grid-row {

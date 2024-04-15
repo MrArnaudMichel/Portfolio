@@ -68,8 +68,9 @@ function Occupation({ t }) {
                     </div>
                 )}
             </div>
-            <div className={"back"} data-aos="fade-up">
-                <button onClick={() => navigate(-1)} dangerouslySetInnerHTML={{__html: t("back")}}></button>
+            <div className={"back-div"} data-aos="fade-up">
+                <button className={"back"} onClick={() => navigate(-1)}
+                        dangerouslySetInnerHTML={{__html: t("back")}}></button>
             </div>
         </div>
     );

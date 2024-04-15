@@ -35,7 +35,7 @@ nav {
     background-color: transparent;
     color: var(--color-text-secondary);
     display: table;
-    padding: 0.5rem;
+    padding: 0.4rem 0.6rem;
     transition: background-color 0.3s ease;
 }
 
@@ -46,7 +46,7 @@ nav {
 .navbar-brand.active {
     background: var(--color-primary-accent);
     color: var(--color-text-tertiary);
-    border-radius: 50px;
+    border-radius: var(--radius-base);
 }
 
 .navbar.scrolled {
@@ -87,6 +87,29 @@ nav {
 
     100% {
         transform: translate(0px, 1px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 100%;
+    }
+    .sc-dmyCSP {
+        width: 80%;
+    }
+
+    .navbar li {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        font-size:var(--font-link);
+    }
+
+    .navbar-brand.active {
+        background: var(--color-primary-accent);
+        color: var(--color-text-tertiary);
+        border-radius: 50px;
     }
 }
 
