@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import './css/contact.css';
 import AOS from "aos";
-import axios from 'axios';
+// import axios from 'axios';
 
-function resetForm() {
-    document.getElementById('contact-form').reset();
-}
+// function resetForm() {
+//     document.getElementById('contact-form').reset();
+// }
 
 export default function ContactPage() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -24,27 +24,27 @@ export default function ContactPage() {
         });
     };
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-
-        axios({
-            method: "POST",
-            url:"http://localhost:3000/send",
-            data: {
-                name: 'Name',
-                email: 'Email',
-                title: 'Title',
-                message: 'Your Message'
-            }
-        }).then((response) => {
-            if (response.data.status === 'success') {
-                alert("Message Sent.");
-                resetForm()
-            } else if (response.data.status === 'fail') {
-                alert("Message failed to send.")
-            }
-        })
-    }
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //
+    //     axios({
+    //         method: "POST",
+    //         url:"http://localhost:3000/send",
+    //         data: {
+    //             name: 'Name',
+    //             email: 'Email',
+    //             title: 'Title',
+    //             message: 'Your Message'
+    //         }
+    //     }).then((response) => {
+    //         if (response.data.status === 'success') {
+    //             alert("Message Sent.");
+    //             resetForm()
+    //         } else if (response.data.status === 'fail') {
+    //             alert("Message failed to send.")
+    //         }
+    //     })
+    // }
 
     return (
         <div id={"Contact"} className={"Contact"}>

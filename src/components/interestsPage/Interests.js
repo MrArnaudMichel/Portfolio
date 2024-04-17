@@ -25,7 +25,7 @@ function Interests({t}) {
                             </div>
                             <img src={interest.logo} alt={interest.name}/>
                         </div>
-                        <p dangerouslySetInnerHTML={{__html: t(interest.description)}}></p>
+                        <p className={"description-interets"} dangerouslySetInnerHTML={{__html: t(interest.description)}}></p>
                     </div>
                 )}
             </div>
