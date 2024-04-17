@@ -40,6 +40,8 @@ export default function ContactPage() {
             if (response.data.status === 'success') {
                 alert("Message Sent.");
                 resetForm()
+
+
             } else if (response.data.status === 'fail') {
                 alert("Message failed to send.")
             }
@@ -54,7 +56,7 @@ export default function ContactPage() {
                 <input data-aos="fade-up"type="email" name="email" placeholder="Your email" value={formState.email} onChange={handleChange} />
                 <input data-aos="fade-up" type="text" name="title" placeholder="Your title" value={formState.title} onChange={handleChange} />
                 <textarea data-aos="fade-up" name="message" placeholder="Your message" value={formState.message} onChange={handleChange} />
-                <button data-aos="fade-up" type="submit">Send</button>
+                <button id"send-button" data-aos="fade-up" type="submit">Send</button>
             </form>
         </div>
     );
