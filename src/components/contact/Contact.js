@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import './css/contact.css';
 import AOS from "aos";
-import axios from 'axios';
+// import axios from 'axios';
 
-function resetForm() {
-    document.getElementById('contact-form').reset();
-}
+// function resetForm() {
+//     document.getElementById('contact-form').reset();
+// }
 
 export default function ContactPage() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
