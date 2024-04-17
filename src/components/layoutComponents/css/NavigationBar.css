@@ -37,6 +37,7 @@ nav {
     display: table;
     padding: 0.4rem 0.6rem;
     transition: background-color 0.3s ease;
+    border-radius: var(--radius-base);
 }
 
 .navbar-brand:hover {
@@ -58,7 +59,6 @@ nav {
 .navbar.scrolled.dark {
     background-color: #233831;
     background-color: rgba(0, 0, 0, 0.3);
-    /*backdrop-filter: blur(10px);*/
 }
 
 .content {
@@ -66,7 +66,6 @@ nav {
 }
 
 
-/*add smooth keyframe effect*/
 
 @keyframes shake {
     0% {
