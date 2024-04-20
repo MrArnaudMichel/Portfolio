@@ -161,7 +161,7 @@
     "shortDescription": "ForetEternelleShortDescription",
     "link": "ForetEternelle",
     "website": "https://www.pokemonforeteternelle.com/",
-    "date": "2012-Present",
+    "date": "2024-present",
     "languages": [
       "Ruby",
       "Json",
@@ -239,8 +239,8 @@
   },
   {
     "title": "AIctron",
-    "description": ["AIctronDescription0", "AIctronDescription1", "AIctronDescription2"],
-    "titledescription": ["AIctronTitleDescription0", "AIctronTitleDescription1", "AIctronTitleDescription2"],
+    "description": ["AIctronDescription0", "AIctronDescription1", "AIctronDescription2", "AIctronDescription3"],
+    "titledescription": ["AIctronTitleDescription0", "AIctronTitleDescription1", "AIctronTitleDescription2", "AIctronTitleDescription3"],
     "shortDescription": "AIctronShortDescription",
     "link": "AIctron",
     "date": "2024",
@@ -261,7 +261,6 @@
       "images/projects/AIctron2.png"
     ],
     "gitpath": "https://github.com/Group-3-Charlie/AIctron",
-    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI",
     "role": "Lead Developper",
     "team": [
       {

@@ -3,7 +3,7 @@ import './css/Occupation.css';
 import {useNavigate, useParams} from 'react-router-dom';
 import occupations from "../../locales/jobs.json";
 
-function Occupation({ t }) {
+function Occupation({t}) {
     const {occupationName} = useParams();
     const occupation = occupations.find(o => o.link === occupationName);
     const navigate = useNavigate();
@@ -25,6 +25,12 @@ function Occupation({ t }) {
                             <p className="colorprimary" dangerouslySetInnerHTML={{__html: t(occupation.company)}}></p>
                         </div>
                     )}
+                    {occupation.university && (
+                        <div className="occupation-header-main company" data-aos="fade-up">
+                            <p dangerouslySetInnerHTML={{__html: `<strong>${t("university")}</strong>`}}></p>
+                            <p className="colorprimary" dangerouslySetInnerHTML={{__html: t(occupation.university)}}></p>
+                        </div>
+                    )}
                     {occupation.location && (
                         <div className="occupation-header-main location" data-aos="fade-up">
                             <p dangerouslySetInnerHTML={{__html: `<strong>${t("location")}</strong>`}}></p>
@@ -40,15 +46,22 @@ function Occupation({ t }) {
                 </div>
             </div>
             <div className={"occupation-content"} data-aos="fade-up">
-                <div className="occupation-description" data-aos="fade-up">
-                    <p dangerouslySetInnerHTML={{__html: t(occupation.description)}}></p>
-                </div>
+                {occupation.description && (
+                    <div className="project-description" data-aos="fade-up">
+                        {occupation.description.map((desc, index) =>
+                            <div className={"description"} key={index}>
+                                <h3 dangerouslySetInnerHTML={{__html: t(occupation.titledescription[index])}}></h3>
+                                <p data-aos="fade-up" dangerouslySetInnerHTML={{__html: t(desc)}}></p>
+                            </div>
+                        )}
+                    </div>
+                )}
                 {occupation.projects && (
                     <div className="occupation-projects" data-aos="fade-up">
                         <h3 dangerouslySetInnerHTML={{__html: `${t("projects")}`}}></h3>
                         <ul>
                             {occupation.projects.map((project, index) => (
-                                <li key={index} onClick={() => navigate(`/projects/${project}`)}>{t(project)}</li>
+                                <li className={"project-header-contains-link"} key={index} onClick={() => navigate(`/projects/${project}`)}>{t(project)}</li>
                             ))}
                         </ul>
                     </div>

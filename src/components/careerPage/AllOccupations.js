@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React, {useEffect, useRef} from 'react';
+import {Link} from 'react-router-dom';
 import jobsData from '../../locales/jobs.json';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './css/AllOccupations.css';
 
-function AllOccupations({ t }) {
+function AllOccupations({t}) {
     const jobItemsRef = useRef([]);
 
     useEffect(() => {
@@ -23,7 +23,8 @@ function AllOccupations({ t }) {
             <h1>{t('AllOccupations')}</h1>
             {sortedJobsData.map((job, index) => (
                 <Link to={`/Career/${job.link}`}>
-                    <div key={index} ref={el => jobItemsRef.current[index] = el} className="career-job-item" data-aos="fade-up">
+                    <div key={index} ref={el => jobItemsRef.current[index] = el} className="career-job-item"
+                         data-aos="fade-up">
                         <div className="career-job-header">
                             <h4>{t(job.title)}</h4>
                             <p className="career-date">{job.date}</p>

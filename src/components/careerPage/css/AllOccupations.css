@@ -1,4 +1,4 @@
-.career-job-item{
+.career-job-item {
     grid-gap: 1rem;
     justify-content: space-between;
     background-color: var(--color-backdrop);
@@ -12,7 +12,7 @@
     transition: all 0.3s ease !important;
 }
 
-.career-job-header{
+.career-job-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +22,8 @@
 .career-job-item:hover {
     background-color: var(--color-backdrop);
     backdrop-filter: blur(15px) saturate(1.3) brightness(2);
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 0 var(--color-secondary);
 }
 
 @media (max-width: 1024px) {

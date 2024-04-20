@@ -8,7 +8,7 @@ import AOS from "aos";
 // }
 
 export default function ContactPage() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [formState, setFormState] = useState({name: '', email: '', message: ''});
 
     useEffect(() => {
         AOS.init({
@@ -50,10 +50,14 @@ export default function ContactPage() {
         <div id={"Contact"} className={"Contact"}>
             <h1 data-aos="fade-up">Contact</h1>
             <form className="contact-form"> {/*onSubmit={handleSubmit}>*/}
-                <input data-aos="fade-up" type="text" name="name" placeholder="Your name" value={formState.name} onChange={handleChange} />
-                <input data-aos="fade-up"type="email" name="email" placeholder="Your email" value={formState.email} onChange={handleChange} />
-                <input data-aos="fade-up" type="text" name="title" placeholder="Your title" value={formState.title} onChange={handleChange} />
-                <textarea data-aos="fade-up" name="message" placeholder="Your message" value={formState.message} onChange={handleChange} />
+                <input data-aos="fade-up" type="text" name="name" placeholder="Your name" value={formState.name}
+                       onChange={handleChange}/>
+                <input data-aos="fade-up" type="email" name="email" placeholder="Your email" value={formState.email}
+                       onChange={handleChange}/>
+                <input data-aos="fade-up" type="text" name="title" placeholder="Your title" value={formState.title}
+                       onChange={handleChange}/>
+                <textarea data-aos="fade-up" name="message" placeholder="Your message" value={formState.message}
+                          onChange={handleChange}/>
                 <button data-aos="fade-up" type="submit">Send</button>
             </form>
         </div>
