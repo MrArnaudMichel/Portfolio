@@ -8,6 +8,7 @@
     "role": "Student",
     "projects": ["ForetEternelle"],
     "shortdescription": "HighSchoolShortDescription",
+    "maindescription": "HighSchoolMainDescription",
     "description": ["HighSchoolDescription0", "HighSchoolDescription1"],
     "titledescription": ["HighSchoolTitleDescription0", "HighSchoolTitleDescription1"],
     "skills": [
@@ -24,6 +25,7 @@
     "role": "Student",
     "projects": ["Nooblety", "ApplicationCulinaire", "APIPlantUMLParser", "SudokuSolver"],
     "shortdescription": "CollegeShortDescription",
+    "maindescription": "CollegeMainDescription",
     "description": ["CollegeDescription0", "CollegeDescription1", "CollegeDescription2", "CollegeDescription3"],
     "titledescription": ["CollegeTitleDescription0", "CollegeTitleDescription1", "CollegeTitleDescription2", "CollegeTitleDescription3"],
     "skills": [
@@ -51,6 +53,7 @@
     "location": "SuperULocation",
     "role": "FruitAndVegetablesEmployee",
     "shortdescription": "SuperUShortDescription",
+    "maindescription": "SuperUMainDescription",
     "description": ["SuperUDescription0", "SuperUDescription1"],
     "titledescription": ["SuperUTitleDescription0", "SuperUTitleDescription1"],
     "skills": [
@@ -69,6 +72,7 @@
     "role": "ErasmusStudent",
     "projects": ["AIctron"],
     "shortdescription": "MTUShortDescription",
+    "maindescription": "MTUMainDescription",
     "description": ["MTUDescription0", "MTUDescription1"],
     "titledescription": ["MTUTitleDescription0", "MTUTitleDescription1"],
     "skills": [

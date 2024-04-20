@@ -3,7 +3,8 @@ import "./css/Career.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import jobs from "../../locales/jobs.json";
-import images from "../../locales/images.json"; // Import images
+import images from "../../locales/images.json";
+import {Link} from 'react-router-dom';
 
 function Career({t}) {
     const [jobPositions] = useState([]);
@@ -45,22 +46,24 @@ function Career({t}) {
                         ref={el => jobItemsRef.current[index] = el}
                         data-aos="fade-up"
                     >
-                        <h2>{t(job.title)}</h2>
-                        <p className={"date"}>{job.date}</p>
-                        <p className={"job-description"}>{t(job.description)}</p>
-                        <div className={"image-container"}>
-                            <img src={images.find((image) => image.id === job.image).image} alt={job.title}/>
-                            <div
-                                className={"image-title"}>{t(images.find((image) => image.id === job.image).title)}</div>
-                        </div>
-                        <div className={"skills"}>
-                            {job.skills &&
-                                job.skills.map((skill, skillIndex) => (
-                                    <div className={"icons"}>
-                                        <p key={skillIndex}>{t(skill)}</p>
-                                    </div>
-                                ))}
-                        </div>
+                        <Link to={`/Career/${job.link}`}>
+                            <h2>{t(job.title)}</h2>
+                            <p className={"date"}>{job.date}</p>
+                            <p className={"job-description"}>{t(job.maindescription)}</p>
+                            <div className={"image-container"}>
+                                <img src={images.find((image) => image.id === job.image).image} alt={job.title}/>
+                                <div
+                                    className={"image-title"}>{t(images.find((image) => image.id === job.image).title)}</div>
+                            </div>
+                            <div className={"skills"}>
+                                {job.skills &&
+                                    job.skills.map((skill, skillIndex) => (
+                                        <div className={"icons"}>
+                                            <p key={skillIndex}>{t(skill)}</p>
+                                        </div>
+                                    ))}
+                            </div>
+                        </Link>
                     </div>
                 ))}
             </div>
