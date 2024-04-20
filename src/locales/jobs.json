@@ -67,6 +67,7 @@
     "university": "MTUUniversity",
     "location": "MTULocation",
     "role": "ErasmusStudent",
+    "projects": ["AIctron"],
     "shortdescription": "MTUShortDescription",
     "description": ["MTUDescription0", "MTUDescription1"],
     "titledescription": ["MTUTitleDescription0", "MTUTitleDescription1"],
