@@ -239,8 +239,8 @@
   },
   {
     "title": "AIctron",
-    "description": ["AIctronDescription0", "AIctronDescription1", "AIctronDescription2"],
-    "titledescription": ["AIctronTitleDescription0", "AIctronTitleDescription1", "AIctronTitleDescription2"],
+    "description": ["AIctronDescription0", "AIctronDescription1", "AIctronDescription2", "AIctronDescription3"],
+    "titledescription": ["AIctronTitleDescription0", "AIctronTitleDescription1", "AIctronTitleDescription2", "AIctronTitleDescription3"],
     "shortDescription": "AIctronShortDescription",
     "link": "AIctron",
     "date": "2024",
