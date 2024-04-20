@@ -20,17 +20,30 @@
 
 
   "AllOccupations": "Toutes mes occupations",
+
   "HighSchoolTitle": "Baccalauréat Scientifique",
   "HighSchoolShortDescription": "Baccalauréat scientifique au lycée Gustave Courbet à Belfort",
   "HighSchoolDescription": "J'ai obtenu mon baccalauréat scientifique en 2022 au lycée Gustave Courbet à Belfort. J'ai choisi la spécialité mathématiques et l'option informatique et sciences du numérique. J'ai obtenu la mention bien.",
-  "HighSchoolCompany": "Lycée Gustave Courbet",
+  "HighSchoolUniversity": "Lycée Gustave Courbet",
   "HighSchoolLocation": "Belfort (90), France \uD83C\uDDEB\uD83C\uDDF7",
+  "HighSchoolDescription0": "<p>Mon parcours éducatif a débuté à l'école primaire, où j'ai appris les bases fondamentales de l'apprentissage, notamment en mathématiques et en sciences. Parallèlement, j'ai été passionné par la pratique sportive, en particulier l'escrime, une discipline qui m'a enseigné la discipline, la concentration et la persévérance.</p>\n\n<p>Au collège, j'ai continué à cultiver ma curiosité pour les sciences et les mathématiques tout en maintenant mon engagement dans le sport. L'escrime est restée une activité importante dans ma vie, me fournissant des leçons précieuses sur la rigueur. En parallèle, j'ai pris plaisir à me plonger dans les matières académiques, approfondissant mes connaissances et développant mes compétences dans divers domaines.</p>",
+  "HighSchoolDescription1": "<p>En entrant au lycée au lycée, j'ai eu l'honneur d'être élu délégué de classe. Ce rôle m'a permis de représenter mes camarades, d'encourager un environnement d'apprentissage collaboratif et de contribuer activement à la vie scolaire. Cette expérience m'a également permis de renforcer mes compétences en communication, en leadership et en gestion des responsabilités.</p>\n\n<p>Durant ma première, j'ai commencé mon engagement dans les domaines des sciences et de l'informatique. J'ai choisi de me spécialiser en NSI (Numérique et sciences de l'informatique). J'ai également choisi les spécialités mathématiques et physique-chimie.\n\n<p>\n    En terminale, j'ai choisi de garder mathématiques, informatique et d'approfondir mon parcours en mathématiques en choisissant l'option mathématiques expertes. Ce qui permis d'obtenir mon baccalauréat scientifique avec mention bien en 2022.\n</p>",
+  "HighSchoolTitleDescription0": "École Primaire et Collège",
+  "HighSchoolTitleDescription1": "Lycée et Baccalauréat",
+
   "Student": "Étudiant",
 
   "CollegeTitle": "BUT Informatique",
   "CollegeShortDescription": "Je suis actuellement en deuxième année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden).",
-  "CollegeDescription": "Je suis actuellement en deuxième année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden).",
-  "CollegeCompany": "IUT Robert Schumann",
+  "CollegeDescription0": "Le BUT Informatique est un diplôme universitaire de technologie préparé sur trois ans après le baccalauréat. Il vise à former des techniciens supérieurs polyvalents, capables de s'adapter à une variété de situations professionnelles dans le domaine de l'informatique. Les étudiants acquièrent un ensemble complet de compétences en informatique, en mathématiques et en communication.",
+  "CollegeDescription1": "<p>Lors de ma première année de BUT informatique, j'ai pu apprendre:</p>\n<ul>\n    <li>\n        <p>\n            <strong>Les bases de la programmation</strong> à travers divers langages tels que le <strong>C</strong>, le <strong>C#</strong> ou encore le <strong>Java</strong>.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>La programmation orientée objet</strong> avec le langage <strong>Java</strong>.\n        </p>\n    </li>\n    <li>\n        <strong>Les mathématiques</strong> appliquées à l'informatique. Telles que:\n        <ul>\n            <li>\n                <p>L'algèbre linéaire</p>\n                A travers des notions telles que les matrices, les vecteurs, les espaces vectoriels...\n            </li>\n            <li>\n                <p>Les probabilités</p>\n                J'ai pu apprendre à calculer des probabilités, des espérances et des variances.\n            </li>\n            <li>\n                <p>Les statistiques</p>\n                De plus, j'ai pu apprendre à utiliser des outils tels que le logiciel <strong>R</strong> pour effectuer des calculs statistiques.\n            </li>\n            <li>\n                <p>Les graphes</p>\n                J'ai pu apprendre à manipuler des graphes et à effectuer des algorithmes en C dessus tel que Dijsktra, Kruskal ou encore Prim.\n            </li>\n        </ul>\n    </li>\n    <li>\n        <p>\n            <strong>Les bases de données</strong> avec le langage <strong>SQL</strong> sous <strong>Oracle</strong> ainsi que la conception de bases de données avec des schémas entités-associations.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Les réseaux</strong> avec des notions telles que les protocoles, les adresses IP, les sous-réseaux, les VLANs...\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Les systèmes d'exploitation</strong> en apprenant la structure bas niveau d'un ordinateur (Architecture, mémoire, processeur, disque dur...) grâce à des cours théoriques et des travaux pratiques sur <strong>Linux</strong> en bash et en C.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Le web</strong> en apprenant les bases du <strong>HTML</strong>et du <strong>CSS</strong> pour la création de sites web.\n        </p>\n    </li>\n</ul>",
+  "CollegeDescription2": "<p>Lors de ma deuxième année de BUT informatique, j'ai pu approfondir mes connaissances dans les domaines suivants :</p> <ul> <li> <p> <strong>Patrons de conception et modèle MVC :</strong> J'ai acquis une maîtrise des patrons de conception et du modèle MVC (Modèle-Vue-Contrôleur) pour un développement logiciel structuré et modulaire que j'ai pu mettre en pratique dans plusieurs frameworks tel que Laravel. </p> <p> De plus j'ai pu acquérir des compétences en principe de conception: <ul> <li>SOLID</li> <li>DRY</li> <li>KISS</li> <li>YAGNI</li> </ul> </p> </li> <li> <p> <strong>Probabilités à densité et cryptographie :</strong> J'ai exploré les probabilités à densité en mathématiques, ainsi que les concepts de cryptographie. </p> </li> <li> <p> <strong>PHP pour le développement web dynamique :</strong> J'ai développé une compétence avancée en PHP, me permettant de créer des sites web dynamiques et interactifs. </p> </li> <li> <p> <strong>Architecture des réseaux :</strong> J'ai acquis une connaissance approfondie de l'architecture des réseaux, comprenant les protocoles, les architectures réseau, les technologies WAN et LAN. J'ai également du programmer des serveurs en C avec des sockets et plusieurs protocoles pour comprendre le fonctionnement des réseaux. </p> </li> <li> <p> <strong>Structures de données :</strong> J'ai maîtrisé les structures de données pour une manipulation efficace et optimisée et cela en reprogrammant des structures de données existantes une à une en C. Le dépot de ces structures de données est disponible sur mon github : <a href='https://github.com/MrArnaudMichel/structures-de-donnees'>github.com/MrArnaudMichel/structures-de-donnees</a>. </p> </li> <li> <p> <strong>SQL et PL/SQL :</strong> J'ai développé une expertise avancée en SQL, en me spécialisant particulièrement dans PL/SQL. Cela m'a permis de concevoir des procédures stockées et des fonctions avancées pour une gestion optimale des bases de données. </p> </li> </ul>",
+  "CollegeDescription3": "<p>En plus de ces compétences techniques, j'ai également développé des compétences transversales telles que:</p>\n<ul>\n    <li>\n        <p>\n            <strong>Travail d'équipe:</strong> J'ai travaillé en équipe sur plusieurs projets, ce qui m'a permis de développer des compétences en communication, en collaboration et en gestion de projet.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Travail sous pression:</strong> J'ai appris à gérer mon temps et à travailler efficacement sous pression pour respecter les délais.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Autonomie:</strong> J'ai développé des compétences en autonomie en travaillant sur des projets personnels et en prenant des initiatives pour résoudre des problèmes.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Adaptabilité:</strong> J'ai appris à m'adapter à de nouvelles situations et à apprendre rapidement de nouvelles compétences pour m'adapter à un environnement en constante évolution.\n        </p>\n    </li>\n    <li>\n        <p>\n            <strong>Anglais:</strong> J'ai développé mes compétences en anglais en suivant des cours en anglais et en travaillant sur des projets internationaux.\n        </p>\n    </li>\n</ul>",
+  "CollegeTitleDescription0": "Aperçu du BUT",
+  "CollegeTitleDescription1": "1ère année",
+  "CollegeTitleDescription2": "2ème année",
+  "CollegeTitleDescription3": "Compétences transversales",
+  "CollegeUniversity": "IUT Robert Schumann",
   "CollegeLocation": "Illkirch-Graffenstaden (67), France \uD83C\uDDEB\uD83C\uDDF7",
 
 
@@ -44,7 +57,7 @@
   "MTUTitle": "Semestre Erasmus",
   "MTUShortDescription": "J'ai passé un semestre en Erasmus au MTU à Cork, en Irlande.",
   "MTUDescription": "J'ai passé un semestre en Erasmus au MTU à Cork, en Irlande, où j'ai perfectionné mon anglais, et continué mon BUT en informatique.",
-  "MTUCompany": "Munster Technological University",
+  "MTUUniversity": "Munster Technological University",
   "MTULocation": "Cork, Irlande \uD83C\uDDEE\uD83C\uDDEA",
   "ErasmusStudent": "Étudiant Erasmus",
 
@@ -193,6 +206,7 @@
   "gitpath": "Dépôt Git",
   "link": "Lien du projet",
   "website": "Site web",
+  "university": "Université",
 
   "images": "Images",
   "video": "Vidéo",

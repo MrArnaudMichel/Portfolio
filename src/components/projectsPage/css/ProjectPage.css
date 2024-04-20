@@ -145,7 +145,7 @@
 }
 
 button.back {
-    background: var(--color-text-secondary);
+    background: var(--color-opaque);
     font-size: var(--font-link);
     color: var(--color-text-primary);
     border-radius: var(--radius-base);
