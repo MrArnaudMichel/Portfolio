@@ -67,7 +67,6 @@ nav {
 }
 
 
-
 @keyframes shake {
     0% {
         transform: translate(0px, 1px);
@@ -117,6 +116,7 @@ nav {
     .navbar {
         width: 90%;
     }
+
     .sc-dmyCSP {
         width: 80%;
     }

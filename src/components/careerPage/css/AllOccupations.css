@@ -1,4 +1,4 @@
-.career-job-item{
+.career-job-item {
     grid-gap: 1rem;
     justify-content: space-between;
     background-color: var(--color-backdrop);
@@ -12,7 +12,7 @@
     transition: all 0.3s ease !important;
 }
 
-.career-job-header{
+.career-job-header {
     display: flex;
     justify-content: space-between;
     align-items: center;

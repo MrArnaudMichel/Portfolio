@@ -21,7 +21,7 @@
 
 .interest {
     background-color: var(--color-background-primary);
-    border-radius:var(--radius-base);
+    border-radius: var(--radius-base);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
@@ -55,23 +55,23 @@
 
 }
 
-.interest:nth-child(1){
+.interest:nth-child(1) {
     background-color: lightblue;
 }
 
-.interest:nth-child(2){
+.interest:nth-child(2) {
     background-color: var(--color-rust)
 }
 
-.interest:nth-child(3){
+.interest:nth-child(3) {
     background-color: lightgreen;
 }
 
-.interest:nth-child(4){
+.interest:nth-child(4) {
     background-color: pink;
 }
 
-.interest:nth-child(5){
+.interest:nth-child(5) {
     background-color: white;
 }
 
