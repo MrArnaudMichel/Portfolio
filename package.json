@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://arnaudmichel.fr",
+  "homepage": "https://arnaudmichel.fr",
   "dependencies": {
     "@react-buddy/ide-toolbox": "^2.4.0",
     "@testing-library/jest-dom": "^5.17.0",

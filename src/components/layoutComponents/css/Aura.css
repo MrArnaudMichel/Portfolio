@@ -1,0 +1,30 @@
+.aura-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    /*animation: 10s infinite aura linear;*/
+    z-index: 1;
+}
+
+@keyframes aura {
+    0% {
+        background: linear-gradient(90deg, var(--color-primary), var(--color-yellow500), var(--color-rust));
+    }
+    20% {
+        background: linear-gradient(90deg, var(--color-yellow500), var(--color-rust), var(--color-primary));
+    }
+    40% {
+        background: linear-gradient(90deg, var(--color-rust), var(--color-primary), var(--color-yellow500));
+    }
+    60% {
+        background: linear-gradient(90deg, var(--color-primary), var(--color-yellow500), var(--color-rust));
+    }
+    80% {
+        background: linear-gradient(90deg, var(--color-yellow500), var(--color-rust), var(--color-primary));
+    }
+    100% {
+        background: linear-gradient(90deg, var(--color-rust), var(--color-primary), var(--color-yellow500));
+    }
+}
