@@ -16,7 +16,7 @@ import Interests from "./components/interestsPage/Interests";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/layoutComponents/Footer";
 import ScrollToTop from './ScrollToTop';
-
+import Aura from './components/layoutComponents/Aura';
 function App({ t }) {
 	const [theme, setTheme] = useState(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
@@ -28,36 +28,37 @@ function App({ t }) {
 		<div className={`App ${theme}`}>
 			<GlobalStyle theme={theme} />
 			<Router>
-				<ScrollToTop />
+				<ScrollToTop/>
 				<div className={"header"}>
-					<NavigationBar t={t} toggleTheme={toggleTheme} currentTheme={theme} />
+					<NavigationBar t={t} toggleTheme={toggleTheme} currentTheme={theme}/>
 				</div>
+				<Aura/>
 				<div className={"body"}>
 					<Routes>
 						<Route path="/" element={
 							<>
-								<Home t={t} />
-								<Career t={t} />
-								<Project t={t} />
-								<Skills t={t} />
+								<Home t={t}/>
+								<Career t={t}/>
+								<Project t={t}/>
+								<Skills t={t}/>
 							</>
-						} />
+						}/>
 
-						<Route path="/career" element={<AllOccupations t={t} />} />
-						<Route path="/career/:occupationName" element={<Occupation t={t} />} />
+						<Route path="/career" element={<AllOccupations t={t}/>}/>
+						<Route path="/career/:occupationName" element={<Occupation t={t}/>}/>
 
-						<Route path="/projects" element={<AllProjects t={t} />} />
-						<Route path="/projects/:projectName" element={<ProjectPage t={t}/>} />
+						<Route path="/projects" element={<AllProjects t={t}/>}/>
+						<Route path="/projects/:projectName" element={<ProjectPage t={t}/>}/>
 
-						<Route path="/interests" element={<Interests t={t} />} />
+						<Route path="/interests" element={<Interests t={t}/>}/>
 
-						<Route path="/contact" element={<Contact t={t} />} />
+						<Route path="/contact" element={<Contact t={t}/>}/>
 					</Routes>
 				</div>
 				<div className={"footer"}>
-					<Footer t={t} />
+					<Footer t={t}/>
 				</div>
-				<ScrollToTop />
+				<ScrollToTop/>
 			</Router>
 		</div>
 	);

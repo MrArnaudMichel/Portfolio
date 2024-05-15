@@ -23,7 +23,6 @@ function Career({t}) {
 
     useEffect(() => {
         jobItemsRef.current.forEach((item, index) => {
-            // if index > 0 and width > 768px
             if (index > 0 && window.innerWidth > 768) {
                 if (index === 1) {
                     item.style.marginTop = "-300px";

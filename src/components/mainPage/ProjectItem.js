@@ -30,7 +30,7 @@ function ProjectItem({t, project, className}) {
                     const languageData = findLanguageData(language);
                     return (
                         <div key={language} className={"icons"} data-aos="fade-up">
-                            <a href={languageData.link} data-aos="fade-up">
+                            <a href={languageData.link}>
                                 <p>{t(languageData.name)}</p>
                             </a>
                         </div>
@@ -41,7 +41,7 @@ function ProjectItem({t, project, className}) {
                 {project.tools && project.tools.map((tool) => {
                     return (
                         <div key={tool} className={"icons"} data-aos="fade-up">
-                            <a href={tool.link} data-aos="fade-up">
+                            <a href={tool.link}>
                                 <p>{t(tool)}</p>
                             </a>
                         </div>
