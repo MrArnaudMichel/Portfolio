@@ -11,6 +11,8 @@
 
   "WelcomeAboutMeTitle": "Présentation",
   "WelcomeAboutMeContent": "<p>Je m’appelle <strong> Arnaud MICHEL</strong>, je suis développeur full-stack. Actuellement en seconde année de BUT\ninformatique à l’IUT Robert Schumann à Illkirch-Graffenstaden, j’ai débuté l’apprentissage de la\nprogrammation en 2019 et depuis je ne cesse d’apprendre et de me perfectionner. J’ai créé ce site\nweb pour présenter mon parcours mes projets, mes compétences.\n</p>",
+  "MyProjects": "Mes projets",
+  "MySkills": "Mes compétences",
 
   "Career": "Mon parcours",
   "company": "Entreprise",
