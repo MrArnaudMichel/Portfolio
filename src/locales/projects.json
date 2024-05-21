@@ -335,13 +335,42 @@
     "logo": "images/projects/MoseArtLogo.jpeg"
   },
   {
-    "title": "Project9Title",
-    "description": "Project9Description",
+    "title": "DocsHub",
+    "description": ["DocsHubDescription0", "DocsHubDescription1", "DocsHubDescription2"],
+    "titledescription": ["DocsHubTitleDescription0", "DocsHubTitleDescription1", "DocsHubTitleDescription2"],
+    "shortDescription": "DocsHubShortDescription",
+    "link": "DocsHub",
+    "date": "2024",
+    "languages": [
+      "React",
+      "C"
+      ],
+    "tools": [
+        "Git",
+        "IntelliJ",
+        "Figma"
+        ],
     "images": [
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080",
-      "https://via.placeholder.com/1920x1080"
+        "images/projects/DocsHub0.png",
+        "images/projects/DocsHub1.png",
+        "images/projects/DocsHub2.png"
+        ],
+    "gitpath": "Project not open source",
+    "role": "Project Owner, Lead Developper",
+    "team": [
+        {
+            "name": "Arnaud Michel",
+            "git": "https://github.com/MrArnaudMichel",
+            "role": "Project Owner, Lead Developper"
+        },
+        {
+            "name": "Téo Walter",
+            "git": "https://github.com/TeHozen",
+            "role": "Developper"
+        }
     ],
-    "logo": "https://via.placeholder.com/150"
+    "logo": "images/projects/DocsHubLogo.png",
+    "website": "https://docshub.arnaudmichel.fr",
+    "video": "https://www.youtube.com/watch?v=3v9u3Z3Y3vI"
   }
 ]

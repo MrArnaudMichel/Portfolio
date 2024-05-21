@@ -149,6 +149,14 @@
   "MoseArtTitleDescription1": "Description du jeu",
   "MoseArtTitleDescription2": "Mon rôle dans le projet",
 
+  "DocsHubShortDescription": "SaaS d'automatisation de la documentation d'un dépôt GitHUb",
+  "DocsHubDescription0": "DocsHub est un SaaS qui permet d'automatiser la documentation d'un dépôt GitHub. DocsHub permet de générer une documentation à partir du code source d'un dépôt GitHub et de la publier sur une page web statique.",
+  "DocsHubDescription1": "Le SaaS est développé en ReactJS pour le frontend et en NodeJS pour le backend. Le code de génération de la documentation est écrit en C. Le SaaS permet de connecter un dépôt GitHub, de générer la documentation et de la publier sur une page web statique.",
+  "DocsHubDescription2": "J'ai travaillé sur ce projet tout seul en tant que développeur fullstack.",
+  "DocsHubTitleDescription0": "Aperçu du SaaS",
+  "DocsHubTitleDescription1": "Description du SaaS",
+  "DocsHubTitleDescription2": "Mon rôle dans le projet",
+
   "GoToProject": "Voir le projet",
   "AllProjects": "Tous mes projets",
 
