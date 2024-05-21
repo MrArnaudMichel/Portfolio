@@ -1,6 +1,6 @@
 # Arnaud Michel Portfolio
 
-> This is my personal portfolio. It uses React and is hosted by [Klebert-Host](https://klebert-host.herokuapp.com/).
+> This is my personal portfolio. It uses React and is hosted by [Klebert-Host](https://klebert-host.com/).
 > The website is available at [arnaudmichel.fr](https://arnaudmichel.fr/).
 
 ## Table of contents

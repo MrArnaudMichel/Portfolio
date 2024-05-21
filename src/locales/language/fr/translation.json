@@ -10,7 +10,7 @@
   "Welcome": "Je suis un développeur <strong>full-stack.</strong>",
 
   "WelcomeAboutMeTitle": "Présentation",
-  "WelcomeAboutMeContent": "Je suis m'appelle Arnaud <strong>Michel</strong>, je suis un développeur full-stack. Je suis actuellement en second année de BUT Informatique à l'IUT Robert Schumann (Illkirch-Graffenstaden). J'ai commencé à apprendre la programmation en 2019, et depuis je n'ai pas arrêté d'apprendre et de me perfectionner. J'ai créée ce site web pour vous présenter mes projets, mes compétences et mon parcours.",
+  "WelcomeAboutMeContent": "<p>Je m’appelle <strong> Arnaud MICHEL</strong>, je suis développeur full-stack. Actuellement en seconde année de BUT\ninformatique à l’IUT Robert Schumann à Illkirch-Graffenstaden, j’ai débuté l’apprentissage de la\nprogrammation en 2019 et depuis je ne cesse d’apprendre et de me perfectionner. J’ai créé ce site\nweb pour présenter mon parcours mes projets, mes compétences.\n</p>",
 
   "Career": "Mon parcours",
   "company": "Entreprise",
@@ -19,10 +19,10 @@
   "skills": "Compétences",
 
 
-  "AllOccupations": "Toutes mes occupations",
+  "AllOccupations": "Mon parcours",
 
   "HighSchoolTitle": "Baccalauréat Scientifique",
-  "HighSchoolShortDescription": "Baccalauréat scientifique au lycée Gustave Courbet à Belfort",
+  "HighSchoolShortDescription": "Baccalauréat scientifique au lycée Gustave Courbet à Belfort avec mention bien.",
   "HighSchoolDescription": "J'ai obtenu mon baccalauréat scientifique en 2022 au lycée Gustave Courbet à Belfort. J'ai choisi la spécialité mathématiques et l'option informatique et sciences du numérique. J'ai obtenu la mention bien.",
   "HighSchoolUniversity": "Lycée Gustave Courbet",
   "HighSchoolLocation": "Belfort (90), France \uD83C\uDDEB\uD83C\uDDF7",
