@@ -32,7 +32,7 @@ function App({ t }) {
 				<div className={"header"}>
 					<NavigationBar t={t} toggleTheme={toggleTheme} currentTheme={theme}/>
 				</div>
-				<Aura/>
+				{/*<Aura/>*/}
 				<div className={"body"}>
 					<Routes>
 						<Route path="/" element={
