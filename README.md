@@ -29,5 +29,4 @@ npm start
 ```
 
 ## Usage
-
 The website is available at [arnaudmichel.fr](https://arnaudmichel.fr/).
