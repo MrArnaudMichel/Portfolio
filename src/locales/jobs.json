@@ -6,11 +6,19 @@
     "university": "HighSchoolUniversity",
     "location": "HighSchoolLocation",
     "role": "Student",
-    "projects": ["ForetEternelle"],
+    "projects": [
+      "ForetEternelle"
+    ],
     "shortdescription": "HighSchoolShortDescription",
     "maindescription": "HighSchoolMainDescription",
-    "description": ["HighSchoolDescription0", "HighSchoolDescription1"],
-    "titledescription": ["HighSchoolTitleDescription0", "HighSchoolTitleDescription1"],
+    "description": [
+      "HighSchoolDescription0",
+      "HighSchoolDescription1"
+    ],
+    "titledescription": [
+      "HighSchoolTitleDescription0",
+      "HighSchoolTitleDescription1"
+    ],
     "skills": [
       "Essential Basic Skills"
     ],
@@ -19,15 +27,30 @@
   {
     "title": "CollegeTitle",
     "link": "College",
-    "date": "2022 - Present",
+    "date": "2022 - 2024",
     "university": "CollegeUniversity",
     "location": "CollegeLocation",
     "role": "Student",
-    "projects": ["Nooblety", "ApplicationCulinaire", "APIPlantUMLParser", "SudokuSolver"],
+    "projects": [
+      "Nooblety",
+      "ApplicationCulinaire",
+      "APIPlantUMLParser",
+      "SudokuSolver"
+    ],
     "shortdescription": "CollegeShortDescription",
     "maindescription": "CollegeMainDescription",
-    "description": ["CollegeDescription0", "CollegeDescription1", "CollegeDescription2", "CollegeDescription3"],
-    "titledescription": ["CollegeTitleDescription0", "CollegeTitleDescription1", "CollegeTitleDescription2", "CollegeTitleDescription3"],
+    "description": [
+      "CollegeDescription0",
+      "CollegeDescription1",
+      "CollegeDescription2",
+      "CollegeDescription3"
+    ],
+    "titledescription": [
+      "CollegeTitleDescription0",
+      "CollegeTitleDescription1",
+      "CollegeTitleDescription2",
+      "CollegeTitleDescription3"
+    ],
     "skills": [
       "Discrete Mathematics",
       "Probability",
@@ -54,8 +77,14 @@
     "role": "FruitAndVegetablesEmployee",
     "shortdescription": "SuperUShortDescription",
     "maindescription": "SuperUMainDescription",
-    "description": ["SuperUDescription0", "SuperUDescription1"],
-    "titledescription": ["SuperUTitleDescription0", "SuperUTitleDescription1"],
+    "description": [
+      "SuperUDescription0",
+      "SuperUDescription1"
+    ],
+    "titledescription": [
+      "SuperUTitleDescription0",
+      "SuperUTitleDescription1"
+    ],
     "skills": [
       "Teamwork",
       "HardTasks",
@@ -66,15 +95,23 @@
   {
     "title": "MTUTitle",
     "link": "MTU",
-    "date": "2024",
+    "date": "2024  ",
     "university": "MTUUniversity",
     "location": "MTULocation",
     "role": "ErasmusStudent",
-    "projects": ["AIctron"],
+    "projects": [
+      "AIctron"
+    ],
     "shortdescription": "MTUShortDescription",
     "maindescription": "MTUMainDescription",
-    "description": ["MTUDescription0", "MTUDescription1"],
-    "titledescription": ["MTUTitleDescription0", "MTUTitleDescription1"],
+    "description": [
+      "MTUDescription0",
+      "MTUDescription1"
+    ],
+    "titledescription": [
+      "MTUTitleDescription0",
+      "MTUTitleDescription1"
+    ],
     "skills": [
       "English",
       "Open Projects",
@@ -82,5 +119,54 @@
       "Adaptability"
     ],
     "image": 4
-    }
+  },
+  {
+    "title": "UTBMTitle",
+    "link": "UTBM",
+    "date": "2024 - present",
+    "university": "UTBMUniversity",
+    "location": "UTBMLocation",
+    "role": "Student",
+    "projects": [
+      "ForetEternelle",
+      "Nooblety",
+      "ApplicationCulinaire",
+      "APIPlantUMLParser",
+      "SudokuSolver",
+      "AIctron"
+    ],
+    "shortdescription": "UTBMShortDescription",
+    "maindescription": "UTBMMainDescription",
+    "description": [
+      "UTBMDescription0",
+      "UTBMDescription1"
+    ],
+    "titledescription": [
+      "UTBMTitleDescription0",
+      "UTBMTitleDescription1"
+    ],
+    "skills": [
+      "Teamwork",
+      "HardTasks",
+      "Difficult Schedules",
+      "Discrete Mathematics",
+      "Probability",
+      "Linear Algebra",
+      "Cryptography",
+      "Computer Networks",
+      "Design Patterns",
+      "Data Structures",
+      "Algorithms",
+      "MVC",
+      "Databases",
+      "Web Development",
+      "Mobile Development",
+      "Game Development",
+      "English",
+      "Open Projects",
+      "Autonomy",
+      "Adaptability"
+    ],
+    "image": 5
+  }
 ]
