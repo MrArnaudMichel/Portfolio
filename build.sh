@@ -8,3 +8,7 @@ cp -r build/ docs/
 
 echo -e "\033[0;32mRemoving build folder...\033[0m"
 rm -rf build/
+
+# Windows users can use the following script
+# xcopy build docs /s /e
+# rmdir /s /q build
