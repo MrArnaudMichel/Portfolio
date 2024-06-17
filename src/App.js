@@ -28,13 +28,6 @@ function App({ t }) {
 		<div className={`App ${theme}`}>
 			<GlobalStyle theme={theme} />
 			<Router>
-				<metadata>
-					<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-					<meta name="viewport" content="width=device-width, initial-scale=1"/>
-					<meta name="description" content="Personal website of a software developer"/>
-					<meta name="keywords" content="software, developer, web, mobile, app, website, portfolio, projects, career, skills, interests, contact"/>
-					<meta name="author" content="Arnaud Michel"/>
-				</metadata>
 				<ScrollToTop/>
 				<div className={"header"}>
 					<NavigationBar t={t} toggleTheme={toggleTheme} currentTheme={theme}/>

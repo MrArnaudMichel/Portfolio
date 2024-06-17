@@ -19,6 +19,9 @@
     }
   ],
   "start_url": ".",
+  "description": "Personal website of a software developer",
+  "author": "Arnaud Michel",
+  "license": "MIT",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
