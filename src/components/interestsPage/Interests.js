@@ -15,6 +15,10 @@ function Interests({t}) {
         <div className={"interests"} data-aos="fade-up">
             <h1>{t('Interests')}</h1>
             <div className={"interests-container"}>
+                <div className={"interests-category-header"}>
+                    <h2>{t('Sports')}</h2>
+                    <p>{t('sports_description')}</p>
+                </div>
                 {interests.map((interest, index) =>
                     <div key={index} className={"interest"} data-aos="fade-up">
                         <div className={"overlay"}>
@@ -29,9 +33,14 @@ function Interests({t}) {
                            dangerouslySetInnerHTML={{__html: t(interest.description)}}></p>
                     </div>
                 )}
+                <div className={"interests-category-header hr"}>
+                    <hr/>
+                    <h2>{t('Music')}</h2>
+                    <p>{t('music_description')}</p>
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Interests;

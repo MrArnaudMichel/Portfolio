@@ -99,3 +99,8 @@ body {
 p li {
 	margin: 8px 0 8px 4rem;
 }
+
+hr {
+	border: 1px solid var(--color-secondary);
+	margin-bottom: 1.5rem;
+}

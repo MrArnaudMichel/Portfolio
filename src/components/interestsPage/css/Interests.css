@@ -3,6 +3,15 @@
     padding: 20px;
 }
 
+.interests-category-header {
+    width: 60%;
+    margin: 0 auto 20px;
+}
+
+.interests-category-header.hr {
+    margin-top: 40px;
+}
+
 .interests-container {
     display: flex;
     flex-wrap: wrap;
