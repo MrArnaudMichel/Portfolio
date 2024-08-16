@@ -69,30 +69,6 @@
     "image": 2
   },
   {
-    "title": "SuperUTitle",
-    "link": "SuperU",
-    "date": "2023",
-    "company": "SuperUCompany",
-    "location": "SuperULocation",
-    "role": "FruitAndVegetablesEmployee",
-    "shortdescription": "SuperUShortDescription",
-    "maindescription": "SuperUMainDescription",
-    "description": [
-      "SuperUDescription0",
-      "SuperUDescription1"
-    ],
-    "titledescription": [
-      "SuperUTitleDescription0",
-      "SuperUTitleDescription1"
-    ],
-    "skills": [
-      "Teamwork",
-      "HardTasks",
-      "Difficult Schedules"
-    ],
-    "image": 3
-  },
-  {
     "title": "MTUTitle",
     "link": "MTU",
     "date": "2024  ",
@@ -146,26 +122,6 @@
       "UTBMTitleDescription1"
     ],
     "skills": [
-      "Teamwork",
-      "HardTasks",
-      "Difficult Schedules",
-      "Discrete Mathematics",
-      "Probability",
-      "Linear Algebra",
-      "Cryptography",
-      "Computer Networks",
-      "Design Patterns",
-      "Data Structures",
-      "Algorithms",
-      "MVC",
-      "Databases",
-      "Web Development",
-      "Mobile Development",
-      "Game Development",
-      "English",
-      "Open Projects",
-      "Autonomy",
-      "Adaptability"
     ],
     "image": 5
   }

@@ -1,9 +1,11 @@
+@import "locales/load-font.css";
+
 * {
 	background-color: transparent;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'League Spartan Regular', sans-serif;
+	font-family: 'Oak sans Regular', sans-serif;
 	transition: all 0.5s ease;
 }
 
@@ -30,13 +32,13 @@ h3 {
 h4 {
 	font-size: 2rem;
 	color: var(--color-text-primary);
-	font-family: "League Spartan SemiBold", sans-serif;
+	font-family: "Oak sans SemiBold", sans-serif;
 }
 
 h5 {
 	font-size: 1.5rem;
 	color: var(--color-text-primary);
-	font-family: "League Spartan Thin", sans-serif;
+	font-family: "Oak sans SemiBold", sans-serif;
 
 }
 
@@ -72,7 +74,7 @@ p {
 }
 
 button {
-	font-family: 'League Spartan Bold', sans-serif;
+	font-family: 'Oak sans Bold', sans-serif;
 	font-size: 1.5rem;
 	color: var(--color-text-active);
 	background-color: #344543;
@@ -97,44 +99,3 @@ body {
 p li {
 	margin: 8px 0 8px 4rem;
 }
-
-@font-face {
-	font-family: 'League Spartan ExtraLight';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-ExtraLight.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan Light';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Light.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan Regular';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan Bold';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan Black';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Black.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan ExtraBold';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-ExtraBold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan SemiBold';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'League Spartan Thin';
-	src: local("League Spartan"), url('../public/fonts/LeagueSpartan/LeagueSpartan-Thin.ttf') format('truetype');
-}
-
