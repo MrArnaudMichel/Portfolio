@@ -145,6 +145,30 @@ p.job-description {
     transform: translateY(0);
 }
 
+.career-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: var(--radius-base);
+    border: 2px solid var(--color-primary-accent);
+
+    p {
+        padding: 10px 20px;
+        color: var(--color-text-secondary);
+        font-size: 1.2rem;
+        transition: all 0.5s ease;
+    }
+}
+
+.career-button:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-tertiary);
+
+    p {
+        color: var(--color-text-tertiary);
+    }
+}
+
 @media (max-width: 768px) {
     .career-container::after {
         display: none;

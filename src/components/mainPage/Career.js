@@ -62,6 +62,9 @@ function Career({t}) {
                                         </div>
                                     ))}
                             </div>
+                            <Link to={`/Career/${job.link}`} className={"career-button"}>
+                                <p>{t("Read more")}</p>
+                            </Link>
                         </Link>
                     </div>
                 ))}
