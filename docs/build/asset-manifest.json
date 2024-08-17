@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.611e109b.css",
-    "main.js": "/static/js/main.05296e19.js",
+    "main.css": "/static/css/main.2bd1baf7.css",
+    "main.js": "/static/js/main.9169d67a.js",
     "static/media/Acorn-Bold.otf": "/static/media/Acorn-Bold.2a82187cdf1b4c80bdff.otf",
+    "static/media/OakSans-ExtraBold.ttf": "/static/media/OakSans-ExtraBold.dfe384fd911b8b355dd6.ttf",
+    "static/media/OakSans-Bold.ttf": "/static/media/OakSans-Bold.39f20ddd4f51f9457522.ttf",
+    "static/media/OakSans-SemiBold.ttf": "/static/media/OakSans-SemiBold.2df99b9f76003fcbfce9.ttf",
+    "static/media/OakSans-Regular.ttf": "/static/media/OakSans-Regular.39ae989fcc1f0b3c30f7.ttf",
     "static/media/LeagueSpartan-ExtraBold.ttf": "/static/media/LeagueSpartan-ExtraBold.3273ea0e69650f114210.ttf",
     "static/media/LeagueSpartan-Black.ttf": "/static/media/LeagueSpartan-Black.d4303c11df0dad0324cf.ttf",
     "static/media/LeagueSpartan-Bold.ttf": "/static/media/LeagueSpartan-Bold.c311dbd01e80ebe50942.ttf",
@@ -11,16 +15,17 @@
     "static/media/LeagueSpartan-Regular.ttf": "/static/media/LeagueSpartan-Regular.09958bb07a94a6a4f1bb.ttf",
     "static/media/LeagueSpartan-Light.ttf": "/static/media/LeagueSpartan-Light.354c1d0b29bf33854f9c.ttf",
     "static/media/LeagueSpartan-Thin.ttf": "/static/media/LeagueSpartan-Thin.a9af6f46ae0f83a403ec.ttf",
+    "static/media/OakSans-Light.ttf": "/static/media/OakSans-Light.3a6f1864ba530cb46423.ttf",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.611e109b.css.map": "/static/css/main.611e109b.css.map",
-    "main.05296e19.js.map": "/static/js/main.05296e19.js.map"
+    "main.2bd1baf7.css.map": "/static/css/main.2bd1baf7.css.map",
+    "main.9169d67a.js.map": "/static/js/main.9169d67a.js.map"
   },
   "entrypoints": [
-    "static/css/main.611e109b.css",
-    "static/js/main.05296e19.js"
+    "static/css/main.2bd1baf7.css",
+    "static/js/main.9169d67a.js"
   ]
 }
