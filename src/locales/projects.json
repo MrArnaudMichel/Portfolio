@@ -47,22 +47,22 @@
     ]
   },
   {
-    "title": "Application Culinaire",
-    "description": ["ApplicationCulinaireDescription0", "ApplicationCulinaireDescription1", "ApplicationCulinaireDescription2"],
-    "titledescription": ["ApplicationCulinaireTitleDescription0", "ApplicationCulinaireTitleDescription1", "ApplicationCulinaireTitleDescription2"],
-    "shortDescription": "ApplicationCulinaireShortDescription",
-    "link": "ApplicationCulinaire",
-    "date": "2023",
+    "title": "Moodle",
+    "description": ["MoodleDescription0", "MoodleDescription1", "MoodleDescription2"],
+    "titledescription": ["MoodleTitleDescription0", "MoodleTitleDescription1", "MoodleTitleDescription2"],
+    "shortDescription": "MoodleShortDescription",
+    "link": "Moodle",
+    "date": "2025",
     "languages": [
-      "C#",
-      "UML",
-      "SQL",
-      "Markdown"
+      "PHP",
+      "Symfony",
+      "MySQL",
+      "JavaScript"
     ],
     "tools": [
       "Git",
-      "Visual Studio",
-      ".NET"
+      "IntelliJ",
+      "Figma"
     ],
     "images": [
       "images/projects/Application Culinaire0.png",
@@ -194,6 +194,49 @@
       {
         "name": "Elliott Ventura",
         "git": "https://github.com/eventura26",
+        "role": "Developper"
+      }
+    ]
+  },
+  {
+    "title": "Application Culinaire",
+    "description": ["ApplicationCulinaireDescription0", "ApplicationCulinaireDescription1", "ApplicationCulinaireDescription2"],
+    "titledescription": ["ApplicationCulinaireTitleDescription0", "ApplicationCulinaireTitleDescription1", "ApplicationCulinaireTitleDescription2"],
+    "shortDescription": "ApplicationCulinaireShortDescription",
+    "link": "ApplicationCulinaire",
+    "date": "2023",
+    "languages": [
+      "C#",
+      "UML",
+      "SQL",
+      "Markdown"
+    ],
+    "tools": [
+      "Git",
+      "Visual Studio",
+      ".NET"
+    ],
+    "images": [
+      "images/projects/Application Culinaire0.png",
+      "images/projects/Application Culinaire1.png",
+      "images/projects/Application Culinaire2.png",
+      "images/projects/Application Culinaire3.png",
+      "images/projects/Application Culinaire4.png",
+      "images/projects/Application Culinaire5.png",
+      "images/projects/Application Culinaire6.png"
+    ],
+    "logo": "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
+    "gitpath": "https://github.com/bjt2017/Application_culinaire",
+    "role": "Lead Developper",
+    "team": [
+      {
+        "name": "Arnaud Michel",
+        "git": "https://github.com/MrArnaudMichel",
+        "role": "Lead Developper"
+      },
+      {
+        "name": "Benjamin Morawiec",
+        "git": "https://github.com/bjt2017",
         "role": "Developper"
       }
     ]

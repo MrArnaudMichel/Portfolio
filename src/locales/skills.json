@@ -85,6 +85,12 @@
       "link": "https://laravel.com/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
       "level": 8
+    },
+    {
+      "name": "Symfony",
+      "link": "https://symfony.com/",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg",
+      "level": 7
     }
   ],
   "tools_and_frameworks": [
@@ -134,13 +140,19 @@
       "name": "Oracle",
       "link": "https://www.oracle.com/index.html",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg",
-      "level": 6
+      "level": 8
+    },
+    {
+      "name": "MySQL",
+      "link": "https://www.mysql.com/",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+      "level": 8
     },
     {
       "name": "SQLite",
       "link": "https://www.sqlite.org/index.html",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
-      "level": 7.5
+      "level": 8
     },
     {
       "name": "Markdown",
@@ -183,12 +195,6 @@
         "link": "https://www.csvjson.com/csv2json",
         "image": "https://media.licdn.com/dms/image/D5612AQHC2nx9rC9FQg/article-cover_image-shrink_600_2000/0/1687377146849?e=2147483647&v=beta&t=t8BQ7HJi-SkLtfee3jIRef_8Ry2X45BZTsGVuHS2lwU",
         "level": 10
-    },
-    {
-      "name": "TileD",
-        "link": "https://www.mapeditor.org/",
-        "image": "https://static.macupdate.com/products/62323/l/tiled-logo.png?v=1663570260",
-        "level": 7
     }
   ]
 }
