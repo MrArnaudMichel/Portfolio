@@ -12,3 +12,5 @@ rm -rf build/
 # Windows users can use the following script
 # xcopy build docs /s /e
 # rmdir /s /q build
+
+git add docs/
