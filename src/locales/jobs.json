@@ -146,26 +146,16 @@
       "UTBMTitleDescription1"
     ],
     "skills": [
-      "Teamwork",
-      "HardTasks",
-      "Difficult Schedules",
-      "Discrete Mathematics",
-      "Probability",
-      "Linear Algebra",
-      "Cryptography",
-      "Computer Networks",
-      "Design Patterns",
-      "Data Structures",
+      "Programming",
       "Algorithms",
-      "MVC",
-      "Databases",
+      "Data Structures",
       "Web Development",
-      "Mobile Development",
+      "Database",
       "Game Development",
-      "English",
-      "Open Projects",
-      "Autonomy",
-      "Adaptability"
+      "Design Patterns",
+      "Computer Networks",
+      "Cryptography",
+      "Devops"
     ],
     "image": 5
   }

@@ -18,7 +18,7 @@ function Home({t}) {
             <p className={"subtitle"} data-aos="fade-up" dangerouslySetInnerHTML={{__html: t('Welcome')}}></p>
             <div className={"maininfo"}>
                 <div className={"profil"}>
-                    <img src={"https://via.placeholder.com/256"} alt={"Profile"} className={"profile"}
+                    <img src={"images/profile_picture.png"} alt={"Profile"} className={"profile"}
                          data-aos="fade-up"/>
                     <h2 className={"name"} data-aos="fade-up">Arnaud Michel</h2>
                 </div>

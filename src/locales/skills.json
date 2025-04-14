@@ -4,13 +4,19 @@
       "name": "C",
       "link": "https://www.learn-c.org/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-      "level": 8.2
+      "level": 8.4
     },
     {
       "name": "C++",
       "link": "http://www.cplusplus.com/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
-      "level": 6.5
+      "level": 8
+    },
+    {
+      "name": "Rust",
+      "link": "https://www.rust-lang.org/",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
+      "level": 7
     },
     {
       "name": "C#",
@@ -28,7 +34,7 @@
       "name": "Ruby",
       "link": "https://www.ruby-lang.org/en/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg",
-      "level": 4
+      "level": 5
     },
     {
       "name": "Java",
@@ -143,22 +149,10 @@
       "level": 10
     },
     {
-      "name": ".NET",
-        "link": "https://dotnet.microsoft.com/",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg",
-        "level": 8
-    },
-    {
       "name": "Unity",
       "link": "https://unity.com/",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg",
       "level": 8
-    },
-    {
-      "name": "Figma",
-      "link": "https://www.figma.com/",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
-      "level": 7
     },
     {
       "name": "Photoshop",
